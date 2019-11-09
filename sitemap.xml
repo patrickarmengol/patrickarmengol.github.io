@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2019-11-09T12:55:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/</loc>
+    <lastmod>2019-11-09T12:55:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2019-11-09T12:55:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/2019/11/test-post/</loc>
+    <lastmod>2019-11-09T12:55:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/untagged/</loc>
+    <lastmod>2019-11-09T12:55:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/about/</loc>
+    <lastmod>2019-11-09T12:39:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/</loc>
+  </url>
+  
+</urlset>

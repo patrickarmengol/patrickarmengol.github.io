@@ -1,0 +1,23 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Patrick Armengol</title>
+        <link>https://example.com/posts/</link>
+        <description>Recent content in Posts on Patrick Armengol</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC&lt;/a&gt;</copyright>
+        <lastBuildDate>Sat, 09 Nov 2019 12:55:27 +0000</lastBuildDate>
+        <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Test Post</title>
+            <link>https://example.com/posts/2019/11/test-post/</link>
+            <pubDate>Sat, 09 Nov 2019 12:55:27 +0000</pubDate>
+            
+            <guid>https://example.com/posts/2019/11/test-post/</guid>
+            <description>please ignore :)</description>
+            <content type="html"><![CDATA[<p>please ignore :)</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
