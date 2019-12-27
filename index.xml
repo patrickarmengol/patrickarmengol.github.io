@@ -6,58 +6,10 @@
     <description>Recent content on Patrick Armengol</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 10 Nov 2019 10:05:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Nov 2019 12:55:27 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Goals</title>
-      <link>/goals/</link>
-      <pubDate>Sun, 10 Nov 2019 10:05:39 +0000</pubDate>
-      
-      <guid>/goals/</guid>
-      <description>Interests  AI / ML Agriculture Drawing Go (board game) Hardware Hiking Language Learning Piano Reading Reverse Engineering Security Space Starcraft Tea Travel  Action Items November 2019  finish Practical Malware Analysis - Michael Sikorski and Andrew Honig continue A Guide to Japanese Grammar - Tae Kim continue Remembering The Kanji 1 - James W. Heisig to reach 2000 kanji re-read Neuromancer - William Gibson 40x situps, pushups, squats per day hiking once per week starcraft 1hr after work per weekday build a personal website  December 2019  finish Remembering The Kanji 1 - James W.</description>
-    </item>
-    
-    <item>
-      <title>Tea</title>
-      <link>/tea/</link>
-      <pubDate>Sun, 10 Nov 2019 07:04:02 +0000</pubDate>
-      
-      <guid>/tea/</guid>
-      <description>todo</description>
-    </item>
-    
-    <item>
-      <title>Books</title>
-      <link>/books/</link>
-      <pubDate>Sat, 09 Nov 2019 16:32:51 +0000</pubDate>
-      
-      <guid>/books/</guid>
-      <description>Current/Upcoming Reads  Practical Malware Analysis - Michael Sikorski and Andrew Honig A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig Neuromancer - William Gibson Count Zero - William Gibson Mona Lisa Overdrive - William Gibson Malware Data Science - Joshua Saxe with Hillary Sanders  Backlog Security  The Hardware Hacker - Andrew “bunnie” Huang Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Attacking Network Protocols - James Forshaw Serious Cryptography - Jean-Philippe Aumasson Game Hacking - Nick Cano PoC||GTFO - Manul Laphroaig  Novels  Snow Crash - Neal Stephenson Pattern Recognition - William Gibson  Recommendations  Do Androids Dream of Electric Sheep?</description>
-    </item>
-    
-    <item>
-      <title>Japanese</title>
-      <link>/japanese/</link>
-      <pubDate>Sat, 09 Nov 2019 16:31:51 +0000</pubDate>
-      
-      <guid>/japanese/</guid>
-      <description>todo</description>
-    </item>
-    
-    <item>
-      <title>Misc</title>
-      <link>/misc/</link>
-      <pubDate>Sat, 09 Nov 2019 16:30:51 +0000</pubDate>
-      
-      <guid>/misc/</guid>
-      <description>Goals
-Books
-Japanese
-Tea</description>
-    </item>
     
     <item>
       <title>Test Post</title>
@@ -71,10 +23,95 @@ Tea</description>
     <item>
       <title>About</title>
       <link>/about/</link>
-      <pubDate>Sat, 09 Nov 2019 12:39:51 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>This Site Hello there! Welcome to my brain&amp;rsquo;s dumping ground. The inspiration to create a personal website came from reading through the monthly discussions on Hacker News about the advantages of doing so. Also, I like reading security blogs and would like to post my own research findings here while practicing my technical writing. That said, I want to use this site, not as a professional portfolio, but more as a means to organize and share my knowledge, ideas, thoughts, and resources.</description>
+      <description>This Site Hello there! Welcome to my brain&#39;s dumping ground. The inspiration to create a personal website came from reading through the monthly discussions on Hacker News about the advantages of doing so. Also, I like reading security blogs and would like to post my own research findings here while practicing my technical writing. That said, I want to use this site, not as a professional portfolio, but more as a means to organize and share my knowledge, ideas, thoughts, and resources.</description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/books/</guid>
+      <description>Current/Upcoming Reads  Practical Malware Analysis - Michael Sikorski and Andrew Honig A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig Neuromancer - William Gibson Count Zero - William Gibson Mona Lisa Overdrive - William Gibson Malware Data Science - Joshua Saxe with Hillary Sanders  Backlog Security  The Hardware Hacker - Andrew “bunnie” Huang Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Serious Cryptography - Jean-Philippe Aumasson Game Hacking - Nick Cano PoC||GTFO - Manul Laphroaig  Novels  Snow Crash - Neal Stephenson Pattern Recognition - William Gibson  Recommendations  Do Androids Dream of Electric Sheep?</description>
+    </item>
+    
+    <item>
+      <title>Goals</title>
+      <link>/goals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/goals/</guid>
+      <description>Interests  AI / ML Agriculture Drawing Go (board game) Hardware Hiking Language Learning Piano Reading Reverse Engineering Security Space Starcraft Tea Travel  Action Items November 2019  finish Practical Malware Analysis - Michael Sikorski and Andrew Honig continue A Guide to Japanese Grammar - Tae Kim continue Remembering The Kanji 1 - James W. Heisig to reach 2000 kanji re-read Neuromancer - William Gibson 40x situps, pushups, squats per day hiking once per week starcraft 1hr after work per weekday build a personal website  December 2019  nothing!</description>
+    </item>
+    
+    <item>
+      <title>Japanese</title>
+      <link>/japanese/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/japanese/</guid>
+      <description>todo</description>
+    </item>
+    
+    <item>
+      <title>Malware</title>
+      <link>/datascience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/datascience/</guid>
+      <description>todo</description>
+    </item>
+    
+    <item>
+      <title>Malware</title>
+      <link>/malware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/malware/</guid>
+      <description>Learning Courses  hasherezade&#39;s guide - guide on how to start with malware analysis Open Security Training - mostly RE courses Lena&#39;s Reversing For Newbies - RE course Dr. Fu&#39;s Malware Analysis - RE course RPISEC&#39;s Malware Analysis - RE course based on Practical Malware Analysis SANS FOR610 for GREM - expensive RE cert  Challenges  ReversingHero - RE challenge program challenges.re - RE challenges by creator of beginners.re MalwareTech&#39;s Beginner Challenges - RE challenges by MalwareTech crackmes.</description>
+    </item>
+    
+    <item>
+      <title>Misc</title>
+      <link>/misc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/misc/</guid>
+      <description>Goals
+Books
+Japanese
+Tea
+Starcraft
+Malware
+Pentesting
+Data Science
+Project Ideas</description>
+    </item>
+    
+    <item>
+      <title>Pentesting</title>
+      <link>/pentesting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pentesting/</guid>
+      <description>Learning Online  Tulpa&#39;s prep guide for OSCP TJnull&#39;s prep guide for OSCP  Books  Penetration Testing -　Georgia Weidman Hacking: The Art of Exploitation - Jon Erickson Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Metasploit - David Kennedy, Jim O’Gorman, Devon Kearns, and Mati Aharoni  Tools CTFs  CTFtime - CTF tracker  </description>
+    </item>
+    
+    <item>
+      <title>Project Ideas</title>
+      <link>/project-ideas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project-ideas/</guid>
+      <description>Atom extension or python script for defanging or parsing and refanging URLs and IPs in IoCs
+  Automate countermeasure creation from blog post IoCs; &amp;ldquo;blogtoyara&amp;rdquo;
+  yara engine running free + my rules and GUI visualization
+  Threat hunting playbook definitions (incl. enumeration of normal, easy wins)
+  IR playbook definitions (incl. scoping questions, first steps)
+  Threat group profiler pulling from free online TI streams</description>
     </item>
     
   </channel>

@@ -3,33 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/goals/</loc>
-    <lastmod>2019-11-10T10:05:39+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/</loc>
-    <lastmod>2019-11-10T10:05:39+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tea/</loc>
-    <lastmod>2019-11-10T07:04:02+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/books/</loc>
-    <lastmod>2019-11-09T16:32:51+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/japanese/</loc>
-    <lastmod>2019-11-09T16:31:51+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/misc/</loc>
-    <lastmod>2019-11-09T16:30:51+00:00</lastmod>
+    <lastmod>2019-11-09T12:55:27+00:00</lastmod>
   </url>
   
   <url>
@@ -54,11 +29,46 @@
   
   <url>
     <loc>/about/</loc>
-    <lastmod>2019-11-09T12:39:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/books/</loc>
   </url>
   
   <url>
     <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/goals/</loc>
+  </url>
+  
+  <url>
+    <loc>/japanese/</loc>
+  </url>
+  
+  <url>
+    <loc>/datascience/</loc>
+  </url>
+  
+  <url>
+    <loc>/malware/</loc>
+  </url>
+  
+  <url>
+    <loc>/misc/</loc>
+  </url>
+  
+  <url>
+    <loc>/pentesting/</loc>
+  </url>
+  
+  <url>
+    <loc>/project-ideas/</loc>
+  </url>
+  
+  <url>
+    <loc>/tea/</loc>
   </url>
   
 </urlset>
