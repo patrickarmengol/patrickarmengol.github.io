@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Data Science</title>
+      <link>/datascience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/datascience/</guid>
+      <description>Courses  A Clear Roadmap for ML/DL - guide on reddit Andrew Ng&#39;s ML Course - the best?, but need to google for python versions of code deeplearning.ai&#39;s DL Courses - tensorflow eww  Books  Python Data Science Handbook - Jake VanderPlas - free online Hands-On Machine Learning With Scikit-Learn &amp;amp; TensorFlow - Aurélien Géron - free online Book of R - Tilman M. Davies Data Visualization with JavaScript - Stephen A.</description>
+    </item>
+    
+    <item>
       <title>Goals</title>
       <link>/goals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -53,16 +62,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/japanese/</guid>
-      <description>todo</description>
-    </item>
-    
-    <item>
-      <title>Malware</title>
-      <link>/datascience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/datascience/</guid>
-      <description>todo</description>
+      <description>Communities  r/learnjapanese  Books  A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig  Grammar  Tae Kim&#39;s Grammar Guide - learn you some grammar  Kanji  koohii - SRS flashcards and shared stories for RTK  Reading  NHK Easy News - news in easy to understand language; has JLPT labels  Listening  NHK Radio News  Vocabulary  Anki Anki Guide  Dictionary  Jisho  Youtube  Japanese Ammo with Misa 三本塾 日本語の森 Game Grammar Dogen  Tools  Rikaichamp  Lists  awesome-japanese  </description>
     </item>
     
     <item>
@@ -71,24 +71,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/malware/</guid>
-      <description>Learning Courses  hasherezade&#39;s guide - guide on how to start with malware analysis Open Security Training - mostly RE courses Lena&#39;s Reversing For Newbies - RE course Dr. Fu&#39;s Malware Analysis - RE course RPISEC&#39;s Malware Analysis - RE course based on Practical Malware Analysis SANS FOR610 for GREM - expensive RE cert  Challenges  ReversingHero - RE challenge program challenges.re - RE challenges by creator of beginners.re MalwareTech&#39;s Beginner Challenges - RE challenges by MalwareTech crackmes.</description>
-    </item>
-    
-    <item>
-      <title>Misc</title>
-      <link>/misc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/misc/</guid>
-      <description>Goals
-Books
-Japanese
-Tea
-Starcraft
-Malware
-Pentesting
-Data Science
-Project Ideas</description>
+      <description>Books  Reverse Engineering for Beginners - Dennis Yurichev Practical Reverse Engineering - Bruce Dang, Alexandre Gazet, and Elias Bachaalany Practical Malware Analysis - Michael Sikorski and Andrew Honig The IDA Pro Book - Chris Eagle Malware Data Science - Joshua Saxe with Hillary Sanders Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Malware Analyst&#39;s Cookbook - Michael Ligh, Steven Adair, Blake Hartstein, Matthew Richard The Art of Memory Forensics - Michael Hale Ligh, Andrew Case, Jamie Levy, AAron Walters Windows Internals - Pavel Yosifovich, Alex Ionescu, Mark Russinovich and David Solomon  Courses  hasherezade&#39;s guide - guide on how to start with malware analysis Open Security Training - mostly RE courses Lena&#39;s Reversing For Newbies - RE course Dr.</description>
     </item>
     
     <item>
@@ -97,7 +80,7 @@ Project Ideas</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pentesting/</guid>
-      <description>Learning Online  Tulpa&#39;s prep guide for OSCP TJnull&#39;s prep guide for OSCP  Books  Penetration Testing -　Georgia Weidman Hacking: The Art of Exploitation - Jon Erickson Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Metasploit - David Kennedy, Jim O’Gorman, Devon Kearns, and Mati Aharoni  Tools CTFs  CTFtime - CTF tracker  </description>
+      <description>Courses  Tulpa&#39;s prep guide for OSCP TJnull&#39;s prep guide for OSCP  Books  Penetration Testing -　Georgia Weidman Hacking: The Art of Exploitation - Jon Erickson Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Metasploit - David Kennedy, Jim O’Gorman, Devon Kearns, and Mati Aharoni  Challenges  CTFtime - CTF event and score tracker captf list - list of permanent ctfs/wargames Hack The Box - pentesting labs OverTheWire - misc wargames  Bug Bounties  HackerOne bugcrowd  Unsorted  https://github.</description>
     </item>
     
     <item>
@@ -106,12 +89,25 @@ Project Ideas</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/project-ideas/</guid>
-      <description>Atom extension or python script for defanging or parsing and refanging URLs and IPs in IoCs
-  Automate countermeasure creation from blog post IoCs; &amp;ldquo;blogtoyara&amp;rdquo;
-  yara engine running free + my rules and GUI visualization
-  Threat hunting playbook definitions (incl. enumeration of normal, easy wins)
-  IR playbook definitions (incl. scoping questions, first steps)
-  Threat group profiler pulling from free online TI streams</description>
+      <description> python script for defanging or parsing and refanging URLs and IPs in IoCs automate countermeasure creation from blog post IoCs; &amp;ldquo;ioc_to_sig.py&amp;rdquo;  Loki has pulldowns for threat intel exchanges   contribute to one of these projects:  MITRE CAR eqllib Atomic Red Team Threat Hunter Playbook   yara engine running free + my rules and GUI visualization automate malware sample pulling from online trackers and basic analysis POC EDR GUI with focus on pivoting, visualization, and notetaking port BWAPI to python for use with pytorch go match reviewer with tree history diagram for variations; ability to share notes online go AR app integrated with Leela Zero; see featurecat/lizzie  </description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/</guid>
+      <description>Goals
+Books
+Malware
+Pentesting
+Security Blogs
+Data Science
+Project Ideas
+Japanese
+Tea
+Starcraft</description>
     </item>
     
   </channel>

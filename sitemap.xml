@@ -40,6 +40,10 @@
   </url>
   
   <url>
+    <loc>/datascience/</loc>
+  </url>
+  
+  <url>
     <loc>/goals/</loc>
   </url>
   
@@ -48,15 +52,7 @@
   </url>
   
   <url>
-    <loc>/datascience/</loc>
-  </url>
-  
-  <url>
     <loc>/malware/</loc>
-  </url>
-  
-  <url>
-    <loc>/misc/</loc>
   </url>
   
   <url>
@@ -65,6 +61,18 @@
   
   <url>
     <loc>/project-ideas/</loc>
+  </url>
+  
+  <url>
+    <loc>/resources/</loc>
+  </url>
+  
+  <url>
+    <loc>/blogs/</loc>
+  </url>
+  
+  <url>
+    <loc>/starcraft/</loc>
   </url>
   
   <url>
