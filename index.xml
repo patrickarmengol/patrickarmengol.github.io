@@ -35,7 +35,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/books/</guid>
-      <description>Current/Upcoming Reads  Practical Malware Analysis - Michael Sikorski and Andrew Honig A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig Neuromancer - William Gibson Count Zero - William Gibson Mona Lisa Overdrive - William Gibson Malware Data Science - Joshua Saxe with Hillary Sanders  Backlog Security  The Hardware Hacker - Andrew “bunnie” Huang Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Serious Cryptography - Jean-Philippe Aumasson Game Hacking - Nick Cano PoC||GTFO - Manul Laphroaig  Novels  Snow Crash - Neal Stephenson Pattern Recognition - William Gibson  Recommendations  Do Androids Dream of Electric Sheep?</description>
+      <description>This is my reading list. As you will probably be able to tell, I&#39;m a shill for no starch press. It&#39;s probably the cute art on the covers that got me hooked.
+Current/Upcoming Reads  Practical Malware Analysis - Michael Sikorski and Andrew Honig A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig Neuromancer - William Gibson Count Zero - William Gibson Mona Lisa Overdrive - William Gibson Malware Data Science - Joshua Saxe with Hillary Sanders  Backlog Security  The Hardware Hacker - Andrew “bunnie” Huang Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Serious Cryptography - Jean-Philippe Aumasson Game Hacking - Nick Cano PoC||GTFO - Manul Laphroaig  Novels  Snow Crash - Neal Stephenson Pattern Recognition - William Gibson  Recommendations  Do Androids Dream of Electric Sheep?</description>
     </item>
     
     <item>
@@ -44,7 +45,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/datascience/</guid>
-      <description>Courses  A Clear Roadmap for ML/DL - guide on reddit Andrew Ng&#39;s ML Course - the best?, but need to google for python versions of code deeplearning.ai&#39;s DL Courses - tensorflow eww  Books  Python Data Science Handbook - Jake VanderPlas - free online Hands-On Machine Learning With Scikit-Learn &amp;amp; TensorFlow - Aurélien Géron - free online Book of R - Tilman M. Davies Data Visualization with JavaScript - Stephen A.</description>
+      <description>Courses  A Clear Roadmap for ML/DL - guide on reddit Andrew Ng&#39;s ML Course - the best?, but need to google for python versions of code deeplearning.ai&#39;s DL Courses - tensorflow eww  Books   Python Data Science Handbook - Jake VanderPlas
+  Hands-On Machine Learning With Scikit-Learn &amp;amp; TensorFlow - Aurélien Géron
+  Book of R - Tilman M. Davies
+  Data Visualization with JavaScript - Stephen A.</description>
     </item>
     
     <item>
@@ -71,7 +75,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/malware/</guid>
-      <description>Books  Reverse Engineering for Beginners - Dennis Yurichev Practical Reverse Engineering - Bruce Dang, Alexandre Gazet, and Elias Bachaalany Practical Malware Analysis - Michael Sikorski and Andrew Honig The IDA Pro Book - Chris Eagle Malware Data Science - Joshua Saxe with Hillary Sanders Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Malware Analyst&#39;s Cookbook - Michael Ligh, Steven Adair, Blake Hartstein, Matthew Richard The Art of Memory Forensics - Michael Hale Ligh, Andrew Case, Jamie Levy, AAron Walters Windows Internals - Pavel Yosifovich, Alex Ionescu, Mark Russinovich and David Solomon  Courses  hasherezade&#39;s guide - guide on how to start with malware analysis Open Security Training - mostly RE courses Lena&#39;s Reversing For Newbies - RE course Dr.</description>
+      <description>Books  Reverse Engineering for Beginners - Dennis Yurichev Practical Reverse Engineering - Bruce Dang, Alexandre Gazet, and Elias Bachaalany Practical Malware Analysis - Michael Sikorski and Andrew Honig The IDA Pro Book - Chris Eagle Malware Data Science - Joshua Saxe with Hillary Sanders Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Malware Analyst&#39;s Cookbook - Michael Ligh, Steven Adair, Blake Hartstein, Matthew Richard The Art of Memory Forensics - Michael Hale Ligh, Andrew Case, Jamie Levy, and Aaron Walters Windows Internals - Pavel Yosifovich, Alex Ionescu, Mark Russinovich, and David Solomon Mastering Malware Analysis - Alexey Kleymenov and Amr Thabet Learning Malware Analysis - Monnappa K A  Courses  hasherezade&#39;s guide - guide on how to start with malware analysis Open Security Training - mostly RE courses Lena&#39;s Reversing For Newbies - RE course Dr.</description>
     </item>
     
     <item>
@@ -89,7 +93,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/project-ideas/</guid>
-      <description> python script for defanging or parsing and refanging URLs and IPs in IoCs automate countermeasure creation from blog post IoCs; &amp;ldquo;ioc_to_sig.py&amp;rdquo;  Loki has pulldowns for threat intel exchanges   contribute to one of these projects:  MITRE CAR eqllib Atomic Red Team Threat Hunter Playbook   yara engine running free + my rules and GUI visualization automate malware sample pulling from online trackers and basic analysis POC EDR GUI with focus on pivoting, visualization, and notetaking port BWAPI to python for use with pytorch go match reviewer with tree history diagram for variations; ability to share notes online go AR app integrated with Leela Zero; see featurecat/lizzie  </description>
+      <description> automate blog IoC collection and countermeasure creation; &amp;ldquo;blogioc.py&amp;rdquo;  utilize ioc_fanger support loki similar project https://github.com/armbues/ioc_parser https://github.com/stephenbrannon/IOCextractor https://github.com/mandiant/ioc_writer https://github.com/CybOXProject/python-cybox   contribute to one of these projects:  MITRE CAR eqllib Atomic Red Team Threat Hunter Playbook   yara engine running online + personal rules and GUI visualization automate malware sample pulling from online trackers  https://github.com/krmaxwell/maltrieve https://code.google.com/archive/p/malware-crawler/   POC EDR GUI with focus on pivoting, visualization, and notetaking port BWAPI to python for use with pytorch go match reviewer with tree history diagram for variations; ability to share notes online go AR app integrated with Leela Zero; see featurecat/lizzie  </description>
     </item>
     
     <item>
