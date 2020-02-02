@@ -26,7 +26,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>This Site Hello there! Welcome to my brain&#39;s dumping ground. The inspiration to create a personal website came from reading through the monthly discussions on Hacker News about the advantages of doing so. Also, I like reading security blogs and would like to post my own research findings here while practicing my technical writing. That said, I want to use this site, not as a professional portfolio, but more as a means to organize and share my knowledge, ideas, thoughts, and resources.</description>
+      <description>This Site Hello there! Welcome to my brain&amp;rsquo;s dumping ground. The inspiration to create a personal website came from reading through the monthly discussions on Hacker News about the advantages of doing so. Also, I like reading security blogs and would like to post my own research findings here while practicing my technical writing. That said, I want to use this site, not as a professional portfolio, but more as a means to organize and share my knowledge, ideas, thoughts, and resources.</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/books/</guid>
-      <description>This is my reading list. As you will probably be able to tell, I&#39;m a shill for no starch press. It&#39;s probably the cute art on the covers that got me hooked.
+      <description>This is my reading list. As you will probably be able to tell, I&amp;rsquo;m a shill for no starch press. It&amp;rsquo;s probably the cute art on the covers that got me hooked.
 Current/Upcoming Reads  Practical Malware Analysis - Michael Sikorski and Andrew Honig A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig Neuromancer - William Gibson Count Zero - William Gibson Mona Lisa Overdrive - William Gibson Malware Data Science - Joshua Saxe with Hillary Sanders  Backlog Security  The Hardware Hacker - Andrew “bunnie” Huang Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Serious Cryptography - Jean-Philippe Aumasson Game Hacking - Nick Cano PoC||GTFO - Manul Laphroaig  Novels  Snow Crash - Neal Stephenson Pattern Recognition - William Gibson  Recommendations  Do Androids Dream of Electric Sheep?</description>
     </item>
     
@@ -45,7 +45,7 @@ Current/Upcoming Reads  Practical Malware Analysis - Michael Sikorski and Andrew
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/datascience/</guid>
-      <description>Courses  A Clear Roadmap for ML/DL - guide on reddit Andrew Ng&#39;s ML Course - the best?, but need to google for python versions of code deeplearning.ai&#39;s DL Courses - tensorflow eww  Books   Python Data Science Handbook - Jake VanderPlas
+      <description>Courses  A Clear Roadmap for ML/DL - guide on reddit Andrew Ng&amp;rsquo;s ML Course - the best?, but need to google for python versions of code deeplearning.ai&amp;rsquo;s DL Courses - tensorflow eww  Books   Python Data Science Handbook - Jake VanderPlas
   Hands-On Machine Learning With Scikit-Learn &amp;amp; TensorFlow - Aurélien Géron
   Book of R - Tilman M. Davies
   Data Visualization with JavaScript - Stephen A.</description>
@@ -66,7 +66,7 @@ Current/Upcoming Reads  Practical Malware Analysis - Michael Sikorski and Andrew
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/japanese/</guid>
-      <description>Communities  r/learnjapanese  Books  A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig  Grammar  Tae Kim&#39;s Grammar Guide - learn you some grammar  Kanji  koohii - SRS flashcards and shared stories for RTK  Reading  NHK Easy News - news in easy to understand language; has JLPT labels  Listening  NHK Radio News  Vocabulary  Anki Anki Guide  Dictionary  Jisho  Youtube  Japanese Ammo with Misa 三本塾 日本語の森 Game Grammar Dogen  Tools  Rikaichamp  Lists  awesome-japanese  </description>
+      <description>Communities  r/learnjapanese  Books  A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig  Grammar  Tae Kim&amp;rsquo;s Grammar Guide - learn you some grammar  Kanji  koohii - SRS flashcards and shared stories for RTK  Reading  NHK Easy News - news in easy to understand language; has JLPT labels  Listening  NHK Radio News  Vocabulary  Anki Anki Guide  Dictionary  Jisho  Youtube  Japanese Ammo with Misa 三本塾 日本語の森 Game Grammar Dogen  Tools  Rikaichamp  Lists  awesome-japanese  </description>
     </item>
     
     <item>
@@ -75,7 +75,7 @@ Current/Upcoming Reads  Practical Malware Analysis - Michael Sikorski and Andrew
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/malware/</guid>
-      <description>Books  Reverse Engineering for Beginners - Dennis Yurichev Practical Reverse Engineering - Bruce Dang, Alexandre Gazet, and Elias Bachaalany Practical Malware Analysis - Michael Sikorski and Andrew Honig The IDA Pro Book - Chris Eagle Malware Data Science - Joshua Saxe with Hillary Sanders Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Malware Analyst&#39;s Cookbook - Michael Ligh, Steven Adair, Blake Hartstein, Matthew Richard The Art of Memory Forensics - Michael Hale Ligh, Andrew Case, Jamie Levy, and Aaron Walters Windows Internals - Pavel Yosifovich, Alex Ionescu, Mark Russinovich, and David Solomon Mastering Malware Analysis - Alexey Kleymenov and Amr Thabet Learning Malware Analysis - Monnappa K A  Courses  hasherezade&#39;s guide - guide on how to start with malware analysis Open Security Training - mostly RE courses Lena&#39;s Reversing For Newbies - RE course Dr.</description>
+      <description>Books  Reverse Engineering for Beginners - Dennis Yurichev Practical Reverse Engineering - Bruce Dang, Alexandre Gazet, and Elias Bachaalany Practical Malware Analysis - Michael Sikorski and Andrew Honig The IDA Pro Book - Chris Eagle Malware Data Science - Joshua Saxe with Hillary Sanders Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Malware Analyst&amp;rsquo;s Cookbook - Michael Ligh, Steven Adair, Blake Hartstein, Matthew Richard The Art of Memory Forensics - Michael Hale Ligh, Andrew Case, Jamie Levy, and Aaron Walters Windows Internals - Pavel Yosifovich, Alex Ionescu, Mark Russinovich, and David Solomon Mastering Malware Analysis - Alexey Kleymenov and Amr Thabet Learning Malware Analysis - Monnappa K A  Courses  hasherezade&amp;rsquo;s guide - guide on how to start with malware analysis Malware Unicorn&amp;rsquo;s workshops - Malware Unicorn&amp;rsquo;s courses and CTF writeups Open Security Training - mostly RE courses Lena&amp;rsquo;s Reversing For Newbies - RE course Dr.</description>
     </item>
     
     <item>
@@ -84,7 +84,7 @@ Current/Upcoming Reads  Practical Malware Analysis - Michael Sikorski and Andrew
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pentesting/</guid>
-      <description>Courses  Tulpa&#39;s prep guide for OSCP TJnull&#39;s prep guide for OSCP  Books  Penetration Testing -　Georgia Weidman Hacking: The Art of Exploitation - Jon Erickson Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Metasploit - David Kennedy, Jim O’Gorman, Devon Kearns, and Mati Aharoni  Challenges  CTFtime - CTF event and score tracker captf list - list of permanent ctfs/wargames Hack The Box - pentesting labs OverTheWire - misc wargames  Bug Bounties  HackerOne bugcrowd  Unsorted  https://github.</description>
+      <description>Courses  Tulpa&amp;rsquo;s prep guide for OSCP TJnull&amp;rsquo;s prep guide for OSCP  Books  Penetration Testing -　Georgia Weidman Hacking: The Art of Exploitation - Jon Erickson Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Metasploit - David Kennedy, Jim O’Gorman, Devon Kearns, and Mati Aharoni  Challenges  CTFtime - CTF event and score tracker captf list - list of permanent ctfs/wargames Hack The Box - pentesting labs OverTheWire - misc wargames  Bug Bounties  HackerOne bugcrowd  Unsorted  https://github.</description>
     </item>
     
     <item>
