@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Patrick Armengol</title>
-    <link>/</link>
-    <description>Recent content on Patrick Armengol</description>
+    <title>goals on Patrick Armengol</title>
+    <link>/tags/goals/</link>
+    <description>Recent content in goals on Patrick Armengol</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 02 Feb 2020 20:22:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2020 01:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/goals/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Threat Intelligence Notes</title>
-      <link>/posts/2020/02/threat-intelligence-notes/</link>
-      <pubDate>Sun, 02 Feb 2020 20:22:02 +0000</pubDate>
-      
-      <guid>/posts/2020/02/threat-intelligence-notes/</guid>
-      <description>These are my notes on threat intelligence.
-Intelligence Intelligence is high fidelity information that has been analyzed and can be used to influence decision making.
-Cyber Threat Intelligence  (Cyber (Threat (Intelligence)))
- Threat Intelligence is intelligence pertaining to adversaries.
-Cyber Threat Intelligence is Threat Intelligence pertaining to the cyber domain.
-CTI involves understanding adversary capabilities, motivations, and goals.
-CTI finds usefulness in its application to intrusion detection and incident response.</description>
-    </item>
     
     <item>
       <title>Goals for February 2020</title>
@@ -71,46 +56,6 @@ Reviewing October 2019 Action Items As November is when I started tracking these
       <guid>/posts/2019/11/goals-methodology/</guid>
       <description>Not to seem like I&amp;rsquo;m having a midlife crisis at 26 or anything, but I feel like I&amp;rsquo;ve wasted a lot of time doing much of nothing important. There is so much that I would like to learn that I sometimes feel overwhelmed. The following details how I plan to work on climbing that mountain.
 Method I recently started using a system for personal improvement that I found worked for me:</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>This Site Hello there! Welcome to my brain&amp;rsquo;s dumping ground. The inspiration to create a personal website came from reading through the monthly discussions on Hacker News about the advantages of doing so. Also, I like reading security blogs and would like to post my own research findings here while practicing my technical writing. That said, I want to use this site, not as a professional portfolio, but more as a means to organize and share my knowledge, ideas, thoughts, and resources.</description>
-    </item>
-    
-    <item>
-      <title>Books</title>
-      <link>/books/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/books/</guid>
-      <description>This is my reading list. As you will probably be able to tell, I&amp;rsquo;m a shill for no starch press. It&amp;rsquo;s probably the cute art on the covers that got me hooked.
-Current/Upcoming Reads  Practical Malware Analysis - Michael Sikorski and Andrew Honig A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig Neuromancer - William Gibson Count Zero - William Gibson Mona Lisa Overdrive - William Gibson Malware Data Science - Joshua Saxe with Hillary Sanders  Backlog Security  The Hardware Hacker - Andrew “bunnie” Huang Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Serious Cryptography - Jean-Philippe Aumasson Game Hacking - Nick Cano PoC||GTFO - Manul Laphroaig  Novels  Snow Crash - Neal Stephenson Pattern Recognition - William Gibson  Recommendations  Do Androids Dream of Electric Sheep?</description>
-    </item>
-    
-    <item>
-      <title>Data Science</title>
-      <link>/datascience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/datascience/</guid>
-      <description>Courses  A Clear Roadmap for ML/DL - guide on reddit Andrew Ng&amp;rsquo;s ML Course - the best?, but need to google for python versions of code deeplearning.ai&amp;rsquo;s DL Courses - tensorflow eww  Books   Python Data Science Handbook - Jake VanderPlas
-  Hands-On Machine Learning With Scikit-Learn &amp;amp; TensorFlow - Aurélien Géron
-  Book of R - Tilman M. Davies
-  Data Visualization with JavaScript - Stephen A.</description>
-    </item>
-    
-    <item>
-      <title>Japanese</title>
-      <link>/japanese/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/japanese/</guid>
-      <description>Communities  r/learnjapanese  Books  A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig  Grammar  Tae Kim&amp;rsquo;s Grammar Guide - learn you some grammar  Kanji  koohii - SRS flashcards and shared stories for RTK  Reading  NHK Easy News - news in easy to understand language; has JLPT labels  Listening  NHK Radio News  Vocabulary  Anki Anki Guide  Dictionary  Jisho  Youtube  Japanese Ammo with Misa 三本塾 日本語の森 Game Grammar Dogen  Tools  Rikaichamp  Lists  awesome-japanese  </description>
     </item>
     
   </channel>

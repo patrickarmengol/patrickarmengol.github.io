@@ -5,17 +5,434 @@
         <description>Recent content in Posts on Patrick Armengol</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC&lt;/a&gt;</copyright>
-        <lastBuildDate>Sat, 09 Nov 2019 12:55:27 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 02 Feb 2020 20:22:02 +0000</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Test Post</title>
-            <link>/posts/2019/11/test-post/</link>
-            <pubDate>Sat, 09 Nov 2019 12:55:27 +0000</pubDate>
+            <title>Threat Intelligence Notes</title>
+            <link>/posts/2020/02/threat-intelligence-notes/</link>
+            <pubDate>Sun, 02 Feb 2020 20:22:02 +0000</pubDate>
             
-            <guid>/posts/2019/11/test-post/</guid>
-            <description>please ignore :)</description>
-            <content type="html"><![CDATA[<p>please ignore :)</p>
+            <guid>/posts/2020/02/threat-intelligence-notes/</guid>
+            <description>These are my notes on threat intelligence.
+Intelligence Intelligence is high fidelity information that has been analyzed and can be used to influence decision making.
+Cyber Threat Intelligence  (Cyber (Threat (Intelligence)))
+ Threat Intelligence is intelligence pertaining to adversaries.
+Cyber Threat Intelligence is Threat Intelligence pertaining to the cyber domain.
+CTI involves understanding adversary capabilities, motivations, and goals.
+CTI finds usefulness in its application to intrusion detection and incident response.</description>
+            <content type="html"><![CDATA[<p>These are my notes on threat intelligence.</p>
+<h2 id="intelligence">Intelligence</h2>
+<p>Intelligence is high fidelity information that has been analyzed and can be used to influence decision making.</p>
+<h2 id="cyber-threat-intelligence">Cyber Threat Intelligence</h2>
+<blockquote>
+<p>(Cyber (Threat (Intelligence)))</p>
+</blockquote>
+<p>Threat Intelligence is intelligence pertaining to adversaries.</p>
+<p>Cyber Threat Intelligence is Threat Intelligence pertaining to the cyber domain.</p>
+<p>CTI involves understanding adversary <strong>capabilities</strong>, <strong>motivations</strong>, and <strong>goals</strong>.</p>
+<p>CTI finds usefulness in its application to intrusion detection and incident response.</p>
+<blockquote>
+<p>I feel like the word <em>cyber</em> is superfluous in the context of the infosec sphere so I&rsquo;m just going to refer to CTI as TI always and forever</p>
+</blockquote>
+<h2 id="sources-of-intelligence">Sources of Intelligence</h2>
+<ul>
+<li><strong>HUMINT</strong> - human intelligence</li>
+<li><strong>SIGINT</strong> - signals intelligence</li>
+<li><strong>COMINT</strong> - communications intelligence</li>
+<li><strong>ELINT</strong> - electronic intelligence</li>
+<li><strong>FISINT</strong> - foreign instrumentation signals intelligence</li>
+<li><strong>OSINT</strong> - open source intelligence</li>
+<li><strong>IMINT</strong> - imagery intelligence</li>
+<li><strong>MASINT</strong> - measurement and signature intelligence</li>
+<li><strong>GEOINT</strong> - geospatial intelligence</li>
+<li><strong>CYBINT</strong> - cyber intelligence</li>
+<li><strong>TECHINT</strong> - technical intelligence</li>
+<li><strong>FININT</strong> - financial intelligence</li>
+</ul>
+<blockquote>
+<p>I&rsquo;m not even going to attempt to expand on this jargon. Many of these overlap with each other. They do not matter.</p>
+</blockquote>
+<p>TI comes usually comes as a product of the data collected in incident response investigations, malware reverse engineering, honeypot interactions, and hacker forums/channels.</p>
+<h2 id="indicators-of-compromise">Indicators of Compromise</h2>
+<p>IOCs are a form of TI. Types of IOCs include:</p>
+<ul>
+<li>IP addresses</li>
+<li>domains</li>
+<li>file names</li>
+<li>file hashes</li>
+<li>registry entries</li>
+</ul>
+<h2 id="intelligence-process-models">Intelligence Process Models</h2>
+<p>Models are dumb, but apparently they can be useful for understanding some concepts.</p>
+<h3 id="ooda">OODA</h3>
+<p><strong>OODA</strong> is a model that was developed by a military strategist, John Boyd, to describe the decision-making process, particularly in reference to combat operations.</p>
+<p>The OODA loop:
+[<strong>O</strong>]bserve &gt; [<strong>O</strong>]rient &gt; [<strong>D</strong>]ecide &gt; [<strong>A</strong>]ct &laquo;</p>
+<p>An entity would have a competitive advantage if it is able to go through this cycle more quickly than its adversary.</p>
+<p>This model can be used to describe the incident response process in how information is gathered and used to take response actions.</p>
+<p>The <strong>Observe</strong> phase refers to the collection of information.</p>
+<p>The <strong>Orient</strong> phase refers to the contextualization of collected information with respect to predispositions, experience, knowledge, and expectations.</p>
+<p>The <strong>Decide</strong> phase refers to the selection of actions that are appropriate in response to the information.</p>
+<p>The <strong>Act</strong> phase refers to the execution of decided upon actions.</p>
+<h3 id="intelligence-cycle">Intelligence Cycle</h3>
+<p>The <strong>Intelligence Cycle</strong> is a model that describes the process of processing intelligence. (duh)</p>
+<p>The Intelligence Cycle:
+Direction &gt; Collection &gt; Processing &gt; Analysis &gt; Dissemination &gt; Feedback &laquo;</p>
+<p>The <strong>Direction</strong> phase refers to the determinization of the goal of the intelligence.</p>
+<p>The <strong>Collection</strong> phase refers to the gathering of the necessary information. The information should be sufficiently numerous and it should come from a variety of sources.</p>
+<p>The <strong>Processing</strong> phase refers to the normalization, organization, translation, enrichment, filtering, prioritization, and presentation of the available information.</p>
+<p>The <strong>Analysis</strong> phase refers to the investigation performed on the information by a human. Intelligence is the outcome.</p>
+<p>The <strong>Dissemination</strong> phase refers to the sharing of the produced intelligence.</p>
+<p>The <strong>Feedback</strong> phase refers to the evaluation of the produced intelligence with respect to the goal.</p>
+<h2 id="evaluating-intelligence">Evaluating Intelligence</h2>
+<p>Some factors that can determine the quality of intelligence include:</p>
+<ul>
+<li>availability of information</li>
+<li>collection sources</li>
+<li>collection method</li>
+<li>collection date</li>
+<li>bias</li>
+</ul>
+<h2 id="levels-of-intelligence">Levels of Intelligence</h2>
+<p>There exist levels of intelligence based on a gradient of abstraction.</p>
+<p><strong>Tactical Intelligence</strong> refers to low-level, volatile intelligence like IOCs.</p>
+<p><strong>Operational Intelligence</strong> refers to mid-level, semi-permanent intelligence like recent APT campaigns.</p>
+<p><strong>Strategic Intelligence</strong> refers to high-level, long lasting intelligence like attacker TTPs and adversary motivations.</p>
+<h2 id="confidence">Confidence</h2>
+<p>Confidence levels refer to the level of trust that can be given to intelligence. This can vary based on source and content.</p>
+<p>I don&rsquo;t particularly like the scales used historically for describing confidence levels as they seem to overcomplicate things.</p>
+<p>A simple descriptive &lsquo;Low-&gt;Medium-&gt;High&rsquo; scale works in most cases. If there needs to be more granularity, a numeric &lsquo;0-100&rsquo; scale seems appropriate.</p>
+<h2 id="resources">Resources</h2>
+<p><a href="https://github.com/hslatman/awesome-threat-intelligence">awesome-threat-intelligence</a> - a more comprehensive list of resources</p>
+<p>The TI ecosystem seems a bit of a mess. There are a bunch of competing standards. TI sources are usually behind some kind of paywall. There&rsquo;s a whole private industry behind this. Below are some of the resources I&rsquo;ve used or looked into and would like to explore.</p>
+<h3 id="formats">Formats</h3>
+<table>
+<thead>
+<tr>
+<th>item</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://capec.mitre.org/">CAPEC</a></td>
+<td>dictionary and classification taxonomy of attacks</td>
+</tr>
+<tr>
+<td><a href="http://cyboxproject.github.io/">CybOX</a></td>
+<td>absorbed into STIX 2</td>
+</tr>
+<tr>
+<td><a href="http://maecproject.github.io/">MAEC</a></td>
+<td>language for sharing structured info about malware based on behaviors, artifacts, relationships</td>
+</tr>
+<tr>
+<td><a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2">OpenC2</a></td>
+<td>chartered to draft documents, specifications, lexicons or other artifacts to fulfill the needs of cyber security command and control</td>
+</tr>
+<tr>
+<td><a href="https://oasis-open.github.io/cti-documentation/stix/intro">STIX 2</a></td>
+<td>standard format for TI</td>
+</tr>
+<tr>
+<td><a href="https://oasis-open.github.io/cti-documentation/taxii/intro">TAXII</a></td>
+<td>protocol for exchanging TI</td>
+</tr>
+<tr>
+<td><a href="https://www.misp-project.org/datamodels/#misp-core-format">MISP Core Format</a></td>
+<td>MISP standard json format for TI</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sources">Sources</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+</table>
+<h3 id="platforms">Platforms</h3>
+<table>
+<thead>
+<tr>
+<th>item</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.misp-project.org/index.html">MISP</a></td>
+<td>open-source TI sharing platform</td>
+</tr>
+<tr>
+<td><a href="https://yeti-platform.github.io/">YETI</a></td>
+<td>open source TI organization platform</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tools">Tools</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+</table>
+<h3 id="reading">Reading</h3>
+<table>
+<thead>
+<tr>
+<th>item</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.amazon.com/_/dp/1491934948">Intelligence-Driven Incident Response</a></td>
+<td>details the role of TI in IR</td>
+</tr>
+<tr>
+<td><a href="https://en.m.wikipedia.org/wiki/The_Cuckoo%27s_Egg">The Cuckoo&rsquo;s Egg - Clifford Stoll</a></td>
+<td>account of one of the earliest cases of cyber threat hunting</td>
+</tr>
+<tr>
+<td><a href="https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp2_0.pdf">Joint Publication 2-0 - US Gov</a></td>
+<td>military document detailing intelligence</td>
+</tr>
+<tr>
+<td><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/311572/20110830_jdp2_00_ed3_with_change1.pdf">Joing Doctorine Publication 2-00 - UK Gov</a></td>
+<td>military document detailing intelligence</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Goals for February 2020</title>
+            <link>/posts/2020/02/goals-for-february-2020/</link>
+            <pubDate>Sat, 01 Feb 2020 01:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/02/goals-for-february-2020/</guid>
+            <description>Reviewing January 2019 Action Items  read Malware Data Science - Joshua Saxe with Hillary Sanders  was on pace to finish, but got sidetracked with a project inspired by it   finish A Guide to Japanese Grammar - Tae Kim  did not work on this at all =(   continue Remembering The Kanji 1 - James W. Heisig to reach 2000 kanji  did not keep up with SRS while on vacation and had to relearn a bunch ended up at 1600   read Count Zero - William Gibson  good book   50x situps per day + gym PPL program 6 days per week  did this; started at end of December my apartment&amp;rsquo;s gym sucks, but it&amp;rsquo;s usable not fun going to the gym in January; people don&amp;rsquo;t know how to clean up after themselves   try hiking in the frigid Winter once and probably never go outside again  went once on a nice day   figure out what dark matter is  i&amp;rsquo;m more confused now    February 2020 Action Items  find a place to move to or take another vacation at end of the month job hunt finish Malware Data Science - Joshua Saxe with Hillary Sanders finish A Guide to Japanese Grammar - Tae Kim continue Remembering The Kanji 1 - James W.</description>
+            <content type="html"><![CDATA[<h2 id="reviewing-january-2019-action-items">Reviewing January 2019 Action Items</h2>
+<ul>
+<li>read <a href="https://nostarch.com/malwaredatascience">Malware Data Science - Joshua Saxe with Hillary Sanders</a>
+<ul>
+<li>was on pace to finish, but got sidetracked with a <a href="https://github.com/patrickarmengol/PEgreet">project</a> inspired by it</li>
+</ul>
+</li>
+<li>finish <a href="http://www.guidetojapanese.org/learn/grammar">A Guide to Japanese Grammar - Tae Kim</a>
+<ul>
+<li>did not work on this at all =(</li>
+</ul>
+</li>
+<li>continue <a href="https://www.amazon.com/Remembering-Kanji-Complete-Japanese-Characters/dp/0824835921">Remembering The Kanji 1 - James W. Heisig</a> to reach 2000 kanji
+<ul>
+<li>did not keep up with SRS while on vacation and had to relearn a bunch</li>
+<li>ended up at 1600</li>
+</ul>
+</li>
+<li>read <a href="https://www.goodreads.com/book/show/22200.Count_Zero">Count Zero - William Gibson</a>
+<ul>
+<li>good book</li>
+</ul>
+</li>
+<li>50x situps per day + gym PPL program 6 days per week
+<ul>
+<li>did this; started at end of December</li>
+<li>my apartment&rsquo;s gym sucks, but it&rsquo;s usable</li>
+<li>not fun going to the gym in January; people don&rsquo;t know how to clean up after themselves</li>
+</ul>
+</li>
+<li>try hiking in the frigid Winter once and probably never go outside again
+<ul>
+<li>went once on a nice day</li>
+</ul>
+</li>
+<li>figure out what dark matter is
+<ul>
+<li>i&rsquo;m more confused now</li>
+</ul>
+</li>
+</ul>
+<h2 id="february-2020-action-items">February 2020 Action Items</h2>
+<ul>
+<li>find a place to move to or take another vacation at end of the month</li>
+<li>job hunt</li>
+<li>finish <a href="https://nostarch.com/malwaredatascience">Malware Data Science - Joshua Saxe with Hillary Sanders</a></li>
+<li>finish <a href="http://www.guidetojapanese.org/learn/grammar">A Guide to Japanese Grammar - Tae Kim</a></li>
+<li>continue <a href="https://www.amazon.com/Remembering-Kanji-Complete-Japanese-Characters/dp/0824835921">Remembering The Kanji 1 - James W. Heisig</a> to reach 2000 kanji</li>
+<li>60x situps per day + gym PPL program 6 days per week</li>
+<li>hiking once per week</li>
+<li>figure out how quantum computers work</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Goals for January 2020</title>
+            <link>/posts/2020/01/goals-for-january-2020/</link>
+            <pubDate>Wed, 01 Jan 2020 01:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/01/goals-for-january-2020/</guid>
+            <description>Reviewing December 2019 Action Items  nothing! I&amp;rsquo;m on vacation, WOOO!  hot wine and Mozart    January 2020 Action Items  read Malware Data Science - Joshua Saxe with Hillary Sanders finish A Guide to Japanese Grammar - Tae Kim finish Remembering The Kanji 1 - James W. Heisig to reach 2200 kanji read Count Zero - William Gibson 50x situps per day + gym PPL program 6 days per week try hiking in the frigid Winter once and probably never go outside again figure out what dark matter is  </description>
+            <content type="html"><![CDATA[<h2 id="reviewing-december-2019-action-items">Reviewing December 2019 Action Items</h2>
+<ul>
+<li>nothing! I&rsquo;m on vacation, WOOO!
+<ul>
+<li>hot wine and Mozart</li>
+</ul>
+</li>
+</ul>
+<h2 id="january-2020-action-items">January 2020 Action Items</h2>
+<ul>
+<li>read <a href="https://nostarch.com/malwaredatascience">Malware Data Science - Joshua Saxe with Hillary Sanders</a></li>
+<li>finish <a href="http://www.guidetojapanese.org/learn/grammar">A Guide to Japanese Grammar - Tae Kim</a></li>
+<li>finish <a href="https://www.amazon.com/Remembering-Kanji-Complete-Japanese-Characters/dp/0824835921">Remembering The Kanji 1 - James W. Heisig</a> to reach 2200 kanji</li>
+<li>read <a href="https://www.goodreads.com/book/show/22200.Count_Zero">Count Zero - William Gibson</a></li>
+<li>50x situps per day + gym PPL program 6 days per week</li>
+<li>try hiking in the frigid Winter once and probably never go outside again</li>
+<li>figure out what dark matter is</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Goals for December 2019</title>
+            <link>/posts/2019/12/goals-for-december-2019/</link>
+            <pubDate>Sun, 01 Dec 2019 01:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/12/goals-for-december-2019/</guid>
+            <description>Reviewing November 2019 Action Items  finish Practical Malware Analysis - Michael Sikorski and Andrew Honig  I finished the book, but did skip over some sections that I thought were obsolete I did not finish all of the exercises; some of this is bc the samples were written for XP and my FLARE VM is on 7   continue A Guide to Japanese Grammar - Tae Kim  got to around halfway through the book studying Japanese is fun   continue Remembering The Kanji 1 - James W.</description>
+            <content type="html"><![CDATA[<h2 id="reviewing-november-2019-action-items">Reviewing November 2019 Action Items</h2>
+<ul>
+<li>finish <a href="https://nostarch.com/malware">Practical Malware Analysis - Michael Sikorski and Andrew Honig</a>
+<ul>
+<li>I finished the book, but did skip over some sections that I thought were obsolete</li>
+<li>I did not finish all of the exercises; some of this is bc the samples were written for XP and my FLARE VM is on 7</li>
+</ul>
+</li>
+<li>continue <a href="http://www.guidetojapanese.org/learn/grammar">A Guide to Japanese Grammar - Tae Kim</a>
+<ul>
+<li>got to around halfway through the book</li>
+<li>studying Japanese is fun</li>
+</ul>
+</li>
+<li>continue <a href="https://www.amazon.com/Remembering-Kanji-Complete-Japanese-Characters/dp/0824835921">Remembering The Kanji 1 - James W. Heisig</a> to reach 2000 kanji
+<ul>
+<li>I reached 1400; I think the goal I set was way too high</li>
+</ul>
+</li>
+<li>re-read <a href="https://www.goodreads.com/book/show/888628.Neuromancer">Neuromancer - William Gibson</a>
+<ul>
+<li>good book</li>
+</ul>
+</li>
+<li>40x situps, pushups, squats per day
+<ul>
+<li>this wakes me up; but I don&rsquo;t feel like I&rsquo;m progressing much</li>
+<li>the pushups are hard and need to be spaced out</li>
+</ul>
+</li>
+<li>hiking once per week
+<ul>
+<li>found some new spots that are less crowded than my usuals</li>
+</ul>
+</li>
+<li>starcraft 1hr after work per weekday
+<ul>
+<li>starcraft is fun but I feel guilty for playing it</li>
+</ul>
+</li>
+<li>build a personal website
+<ul>
+<li>I did this and it&rsquo;s a lot of fun to work on, even if nobody reads it</li>
+<li>my organizational skills have improved</li>
+<li>keeping my bookmarks on here is convenient, especially for sharing</li>
+<li>I&rsquo;m a bit lost on what I should write about in blog posts</li>
+</ul>
+</li>
+</ul>
+<h2 id="december-2019-action-items">December 2019 Action Items</h2>
+<ul>
+<li>nothing! I&rsquo;m on vacation, WOOO!</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Goals for November 2019</title>
+            <link>/posts/2019/11/goals-for-november-2019/</link>
+            <pubDate>Fri, 01 Nov 2019 01:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/11/goals-for-november-2019/</guid>
+            <description>This is my first goal tracking post. Initially, I was tracking these in a text file. When I made this site, I moved it over to the resources section, but found that it wouldn&amp;rsquo;t scale well and that posts would be a better organization method. It would also force me to acknowledge my failures rather than editing the month&amp;rsquo;s items.
+Reviewing October 2019 Action Items As November is when I started tracking these, there is nothing to review.</description>
+            <content type="html"><![CDATA[<p>This is my first goal tracking post. Initially, I was tracking these in a text file. When I made this site, I moved it over to the resources section, but found that it wouldn&rsquo;t scale well and that posts would be a better organization method. It would also force me to acknowledge my failures rather than editing the month&rsquo;s items.</p>
+<h2 id="reviewing-october-2019-action-items">Reviewing October 2019 Action Items</h2>
+<p>As November is when I started tracking these, there is nothing to review.</p>
+<h2 id="november-2019-action-items">November 2019 Action Items</h2>
+<ul>
+<li>finish <a href="https://nostarch.com/malware">Practical Malware Analysis - Michael Sikorski and Andrew Honig</a></li>
+<li>continue <a href="http://www.guidetojapanese.org/learn/grammar">A Guide to Japanese Grammar - Tae Kim</a></li>
+<li>continue <a href="https://www.amazon.com/Remembering-Kanji-Complete-Japanese-Characters/dp/0824835921">Remembering The Kanji 1 - James W. Heisig</a> to reach 2000 kanji</li>
+<li>re-read <a href="https://www.goodreads.com/book/show/888628.Neuromancer">Neuromancer - William Gibson</a></li>
+<li>40x situps, pushups, squats per day</li>
+<li>hiking once per week</li>
+<li>starcraft 1hr after work per weekday</li>
+<li>build a personal website</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Goals Methodology</title>
+            <link>/posts/2019/11/goals-methodology/</link>
+            <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/11/goals-methodology/</guid>
+            <description>Not to seem like I&amp;rsquo;m having a midlife crisis at 26 or anything, but I feel like I&amp;rsquo;ve wasted a lot of time doing much of nothing important. There is so much that I would like to learn that I sometimes feel overwhelmed. The following details how I plan to work on climbing that mountain.
+Method I recently started using a system for personal improvement that I found worked for me:</description>
+            <content type="html"><![CDATA[<p>Not to seem like I&rsquo;m having a midlife crisis at 26 or anything, but I feel like I&rsquo;ve wasted a lot of time doing much of nothing important. There is so much that I would like to learn that I sometimes feel overwhelmed. The following details how I plan to work on climbing that mountain.</p>
+<h2 id="method">Method</h2>
+<p>I recently started using a system for personal improvement that I found worked for me:</p>
+<ol>
+<li>List out your interests</li>
+<li>Determine why they interest you</li>
+<li>Define achieveable goals</li>
+<li>Find concrete items that can help you achieve those goals</li>
+<li>Divide those items into monthly milestones</li>
+<li>Plan out time to work on those items</li>
+<li>Set alarms</li>
+<li><a href="https://www.youtube.com/watch?v=ZXsQAXx_ao0">Do it</a></li>
+</ol>
+<p>Step 7 was probably the most important one for me as I&rsquo;m particularly prone to procrastination. The alarms force me to shift my attention from whatever I am doing, to what I should be. I have 10 alarms set to go off every day and a few more scattered throughout the week.</p>
+<p>In the past, I have tried to use rewards at certain milestones as incentives, but I just ended up saying &ldquo;screw it, I&rsquo;m buying that new smash bros game! all my friends are playing it, why don&rsquo;t I get to??&rdquo; and then I stop working at whatever it is I was trying to achieve because I caved in to one temptation. Now, my view is that the act of reaching the goal IS the reward.</p>
+<p>I will be tracking my progress publicly through blog posts. At the start of each month, I will review how well I did on the previous month and lay out the new month&rsquo;s goals.</p>
+<h2 id="interests">Interests</h2>
+<p>For reference, below is a list of primary interests:</p>
+<ul>
+<li>AI / ML</li>
+<li>Agriculture</li>
+<li>Drawing</li>
+<li>Go (board game)</li>
+<li>Hardware</li>
+<li>Hiking</li>
+<li>Language Learning</li>
+<li>Piano</li>
+<li>Reading</li>
+<li>Reverse Engineering</li>
+<li>Security</li>
+<li>Space</li>
+<li>Starcraft</li>
+<li>Tea</li>
+<li>Travel</li>
+</ul>
 ]]></content>
         </item>
         

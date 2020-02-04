@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on Patrick Armengol</title>
+    <link>/tags/security/</link>
+    <description>Recent content in security on Patrick Armengol</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 02 Feb 2020 20:22:02 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Threat Intelligence Notes</title>
+      <link>/posts/2020/02/threat-intelligence-notes/</link>
+      <pubDate>Sun, 02 Feb 2020 20:22:02 +0000</pubDate>
+      
+      <guid>/posts/2020/02/threat-intelligence-notes/</guid>
+      <description>These are my notes on threat intelligence.
+Intelligence Intelligence is high fidelity information that has been analyzed and can be used to influence decision making.
+Cyber Threat Intelligence  (Cyber (Threat (Intelligence)))
+ Threat Intelligence is intelligence pertaining to adversaries.
+Cyber Threat Intelligence is Threat Intelligence pertaining to the cyber domain.
+CTI involves understanding adversary capabilities, motivations, and goals.
+CTI finds usefulness in its application to intrusion detection and incident response.</description>
+    </item>
+    
+  </channel>
+</rss>
