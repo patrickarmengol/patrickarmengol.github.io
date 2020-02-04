@@ -6,10 +6,19 @@
     <description>Recent content in security on Patrick Armengol</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 02 Feb 2020 20:22:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2020 19:10:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Security Blogs</title>
+      <link>/posts/2020/02/security-blogs/</link>
+      <pubDate>Tue, 04 Feb 2020 19:10:00 +0000</pubDate>
+      
+      <guid>/posts/2020/02/security-blogs/</guid>
+      <description>I have compiled a list of security blogs below. For a period of about 3 weeks, I had tried to keep up with these blogs through an RSS feed reader. It was a futile effort and not something I would recommend to the average security person. I ended up spending a majority of my free time reading about criminals doing crime when I would have much rather been learning something new or making something cool.</description>
+    </item>
     
     <item>
       <title>Threat Intelligence Notes</title>

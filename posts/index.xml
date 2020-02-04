@@ -5,8 +5,66 @@
         <description>Recent content in Posts on Patrick Armengol</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC&lt;/a&gt;</copyright>
-        <lastBuildDate>Sun, 02 Feb 2020 20:22:02 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 04 Feb 2020 19:10:00 +0000</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Security Blogs</title>
+            <link>/posts/2020/02/security-blogs/</link>
+            <pubDate>Tue, 04 Feb 2020 19:10:00 +0000</pubDate>
+            
+            <guid>/posts/2020/02/security-blogs/</guid>
+            <description>I have compiled a list of security blogs below. For a period of about 3 weeks, I had tried to keep up with these blogs through an RSS feed reader. It was a futile effort and not something I would recommend to the average security person. I ended up spending a majority of my free time reading about criminals doing crime when I would have much rather been learning something new or making something cool.</description>
+            <content type="html"><![CDATA[<p>I have compiled a list of security blogs below. For a period of about 3 weeks, I had tried to keep up with these blogs through an RSS feed reader. It was a futile effort and not something I would recommend to the average security person. I ended up spending a majority of my free time reading about criminals doing crime when I would have much rather been learning something new or making something cool. That is not to say that the blogs are useless; some of them have fantastic writeups, especially for people doing TI. Podcasts are the alternative that I have turned to and they keep me satiated. My favorites for general news and discussion are <em>Security Now</em> and <em>Risky Business</em>.</p>
+<ul>
+<li><a href="https://blogs.akamai.com/">Akamai</a></li>
+<li><a href="https://www.anomali.com/blog">Anomali</a></li>
+<li><a href="https://www.blackhillsinfosec.com/blog/">Black Hills</a></li>
+<li><a href="https://www.bleepingcomputer.com/">Bleeping Computer</a></li>
+<li><a href="https://www.blueliv.com/cyber-security-and-cyber-threat-intelligence-blog-blueliv/">Blueliv</a></li>
+<li><a href="https://research.checkpoint.com/">CheckPoint Research</a></li>
+<li><a href="https://contagiodump.blogspot.com/">contagio</a></li>
+<li><a href="https://threatvector.cylance.com/en_us/home.html">Cylance ThreatVector</a></li>
+<li><a href="https://danielmiessler.com/blog/">Daniel Miessler</a></li>
+<li><a href="https://www.darkreading.com/">Dark Reading</a></li>
+<li><a href="https://www.fortinet.com/blog/threat-research.html">Fortinet Threat Research</a></li>
+<li><a href="https://fumik0.com/">Fumik0</a></li>
+<li><a href="https://www.grahamcluley.com/">Graham Cluley</a></li>
+<li><a href="https://hshrzd.wordpress.com/">hasherezade&rsquo;s 1001 nights</a></li>
+<li><a href="https://www.intezer.com/blog/">Intezer</a></li>
+<li><a href="https://securelist.com">kaspersky securelist</a></li>
+<li><a href="https://krebsonsecurity.com/">Krebs on Security</a></li>
+<li><a href="https://krabsonsecurity.com/">Krabs on Security</a></li>
+<li><a href="https://malware.dontneedcoffee.com/blog/">Malware don&rsquo;t need coffee</a></li>
+<li><a href="https://blog.malwarebytes.com/">Malwarebytes</a></li>
+<li><a href="https://www.mcafee.com/blogs/mcafee-labs/">McAfee Labs</a></li>
+<li><a href="https://blog.morphisec.com/">Morphisec</a></li>
+<li><a href="https://packetstormsecurity.com/news/">packet storm</a></li>
+<li><a href="https://unit42.paloaltonetworks.com/">paloalto networks unit42</a></li>
+<li><a href="https://info.phishlabs.com/blog">PhishLabs</a></li>
+<li><a href="https://blog.ptsecurity.com/">Positive Technologies</a></li>
+<li><a href="https://blog.radware.com/">radware</a></li>
+<li><a href="https://blog.rapid7.com/">Rapid7</a></li>
+<li><a href="https://www.schneier.com/">Schneier on Security</a></li>
+<li><a href="https://securityaffairs.co/wordpress/">Security Affairs</a></li>
+<li><a href="https://www.sentinelone.com/blog/">SentinelOne</a></li>
+<li><a href="https://nakedsecurity.sophos.com/">Sophos naked security</a></li>
+<li><a href="https://blog.sucuri.net/">sucuri</a></li>
+<li><a href="https://blog.talosintelligence.com/">Talos</a></li>
+<li><a href="https://taosecurity.blogspot.com/">TaoSecurity</a></li>
+<li><a href="https://threatpost.com/">threatpost</a></li>
+<li><a href="https://blog.trendmicro.com/trendlabs-security-intelligence/">TrendLabs Security Intelligence</a></li>
+<li><a href="https://www.troyhunt.com/">Troy Hunt</a></li>
+<li><a href="https://www.trustwave.com/en-us/company/about-us/spiderlabs/">Trustwave SpiderLabs</a></li>
+<li><a href="https://www.volexity.com/blog/">Volexity</a></li>
+<li><a href="https://www.webroot.com/blog/">Webroot</a></li>
+<li><a href="https://www.welivesecurity.com/">welivesecurity</a></li>
+<li><a href="https://blog.yoroi.company/">Yoroi</a></li>
+<li><a href="https://blog.zimperium.com/">Zimperium</a></li>
+<li><a href="https://www.zscaler.com/blogs/research">zscaler research</a></li>
+</ul>
+]]></content>
+        </item>
         
         <item>
             <title>Threat Intelligence Notes</title>
@@ -110,8 +168,8 @@ Direction &gt; Collection &gt; Processing &gt; Analysis &gt; Dissemination &gt; 
 <table>
 <thead>
 <tr>
-<th>item</th>
-<th>description</th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
@@ -158,8 +216,8 @@ Direction &gt; Collection &gt; Processing &gt; Analysis &gt; Dissemination &gt; 
 <table>
 <thead>
 <tr>
-<th>item</th>
-<th>description</th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
@@ -186,8 +244,8 @@ Direction &gt; Collection &gt; Processing &gt; Analysis &gt; Dissemination &gt; 
 <table>
 <thead>
 <tr>
-<th>item</th>
-<th>description</th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>

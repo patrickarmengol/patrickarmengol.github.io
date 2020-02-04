@@ -6,10 +6,19 @@
     <description>Recent content on Patrick Armengol</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 02 Feb 2020 20:22:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2020 19:10:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Security Blogs</title>
+      <link>/posts/2020/02/security-blogs/</link>
+      <pubDate>Tue, 04 Feb 2020 19:10:00 +0000</pubDate>
+      
+      <guid>/posts/2020/02/security-blogs/</guid>
+      <description>I have compiled a list of security blogs below. For a period of about 3 weeks, I had tried to keep up with these blogs through an RSS feed reader. It was a futile effort and not something I would recommend to the average security person. I ended up spending a majority of my free time reading about criminals doing crime when I would have much rather been learning something new or making something cool.</description>
+    </item>
     
     <item>
       <title>Threat Intelligence Notes</title>
@@ -102,15 +111,6 @@ Current/Upcoming Reads  Practical Malware Analysis - Michael Sikorski and Andrew
   Hands-On Machine Learning With Scikit-Learn &amp;amp; TensorFlow - Aurélien Géron
   Book of R - Tilman M. Davies
   Data Visualization with JavaScript - Stephen A.</description>
-    </item>
-    
-    <item>
-      <title>Japanese</title>
-      <link>/japanese/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/japanese/</guid>
-      <description>Communities  r/learnjapanese  Books  A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig  Grammar  Tae Kim&amp;rsquo;s Grammar Guide - learn you some grammar  Kanji  koohii - SRS flashcards and shared stories for RTK  Reading  NHK Easy News - news in easy to understand language; has JLPT labels  Listening  NHK Radio News  Vocabulary  Anki Anki Guide  Dictionary  Jisho  Youtube  Japanese Ammo with Misa 三本塾 日本語の森 Game Grammar Dogen  Tools  Rikaichamp  Lists  awesome-japanese  </description>
     </item>
     
   </channel>
