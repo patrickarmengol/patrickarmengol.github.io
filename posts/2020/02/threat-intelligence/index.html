@@ -10,18 +10,18 @@
     content="These are my notes on threat intelligence.
 Intelligence Intelligence is high fidelity information that has been analyzed and can be used to influence decision making.
 Cyber Threat Intelligence  (Cyber (Threat (Intelligence)))
- Threat Intelligence is intelligence pertaining to adversaries.
+ Threat Intelligence is Intelligence pertaining to adversaries.
 Cyber Threat Intelligence is Threat Intelligence pertaining to the cyber domain.
-CTI involves understanding adversary capabilities, motivations, and goals.
+CTI involves understanding cyber adversary capabilities, motivations, and goals.
 CTI finds usefulness in its application to intrusion detection and incident response." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="/posts/2020/02/threat-intelligence-notes/" />
+<link rel="canonical" href="/posts/2020/02/threat-intelligence/" />
 
 
 <title>
     
-    Threat Intelligence Notes :: Patrick Armengol 
+    Threat Intelligence :: Patrick Armengol 
     
 </title>
 
@@ -45,17 +45,17 @@ CTI finds usefulness in its application to intrusion detection and incident resp
 <link rel="shortcut icon" href="/favicon.ico">
 <meta name="msapplication-TileColor" content="#252627">
 <meta name="theme-color" content="#252627">
-<meta itemprop="name" content="Threat Intelligence Notes">
+<meta itemprop="name" content="Threat Intelligence">
 <meta itemprop="description" content="These are my notes on threat intelligence.
 Intelligence Intelligence is high fidelity information that has been analyzed and can be used to influence decision making.
 Cyber Threat Intelligence  (Cyber (Threat (Intelligence)))
- Threat Intelligence is intelligence pertaining to adversaries.
+ Threat Intelligence is Intelligence pertaining to adversaries.
 Cyber Threat Intelligence is Threat Intelligence pertaining to the cyber domain.
-CTI involves understanding adversary capabilities, motivations, and goals.
+CTI involves understanding cyber adversary capabilities, motivations, and goals.
 CTI finds usefulness in its application to intrusion detection and incident response.">
 <meta itemprop="datePublished" content="2020-02-02T20:22:02&#43;00:00" />
 <meta itemprop="dateModified" content="2020-02-02T20:22:02&#43;00:00" />
-<meta itemprop="wordCount" content="822">
+<meta itemprop="wordCount" content="895">
 <meta itemprop="image" content="/"/>
 
 
@@ -63,13 +63,13 @@ CTI finds usefulness in its application to intrusion detection and incident resp
 <meta itemprop="keywords" content="notes,security," /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/"/>
 
-<meta name="twitter:title" content="Threat Intelligence Notes"/>
+<meta name="twitter:title" content="Threat Intelligence"/>
 <meta name="twitter:description" content="These are my notes on threat intelligence.
 Intelligence Intelligence is high fidelity information that has been analyzed and can be used to influence decision making.
 Cyber Threat Intelligence  (Cyber (Threat (Intelligence)))
- Threat Intelligence is intelligence pertaining to adversaries.
+ Threat Intelligence is Intelligence pertaining to adversaries.
 Cyber Threat Intelligence is Threat Intelligence pertaining to the cyber domain.
-CTI involves understanding adversary capabilities, motivations, and goals.
+CTI involves understanding cyber adversary capabilities, motivations, and goals.
 CTI finds usefulness in its application to intrusion detection and incident response."/>
 
 
@@ -131,7 +131,7 @@ CTI finds usefulness in its application to intrusion detection and incident resp
     <main class="post">
 
         <div class="post-info">
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>4 minutes
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>5 minutes
 
             
 
@@ -139,7 +139,7 @@ CTI finds usefulness in its application to intrusion detection and incident resp
         </div>
 
         <article>
-            <h1 class="post-title"><a href="/posts/2020/02/threat-intelligence-notes/">Threat Intelligence Notes</a></h1>
+            <h1 class="post-title"><a href="/posts/2020/02/threat-intelligence/">Threat Intelligence</a></h1>
 
             
 
@@ -151,9 +151,9 @@ CTI finds usefulness in its application to intrusion detection and incident resp
 <blockquote>
 <p>(Cyber (Threat (Intelligence)))</p>
 </blockquote>
-<p>Threat Intelligence is intelligence pertaining to adversaries.</p>
-<p>Cyber Threat Intelligence is Threat Intelligence pertaining to the cyber domain.</p>
-<p>CTI involves understanding adversary <strong>capabilities</strong>, <strong>motivations</strong>, and <strong>goals</strong>.</p>
+<p><em>Threat Intelligence</em> is <em>Intelligence</em> pertaining to adversaries.</p>
+<p><em>Cyber Threat Intelligence</em> is <em>Threat Intelligence</em> pertaining to the cyber domain.</p>
+<p>CTI involves understanding cyber adversary <strong>capabilities</strong>, <strong>motivations</strong>, and <strong>goals</strong>.</p>
 <p>CTI finds usefulness in its application to intrusion detection and incident response.</p>
 <blockquote>
 <p>I feel like the word <em>cyber</em> is superfluous in the context of the infosec sphere so I&rsquo;m just going to refer to CTI as TI always and forever</p>
@@ -178,36 +178,51 @@ CTI finds usefulness in its application to intrusion detection and incident resp
 </blockquote>
 <p>TI comes usually comes as a product of the data collected in incident response investigations, malware reverse engineering, honeypot interactions, and hacker forums/channels.</p>
 <h2 id="indicators-of-compromise">Indicators of Compromise</h2>
-<p>IOCs are a form of TI. Types of IOCs include:</p>
+<p>IOCs are a form of TI output. Types of IOCs include:</p>
 <ul>
 <li>IP addresses</li>
 <li>domains</li>
 <li>file names</li>
 <li>file hashes</li>
 <li>registry entries</li>
+<li>patterns in network traffic</li>
 </ul>
 <h2 id="intelligence-process-models">Intelligence Process Models</h2>
 <p>Models are dumb, but apparently they can be useful for understanding some concepts.</p>
 <h3 id="ooda">OODA</h3>
-<p><strong>OODA</strong> is a model that was developed by a military strategist, John Boyd, to describe the decision-making process, particularly in reference to combat operations.</p>
-<p>The OODA loop:
-[<strong>O</strong>]bserve &gt; [<strong>O</strong>]rient &gt; [<strong>D</strong>]ecide &gt; [<strong>A</strong>]ct &laquo;</p>
+<p><em>OODA</em> is a model that was developed by a military strategist, John Boyd, to describe the decision-making process, particularly in reference to combat operations.</p>
+<p>The OODA loop:</p>
+<blockquote>
+<p><em>[O]bserve</em> &gt; <em>[O]rient</em> &gt; <em>[D]ecide</em> &gt; <em>[A]ct</em> &laquo;</p>
+</blockquote>
 <p>An entity would have a competitive advantage if it is able to go through this cycle more quickly than its adversary.</p>
 <p>This model can be used to describe the incident response process in how information is gathered and used to take response actions.</p>
-<p>The <strong>Observe</strong> phase refers to the collection of information.</p>
-<p>The <strong>Orient</strong> phase refers to the contextualization of collected information with respect to predispositions, experience, knowledge, and expectations.</p>
-<p>The <strong>Decide</strong> phase refers to the selection of actions that are appropriate in response to the information.</p>
-<p>The <strong>Act</strong> phase refers to the execution of decided upon actions.</p>
+<h4 id="observe">Observe</h4>
+<p>The <em>Observe</em> phase refers to the collection of information.</p>
+<h4 id="orient">Orient</h4>
+<p>The <em>Orient</em> phase refers to the contextualization of collected information with respect to predispositions, experience, knowledge, and expectations.</p>
+<h4 id="decide">Decide</h4>
+<p>The <em>Decide</em> phase refers to the selection of actions that are appropriate in response to the information.</p>
+<h4 id="act">Act</h4>
+<p>The <em>Act</em> phase refers to the execution of decided upon actions.</p>
 <h3 id="intelligence-cycle">Intelligence Cycle</h3>
-<p>The <strong>Intelligence Cycle</strong> is a model that describes the process of processing intelligence. (duh)</p>
-<p>The Intelligence Cycle:
-Direction &gt; Collection &gt; Processing &gt; Analysis &gt; Dissemination &gt; Feedback &laquo;</p>
-<p>The <strong>Direction</strong> phase refers to the determinization of the goal of the intelligence.</p>
-<p>The <strong>Collection</strong> phase refers to the gathering of the necessary information. The information should be sufficiently numerous and it should come from a variety of sources.</p>
-<p>The <strong>Processing</strong> phase refers to the normalization, organization, translation, enrichment, filtering, prioritization, and presentation of the available information.</p>
-<p>The <strong>Analysis</strong> phase refers to the investigation performed on the information by a human. Intelligence is the outcome.</p>
-<p>The <strong>Dissemination</strong> phase refers to the sharing of the produced intelligence.</p>
-<p>The <strong>Feedback</strong> phase refers to the evaluation of the produced intelligence with respect to the goal.</p>
+<p>The <em>Intelligence Cycle</em> is a model that describes the process of processing intelligence. (duh)</p>
+<p>The Intelligence Cycle:</p>
+<blockquote>
+<p><em>Direction</em> &gt; <em>Collection</em> &gt; <em>Processing</em> &gt; <em>Analysis</em> &gt; <em>Dissemination</em> &gt; <em>Feedback</em> &laquo;</p>
+</blockquote>
+<h4 id="direction">Direction</h4>
+<p>The <em>Direction</em> phase refers to the determinization of the goal of the intelligence that will be developed.</p>
+<h4 id="collection">Collection</h4>
+<p>The <em>Collection</em> phase refers to the gathering of the necessary information. The information should be sufficiently numerous and it should come from a variety of sources.</p>
+<h4 id="processing">Processing</h4>
+<p>The <em>Processing</em> phase refers to the normalization, organization, translation, enrichment, filtering, prioritization, and presentation of the available information.</p>
+<h4 id="analysis">Analysis</h4>
+<p>The <em>Analysis</em> phase refers to the investigation performed on the information by a human. Intelligence is the outcome.</p>
+<h4 id="dissemination">Dissemination</h4>
+<p>The <em>Dissemination</em> phase refers to the sharing of the produced intelligence.</p>
+<h4 id="feedback">Feedback</h4>
+<p>The <em>Feedback</em> phase refers to the evaluation of the produced intelligence with respect to the goal.</p>
 <h2 id="evaluating-intelligence">Evaluating Intelligence</h2>
 <p>Some factors that can determine the quality of intelligence include:</p>
 <ul>
@@ -220,15 +235,21 @@ Direction &gt; Collection &gt; Processing &gt; Analysis &gt; Dissemination &gt; 
 <h2 id="levels-of-intelligence">Levels of Intelligence</h2>
 <p>There exist levels of intelligence based on a gradient of abstraction.</p>
 <p><strong>Tactical Intelligence</strong> refers to low-level, volatile intelligence like IOCs.</p>
-<p><strong>Operational Intelligence</strong> refers to mid-level, semi-permanent intelligence like recent APT campaigns.</p>
+<p><strong>Operational Intelligence</strong> refers to mid-level, semi-permanent intelligence like recent exploit/tool releases and APT campaigns.</p>
 <p><strong>Strategic Intelligence</strong> refers to high-level, long lasting intelligence like attacker TTPs and adversary motivations.</p>
+<h2 id="pyramid-of-pain">Pyramid of Pain</h2>
+<p>The <em>Pyramid of Pain</em> model closely resembles the divisions layed out by intelligence levels. It additionally describes how difficult or &lsquo;painful&rsquo; it is for the attackers to succeed when you are able to utilize the indicators effectively.</p>
+<p><img src="/static/threat-intelligence/pyramid_of_pain.png" alt="pyramid_of_pain">
+<em>source: <a href="http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html">http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html</a></em></p>
 <h2 id="confidence">Confidence</h2>
 <p>Confidence levels refer to the level of trust that can be given to intelligence. This can vary based on source and content.</p>
 <p>I don&rsquo;t particularly like the scales used historically for describing confidence levels as they seem to overcomplicate things.</p>
 <p>A simple descriptive &lsquo;Low-&gt;Medium-&gt;High&rsquo; scale works in most cases. If there needs to be more granularity, a numeric &lsquo;0-100&rsquo; scale seems appropriate.</p>
+<h2 id="deliverables">Deliverables</h2>
+<p>todo</p>
 <h2 id="resources">Resources</h2>
 <p><a href="https://github.com/hslatman/awesome-threat-intelligence">awesome-threat-intelligence</a> - a more comprehensive list of resources</p>
-<p>The TI ecosystem seems a bit of a mess. There are a bunch of competing standards. TI sources are usually behind some kind of paywall. There&rsquo;s a whole private industry behind this. Below are some of the resources I&rsquo;ve used or looked into and would like to explore.</p>
+<p>The TI ecosystem seems a bit of a mess. There are a bunch of competing standards. TI sources are often behind some kind of paywall. There&rsquo;s a whole private industry behind this. Below are some of the resources I have used previously, am using, or have looked into and would like to explore further.</p>
 <h3 id="formats">Formats</h3>
 <table>
 <thead>
@@ -343,7 +364,7 @@ Direction &gt; Collection &gt; Processing &gt; Analysis &gt; Dissemination &gt; 
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/notes">notes</a></span><span class="tag"><a href="/tags/security">security</a></span>
                 </p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>822 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>895 Words</p>
 
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-02-02 20:22 &#43;0000</p>
         </div>

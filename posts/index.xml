@@ -67,17 +67,17 @@
         </item>
         
         <item>
-            <title>Threat Intelligence Notes</title>
-            <link>/posts/2020/02/threat-intelligence-notes/</link>
+            <title>Threat Intelligence</title>
+            <link>/posts/2020/02/threat-intelligence/</link>
             <pubDate>Sun, 02 Feb 2020 20:22:02 +0000</pubDate>
             
-            <guid>/posts/2020/02/threat-intelligence-notes/</guid>
+            <guid>/posts/2020/02/threat-intelligence/</guid>
             <description>These are my notes on threat intelligence.
 Intelligence Intelligence is high fidelity information that has been analyzed and can be used to influence decision making.
 Cyber Threat Intelligence  (Cyber (Threat (Intelligence)))
- Threat Intelligence is intelligence pertaining to adversaries.
+ Threat Intelligence is Intelligence pertaining to adversaries.
 Cyber Threat Intelligence is Threat Intelligence pertaining to the cyber domain.
-CTI involves understanding adversary capabilities, motivations, and goals.
+CTI involves understanding cyber adversary capabilities, motivations, and goals.
 CTI finds usefulness in its application to intrusion detection and incident response.</description>
             <content type="html"><![CDATA[<p>These are my notes on threat intelligence.</p>
 <h2 id="intelligence">Intelligence</h2>
@@ -86,9 +86,9 @@ CTI finds usefulness in its application to intrusion detection and incident resp
 <blockquote>
 <p>(Cyber (Threat (Intelligence)))</p>
 </blockquote>
-<p>Threat Intelligence is intelligence pertaining to adversaries.</p>
-<p>Cyber Threat Intelligence is Threat Intelligence pertaining to the cyber domain.</p>
-<p>CTI involves understanding adversary <strong>capabilities</strong>, <strong>motivations</strong>, and <strong>goals</strong>.</p>
+<p><em>Threat Intelligence</em> is <em>Intelligence</em> pertaining to adversaries.</p>
+<p><em>Cyber Threat Intelligence</em> is <em>Threat Intelligence</em> pertaining to the cyber domain.</p>
+<p>CTI involves understanding cyber adversary <strong>capabilities</strong>, <strong>motivations</strong>, and <strong>goals</strong>.</p>
 <p>CTI finds usefulness in its application to intrusion detection and incident response.</p>
 <blockquote>
 <p>I feel like the word <em>cyber</em> is superfluous in the context of the infosec sphere so I&rsquo;m just going to refer to CTI as TI always and forever</p>
@@ -113,36 +113,51 @@ CTI finds usefulness in its application to intrusion detection and incident resp
 </blockquote>
 <p>TI comes usually comes as a product of the data collected in incident response investigations, malware reverse engineering, honeypot interactions, and hacker forums/channels.</p>
 <h2 id="indicators-of-compromise">Indicators of Compromise</h2>
-<p>IOCs are a form of TI. Types of IOCs include:</p>
+<p>IOCs are a form of TI output. Types of IOCs include:</p>
 <ul>
 <li>IP addresses</li>
 <li>domains</li>
 <li>file names</li>
 <li>file hashes</li>
 <li>registry entries</li>
+<li>patterns in network traffic</li>
 </ul>
 <h2 id="intelligence-process-models">Intelligence Process Models</h2>
 <p>Models are dumb, but apparently they can be useful for understanding some concepts.</p>
 <h3 id="ooda">OODA</h3>
-<p><strong>OODA</strong> is a model that was developed by a military strategist, John Boyd, to describe the decision-making process, particularly in reference to combat operations.</p>
-<p>The OODA loop:
-[<strong>O</strong>]bserve &gt; [<strong>O</strong>]rient &gt; [<strong>D</strong>]ecide &gt; [<strong>A</strong>]ct &laquo;</p>
+<p><em>OODA</em> is a model that was developed by a military strategist, John Boyd, to describe the decision-making process, particularly in reference to combat operations.</p>
+<p>The OODA loop:</p>
+<blockquote>
+<p><em>[O]bserve</em> &gt; <em>[O]rient</em> &gt; <em>[D]ecide</em> &gt; <em>[A]ct</em> &laquo;</p>
+</blockquote>
 <p>An entity would have a competitive advantage if it is able to go through this cycle more quickly than its adversary.</p>
 <p>This model can be used to describe the incident response process in how information is gathered and used to take response actions.</p>
-<p>The <strong>Observe</strong> phase refers to the collection of information.</p>
-<p>The <strong>Orient</strong> phase refers to the contextualization of collected information with respect to predispositions, experience, knowledge, and expectations.</p>
-<p>The <strong>Decide</strong> phase refers to the selection of actions that are appropriate in response to the information.</p>
-<p>The <strong>Act</strong> phase refers to the execution of decided upon actions.</p>
+<h4 id="observe">Observe</h4>
+<p>The <em>Observe</em> phase refers to the collection of information.</p>
+<h4 id="orient">Orient</h4>
+<p>The <em>Orient</em> phase refers to the contextualization of collected information with respect to predispositions, experience, knowledge, and expectations.</p>
+<h4 id="decide">Decide</h4>
+<p>The <em>Decide</em> phase refers to the selection of actions that are appropriate in response to the information.</p>
+<h4 id="act">Act</h4>
+<p>The <em>Act</em> phase refers to the execution of decided upon actions.</p>
 <h3 id="intelligence-cycle">Intelligence Cycle</h3>
-<p>The <strong>Intelligence Cycle</strong> is a model that describes the process of processing intelligence. (duh)</p>
-<p>The Intelligence Cycle:
-Direction &gt; Collection &gt; Processing &gt; Analysis &gt; Dissemination &gt; Feedback &laquo;</p>
-<p>The <strong>Direction</strong> phase refers to the determinization of the goal of the intelligence.</p>
-<p>The <strong>Collection</strong> phase refers to the gathering of the necessary information. The information should be sufficiently numerous and it should come from a variety of sources.</p>
-<p>The <strong>Processing</strong> phase refers to the normalization, organization, translation, enrichment, filtering, prioritization, and presentation of the available information.</p>
-<p>The <strong>Analysis</strong> phase refers to the investigation performed on the information by a human. Intelligence is the outcome.</p>
-<p>The <strong>Dissemination</strong> phase refers to the sharing of the produced intelligence.</p>
-<p>The <strong>Feedback</strong> phase refers to the evaluation of the produced intelligence with respect to the goal.</p>
+<p>The <em>Intelligence Cycle</em> is a model that describes the process of processing intelligence. (duh)</p>
+<p>The Intelligence Cycle:</p>
+<blockquote>
+<p><em>Direction</em> &gt; <em>Collection</em> &gt; <em>Processing</em> &gt; <em>Analysis</em> &gt; <em>Dissemination</em> &gt; <em>Feedback</em> &laquo;</p>
+</blockquote>
+<h4 id="direction">Direction</h4>
+<p>The <em>Direction</em> phase refers to the determinization of the goal of the intelligence that will be developed.</p>
+<h4 id="collection">Collection</h4>
+<p>The <em>Collection</em> phase refers to the gathering of the necessary information. The information should be sufficiently numerous and it should come from a variety of sources.</p>
+<h4 id="processing">Processing</h4>
+<p>The <em>Processing</em> phase refers to the normalization, organization, translation, enrichment, filtering, prioritization, and presentation of the available information.</p>
+<h4 id="analysis">Analysis</h4>
+<p>The <em>Analysis</em> phase refers to the investigation performed on the information by a human. Intelligence is the outcome.</p>
+<h4 id="dissemination">Dissemination</h4>
+<p>The <em>Dissemination</em> phase refers to the sharing of the produced intelligence.</p>
+<h4 id="feedback">Feedback</h4>
+<p>The <em>Feedback</em> phase refers to the evaluation of the produced intelligence with respect to the goal.</p>
 <h2 id="evaluating-intelligence">Evaluating Intelligence</h2>
 <p>Some factors that can determine the quality of intelligence include:</p>
 <ul>
@@ -155,15 +170,21 @@ Direction &gt; Collection &gt; Processing &gt; Analysis &gt; Dissemination &gt; 
 <h2 id="levels-of-intelligence">Levels of Intelligence</h2>
 <p>There exist levels of intelligence based on a gradient of abstraction.</p>
 <p><strong>Tactical Intelligence</strong> refers to low-level, volatile intelligence like IOCs.</p>
-<p><strong>Operational Intelligence</strong> refers to mid-level, semi-permanent intelligence like recent APT campaigns.</p>
+<p><strong>Operational Intelligence</strong> refers to mid-level, semi-permanent intelligence like recent exploit/tool releases and APT campaigns.</p>
 <p><strong>Strategic Intelligence</strong> refers to high-level, long lasting intelligence like attacker TTPs and adversary motivations.</p>
+<h2 id="pyramid-of-pain">Pyramid of Pain</h2>
+<p>The <em>Pyramid of Pain</em> model closely resembles the divisions layed out by intelligence levels. It additionally describes how difficult or &lsquo;painful&rsquo; it is for the attackers to succeed when you are able to utilize the indicators effectively.</p>
+<p><img src="/static/threat-intelligence/pyramid_of_pain.png" alt="pyramid_of_pain">
+<em>source: <a href="http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html">http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html</a></em></p>
 <h2 id="confidence">Confidence</h2>
 <p>Confidence levels refer to the level of trust that can be given to intelligence. This can vary based on source and content.</p>
 <p>I don&rsquo;t particularly like the scales used historically for describing confidence levels as they seem to overcomplicate things.</p>
 <p>A simple descriptive &lsquo;Low-&gt;Medium-&gt;High&rsquo; scale works in most cases. If there needs to be more granularity, a numeric &lsquo;0-100&rsquo; scale seems appropriate.</p>
+<h2 id="deliverables">Deliverables</h2>
+<p>todo</p>
 <h2 id="resources">Resources</h2>
 <p><a href="https://github.com/hslatman/awesome-threat-intelligence">awesome-threat-intelligence</a> - a more comprehensive list of resources</p>
-<p>The TI ecosystem seems a bit of a mess. There are a bunch of competing standards. TI sources are usually behind some kind of paywall. There&rsquo;s a whole private industry behind this. Below are some of the resources I&rsquo;ve used or looked into and would like to explore.</p>
+<p>The TI ecosystem seems a bit of a mess. There are a bunch of competing standards. TI sources are often behind some kind of paywall. There&rsquo;s a whole private industry behind this. Below are some of the resources I have used previously, am using, or have looked into and would like to explore further.</p>
 <h3 id="formats">Formats</h3>
 <table>
 <thead>
@@ -329,6 +350,32 @@ Direction &gt; Collection &gt; Processing &gt; Analysis &gt; Dissemination &gt; 
 <li>hiking once per week</li>
 <li>figure out how quantum computers work</li>
 </ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Stripping Malware Sample Entry Points</title>
+            <link>/posts/2020/01/stripping-malware-sample-entry-points/</link>
+            <pubDate>Fri, 31 Jan 2020 23:40:44 +0000</pubDate>
+            
+            <guid>/posts/2020/01/stripping-malware-sample-entry-points/</guid>
+            <description>Backstory While going through Malware Data Science, I noticed that the malware samples included in the book&amp;rsquo;s &amp;lsquo;code and data&amp;rsquo; download had their entry points redacted.
+I&amp;rsquo;m assuming this was done so that live samples wouldn&amp;rsquo;t be hosted directly from the site, or so that people working through the book would be unable to accidently infect themselves.
+I thought it would be a nice exercise to create a tool to do this for a given directory of samples.</description>
+            <content type="html"><![CDATA[<h2 id="backstory">Backstory</h2>
+<p>While going through <a href="https://www.malwaredatascience.com/">Malware Data Science</a>, I noticed that the malware samples included in the book&rsquo;s &lsquo;code and data&rsquo; download had their entry points redacted.</p>
+<p><img src="/static/stripping-malware-sample-entry-points/book_code_download.png" alt="book_code_download">
+<img src="/static/stripping-malware-sample-entry-points/show_ep_value.png" alt="show_ep_value"></p>
+<p>I&rsquo;m assuming this was done so that live samples wouldn&rsquo;t be hosted directly from the site, or so that people working through the book would be unable to accidently infect themselves.</p>
+<p>I thought it would be a nice exercise to create a tool to do this for a given directory of samples.</p>
+<h2 id="project">Project</h2>
+<p>I&rsquo;ve written a short script and put it up on github.
+<a href="https://github.com/patrickarmengol/EPstripper">https://github.com/patrickarmengol/EPstripper</a></p>
+<p>Feed it a file or directory and it will create a copy of each PE file with its entry points replaced.</p>
+<h2 id="example">Example</h2>
+<p><img src="/static/stripping-malware-sample-entry-points/example_before.png" alt="example_before">
+<img src="/static/stripping-malware-sample-entry-points/example_command.png" alt="example_command">
+<img src="/static/stripping-malware-sample-entry-points/example_after.png" alt="example_after"></p>
 ]]></content>
         </item>
         

@@ -33,7 +33,7 @@
   </url>
   
   <url>
-    <loc>/posts/2020/02/threat-intelligence-notes/</loc>
+    <loc>/posts/2020/02/threat-intelligence/</loc>
     <lastmod>2020-02-02T20:22:02+00:00</lastmod>
   </url>
   
@@ -45,6 +45,16 @@
   <url>
     <loc>/posts/2020/02/goals-for-february-2020/</loc>
     <lastmod>2020-02-01T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/project/</loc>
+    <lastmod>2020-01-31T23:40:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020/01/stripping-malware-sample-entry-points/</loc>
+    <lastmod>2020-01-31T23:40:44+00:00</lastmod>
   </url>
   
   <url>

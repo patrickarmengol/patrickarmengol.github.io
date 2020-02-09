@@ -21,17 +21,17 @@
     </item>
     
     <item>
-      <title>Threat Intelligence Notes</title>
-      <link>/posts/2020/02/threat-intelligence-notes/</link>
+      <title>Threat Intelligence</title>
+      <link>/posts/2020/02/threat-intelligence/</link>
       <pubDate>Sun, 02 Feb 2020 20:22:02 +0000</pubDate>
       
-      <guid>/posts/2020/02/threat-intelligence-notes/</guid>
+      <guid>/posts/2020/02/threat-intelligence/</guid>
       <description>These are my notes on threat intelligence.
 Intelligence Intelligence is high fidelity information that has been analyzed and can be used to influence decision making.
 Cyber Threat Intelligence  (Cyber (Threat (Intelligence)))
- Threat Intelligence is intelligence pertaining to adversaries.
+ Threat Intelligence is Intelligence pertaining to adversaries.
 Cyber Threat Intelligence is Threat Intelligence pertaining to the cyber domain.
-CTI involves understanding adversary capabilities, motivations, and goals.
+CTI involves understanding cyber adversary capabilities, motivations, and goals.
 CTI finds usefulness in its application to intrusion detection and incident response.</description>
     </item>
     
@@ -42,6 +42,17 @@ CTI finds usefulness in its application to intrusion detection and incident resp
       
       <guid>/posts/2020/02/goals-for-february-2020/</guid>
       <description>Reviewing January 2019 Action Items  read Malware Data Science - Joshua Saxe with Hillary Sanders  was on pace to finish, but got sidetracked with a project inspired by it   finish A Guide to Japanese Grammar - Tae Kim  did not work on this at all =(   continue Remembering The Kanji 1 - James W. Heisig to reach 2000 kanji  did not keep up with SRS while on vacation and had to relearn a bunch ended up at 1600   read Count Zero - William Gibson  good book   50x situps per day + gym PPL program 6 days per week  did this; started at end of December my apartment&amp;rsquo;s gym sucks, but it&amp;rsquo;s usable not fun going to the gym in January; people don&amp;rsquo;t know how to clean up after themselves   try hiking in the frigid Winter once and probably never go outside again  went once on a nice day   figure out what dark matter is  i&amp;rsquo;m more confused now    February 2020 Action Items  find a place to move to or take another vacation at end of the month job hunt finish Malware Data Science - Joshua Saxe with Hillary Sanders finish A Guide to Japanese Grammar - Tae Kim continue Remembering The Kanji 1 - James W.</description>
+    </item>
+    
+    <item>
+      <title>Stripping Malware Sample Entry Points</title>
+      <link>/posts/2020/01/stripping-malware-sample-entry-points/</link>
+      <pubDate>Fri, 31 Jan 2020 23:40:44 +0000</pubDate>
+      
+      <guid>/posts/2020/01/stripping-malware-sample-entry-points/</guid>
+      <description>Backstory While going through Malware Data Science, I noticed that the malware samples included in the book&amp;rsquo;s &amp;lsquo;code and data&amp;rsquo; download had their entry points redacted.
+I&amp;rsquo;m assuming this was done so that live samples wouldn&amp;rsquo;t be hosted directly from the site, or so that people working through the book would be unable to accidently infect themselves.
+I thought it would be a nice exercise to create a tool to do this for a given directory of samples.</description>
     </item>
     
     <item>
@@ -99,18 +110,6 @@ Method I recently started using a system for personal improvement that I found w
       <guid>/books/</guid>
       <description>This is my reading list. As you will probably be able to tell, I&amp;rsquo;m a shill for no starch press. It&amp;rsquo;s probably the cute art on the covers that got me hooked.
 Current/Upcoming Reads  Practical Malware Analysis - Michael Sikorski and Andrew Honig A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig Neuromancer - William Gibson Count Zero - William Gibson Mona Lisa Overdrive - William Gibson Malware Data Science - Joshua Saxe with Hillary Sanders  Backlog Security  The Hardware Hacker - Andrew “bunnie” Huang Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Serious Cryptography - Jean-Philippe Aumasson Game Hacking - Nick Cano PoC||GTFO - Manul Laphroaig  Novels  Snow Crash - Neal Stephenson Pattern Recognition - William Gibson  Recommendations  Do Androids Dream of Electric Sheep?</description>
-    </item>
-    
-    <item>
-      <title>Data Science</title>
-      <link>/datascience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/datascience/</guid>
-      <description>Courses  A Clear Roadmap for ML/DL - guide on reddit Andrew Ng&amp;rsquo;s ML Course - the best?, but need to google for python versions of code deeplearning.ai&amp;rsquo;s DL Courses - tensorflow eww  Books   Python Data Science Handbook - Jake VanderPlas
-  Hands-On Machine Learning With Scikit-Learn &amp;amp; TensorFlow - Aurélien Géron
-  Book of R - Tilman M. Davies
-  Data Visualization with JavaScript - Stephen A.</description>
     </item>
     
   </channel>
