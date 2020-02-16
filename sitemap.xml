@@ -82,6 +82,10 @@
   </url>
   
   <url>
+    <loc>/blue/</loc>
+  </url>
+  
+  <url>
     <loc>/books/</loc>
   </url>
   
@@ -90,7 +94,7 @@
   </url>
   
   <url>
-    <loc>/datascience/</loc>
+    <loc>/data-science/</loc>
   </url>
   
   <url>
@@ -98,15 +102,11 @@
   </url>
   
   <url>
-    <loc>/malware/</loc>
-  </url>
-  
-  <url>
-    <loc>/pentesting/</loc>
-  </url>
-  
-  <url>
     <loc>/project-ideas/</loc>
+  </url>
+  
+  <url>
+    <loc>/red/</loc>
   </url>
   
   <url>

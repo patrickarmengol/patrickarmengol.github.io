@@ -27,8 +27,8 @@
       
       <guid>/posts/2020/02/threat-intelligence/</guid>
       <description>NOTE: this post is a work in progress
- These are my notes on threat intelligence and incident response. These notes are very general/broad and are meant as a reference for terminology, models, processes, and ideas. I&amp;rsquo;m not particularly happy with the organization of the sections in this post and am thinking of splitting it up.
-Understanding Intelligence Intelligence is high fidelity information that has been analyzed and contextualized, and can be used to influence decision making.</description>
+ These are my notes on threat intelligence and incident response. These notes are very general/broad and are meant as a reference for terminology, models, processes, and ideas. I&amp;rsquo;m not particularly happy with the organization of the sections in this post and am thinking of splitting it up into multiple posts.
+Understanding Intelligence Intelligence has many meanings. In the context of this post, it can be defined as high fidelity information that has been analyzed/contextualized, and can be used to influence decision making.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@ Understanding Intelligence Intelligence is high fidelity information that has be
       <pubDate>Sat, 01 Feb 2020 01:00:00 +0000</pubDate>
       
       <guid>/posts/2020/02/goals-for-february-2020/</guid>
-      <description>Reviewing January 2019 Action Items  read Malware Data Science - Joshua Saxe with Hillary Sanders  was on pace to finish, but got sidetracked with a project inspired by it   finish A Guide to Japanese Grammar - Tae Kim  did not work on this at all =(   continue Remembering The Kanji 1 - James W. Heisig to reach 2000 kanji  did not keep up with SRS while on vacation and had to relearn a bunch ended up at 1600   read Count Zero - William Gibson  good book   50x situps per day + gym PPL program 6 days per week  did this; started at end of December my apartment&amp;rsquo;s gym sucks, but it&amp;rsquo;s usable not fun going to the gym in January; people don&amp;rsquo;t know how to clean up after themselves   try hiking in the frigid Winter once and probably never go outside again  went once on a nice day   figure out what dark matter is  i&amp;rsquo;m more confused now    February 2020 Action Items  find a place to move to or take another vacation at end of the month job hunt finish Malware Data Science - Joshua Saxe with Hillary Sanders finish A Guide to Japanese Grammar - Tae Kim continue Remembering The Kanji 1 - James W.</description>
+      <description>Reviewing January 2019 Action Items  read Malware Data Science - Joshua Saxe with Hillary Sanders  was on pace to finish, but got sidetracked with a project inspired by it   finish A Guide to Japanese Grammar - Tae Kim  did not work on this at all =(   continue Remembering The Kanji 1 - James W. Heisig to reach 2000 kanji  did not keep up with SRS while on vacation and had to relearn a bunch ended up at 1600   read Count Zero - William Gibson  good book   50x situps per day + gym PPL program 6 days per week  did this; started at end of December my apartment&amp;rsquo;s gym sucks, but it&amp;rsquo;s usable not fun going to the gym in January; people don&amp;rsquo;t know how to clean up after themselves   try hiking in the frigid Winter once and probably never go outside again  went once on a nice day   figure out what dark matter is  i&amp;rsquo;m more confused now    February 2020 Action Items  find a place to move to or take another vacation at end of the month job hunt finish Malware Data Science - Joshua Saxe with Hillary Sanders finish A Guide to Japanese Grammar - Tae Kim catch up on kanji reviews 60x situps per day + gym PPL program 6 days per week hiking once per week figure out how quantum computers work  </description>
     </item>
     
     <item>
@@ -99,13 +99,13 @@ Method I recently started using a system for personal improvement that I found w
     </item>
     
     <item>
-      <title>Books</title>
-      <link>/books/</link>
+      <title>Blue</title>
+      <link>/blue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/books/</guid>
-      <description>This is my reading list. As you will probably be able to tell, I&amp;rsquo;m a shill for no starch press. It&amp;rsquo;s probably the cute art on the covers that got me hooked.
-Current/Upcoming Reads  Practical Malware Analysis - Michael Sikorski and Andrew Honig A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig Neuromancer - William Gibson Count Zero - William Gibson Mona Lisa Overdrive - William Gibson Malware Data Science - Joshua Saxe with Hillary Sanders  Backlog Security  The Hardware Hacker - Andrew “bunnie” Huang Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Serious Cryptography - Jean-Philippe Aumasson Game Hacking - Nick Cano PoC||GTFO - Manul Laphroaig  Novels  Snow Crash - Neal Stephenson Pattern Recognition - William Gibson  Recommendations  Do Androids Dream of Electric Sheep?</description>
+      <guid>/blue/</guid>
+      <description>The following is a list of blue team resources that I have collected. It is mostly comprised of reverse engineering and malware analysis stuff as that is what this list started out as and they are the subjects I&amp;rsquo;m most interested in. For most of these resources, I have either used them personally, or have looked into them, validated their quality/functionality, and made sure they were reasonably current.
+Books  Reverse Engineering for Beginners - Dennis Yurichev Practical Reverse Engineering - Bruce Dang, Alexandre Gazet, and Elias Bachaalany Practical Malware Analysis - Michael Sikorski and Andrew Honig The IDA Pro Book - Chris Eagle Malware Data Science - Joshua Saxe with Hillary Sanders Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Malware Analyst&amp;rsquo;s Cookbook - Michael Ligh, Steven Adair, Blake Hartstein, Matthew Richard The Art of Memory Forensics - Michael Hale Ligh, Andrew Case, Jamie Levy, and Aaron Walters Windows Internals - Pavel Yosifovich, Alex Ionescu, Mark Russinovich, and David Solomon Mastering Malware Analysis - Alexey Kleymenov and Amr Thabet Learning Malware Analysis - Monnappa K A  Courses  hasherezade&amp;rsquo;s guide - guide on how to start with malware analysis Malware Unicorn&amp;rsquo;s workshops - Malware Unicorn&amp;rsquo;s courses and CTF writeups Open Security Training - mostly RE courses Lena&amp;rsquo;s Reversing For Newbies - RE course Dr.</description>
     </item>
     
   </channel>

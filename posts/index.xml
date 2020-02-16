@@ -73,14 +73,14 @@
             
             <guid>/posts/2020/02/threat-intelligence/</guid>
             <description>NOTE: this post is a work in progress
- These are my notes on threat intelligence and incident response. These notes are very general/broad and are meant as a reference for terminology, models, processes, and ideas. I&amp;rsquo;m not particularly happy with the organization of the sections in this post and am thinking of splitting it up.
-Understanding Intelligence Intelligence is high fidelity information that has been analyzed and contextualized, and can be used to influence decision making.</description>
+ These are my notes on threat intelligence and incident response. These notes are very general/broad and are meant as a reference for terminology, models, processes, and ideas. I&amp;rsquo;m not particularly happy with the organization of the sections in this post and am thinking of splitting it up into multiple posts.
+Understanding Intelligence Intelligence has many meanings. In the context of this post, it can be defined as high fidelity information that has been analyzed/contextualized, and can be used to influence decision making.</description>
             <content type="html"><![CDATA[<blockquote>
 <p>NOTE: this post is a work in progress</p>
 </blockquote>
-<p>These are my notes on threat intelligence and incident response.  These notes are very general/broad and are meant as a reference for terminology, models, processes, and ideas. I&rsquo;m not particularly happy with the organization of the sections in this post and am thinking of splitting it up.</p>
+<p>These are my notes on threat intelligence and incident response.  These notes are very general/broad and are meant as a reference for terminology, models, processes, and ideas. I&rsquo;m not particularly happy with the organization of the sections in this post and am thinking of splitting it up into multiple posts.</p>
 <h2 id="understanding-intelligence">Understanding Intelligence</h2>
-<p><em>Intelligence</em> is high fidelity information that has been analyzed and contextualized, and can be used to influence decision making.</p>
+<p><em>Intelligence</em> has many meanings. In the context of this post, it can be defined as high fidelity information that has been analyzed/contextualized, and can be used to influence decision making.</p>
 <h3 id="data-vs-information-vs-intelligence">Data vs Information vs Intelligence</h3>
 <p>todo</p>
 <h3 id="cyber-threat-intelligence">Cyber Threat Intelligence</h3>
@@ -144,22 +144,32 @@ Understanding Intelligence Intelligence is high fidelity information that has be
 <li>analyst experience</li>
 </ul>
 <h3 id="threat-attribution">Threat Attribution</h3>
-<p>todo
-find paper by robert m lee
-maybe put this under deliverables</p>
+<ul>
+<li>todo</li>
+<li>find paper by robert m lee</li>
+<li>maybe put this section under deliverables</li>
+</ul>
 <h4 id="adversary-admission">Adversary Admission</h4>
-<p>taking credit for operations run
-israeli generals have done this</p>
+<ul>
+<li>taking credit for operations run</li>
+<li>israeli generals have done this</li>
+</ul>
 <h4 id="leaks">Leaks</h4>
-<p>snowden leaks
-shadowbrokers</p>
+<ul>
+<li>snowden leaks</li>
+<li>shadowbrokers</li>
+</ul>
 <h4 id="direct-access">Direct Access</h4>
-<p>intelligence programs by intelligence agencies</p>
+<ul>
+<li>intelligence programs by intelligence agencies</li>
+</ul>
 <h4 id="intrusion-analysis">Intrusion Analysis</h4>
-<p>defensive counterintelligence
-analyze it and extract knowledge
-over time campaign analysis and activity groups
-over enough understanding over the intentions of the adversary, we get notion of who this might be</p>
+<ul>
+<li>defensive counterintelligence</li>
+<li>analyze it and extract knowledge</li>
+<li>over time campaign analysis and activity groups</li>
+<li>enough understanding over the intentions of the adversary, we get notion of who this might be</li>
+</ul>
 <h3 id="deliverables">Deliverables</h3>
 <p>todo</p>
 <h2 id="models">Models</h2>
@@ -169,7 +179,7 @@ over enough understanding over the intentions of the adversary, we get notion of
 <p>The <em>intelligence cycle</em> is a model that describes the process of intelligence development.</p>
 <p>The Intelligence Cycle:</p>
 <blockquote>
-<p><em>Direction</em> &gt; <em>Collection</em> &gt; <em>Processing</em> &gt; <em>Analysis</em> &gt; <em>Dissemination</em> &gt; <em>Feedback</em> :&laquo;</p>
+<p><em>Direction</em> &gt; <em>Collection</em> &gt; <em>Processing</em> &gt; <em>Analysis</em> &gt; <em>Dissemination</em> &gt; <em>Feedback</em> &laquo;</p>
 </blockquote>
 <h5 id="direction">Direction</h5>
 <p>The <em>direction</em> phase refers to the determinization of the desired goals/objectives/requirements of the intelligence. This usually includes planning to determine the requirements and appropriate actions for the subsequent steps.</p>
@@ -187,7 +197,7 @@ over enough understanding over the intentions of the adversary, we get notion of
 <p><em>OODA</em> is a model that was developed by a military strategist, John Boyd, to describe the decision-making process, particularly in reference to combat operations.</p>
 <p>The OODA loop:</p>
 <blockquote>
-<p><em>[O]bserve</em> &gt; <em>[O]rient</em> &gt; <em>[D]ecide</em> &gt; <em>[A]ct</em> :&laquo;</p>
+<p><em>[O]bserve</em> &gt; <em>[O]rient</em> &gt; <em>[D]ecide</em> &gt; <em>[A]ct</em> &laquo;</p>
 </blockquote>
 <p>An entity would have a competitive advantage if it is able to go through this cycle more quickly than its adversary.</p>
 <p>This model can be used to describe the incident response process in how information is gathered and used to take response actions.</p>
@@ -303,7 +313,7 @@ over enough understanding over the intentions of the adversary, we get notion of
 <p><a href="https://attack.mitre.org/">MITRE ATT&amp;CK Matrix for Enterprise</a></p>
 <h4 id="diamond-model">Diamond Model</h4>
 <p><img src="/img/threat-intelligence/diamond_model.png" alt="diamond_model"></p>
-<p>The diamond model describes the interactions between adversary and victim. The original paper described it as &ldquo;An <em>adversary</em> deploys a <em>capability</em> over some <em>infrastructure</em> againsta a victim.&rdquo; Occurrences of this are called <em>events</em>. Linearly flowing events are grouped into <em>activity threads</em>, which can further be grouped into <em>activity groups</em>.</p>
+<p>The diamond model describes the interactions between adversary and victim. The original paper described it as &ldquo;An <em>adversary</em> deploys a <em>capability</em> over some <em>infrastructure</em> against a <em>victim</em>.&rdquo; Occurrences of this are called <em>events</em>. Linearly flowing events are grouped into <em>activity threads</em>, which can further be grouped into <em>activity groups</em>.</p>
 <h3 id="defense-models">Defense Models</h3>
 <h4 id="active-defense">Active Defense</h4>
 <p>todo</p>
@@ -313,7 +323,7 @@ over enough understanding over the intentions of the adversary, we get notion of
 <em>source: <a href="http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html">http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html</a></em></p>
 <h4 id="incident-response-cycle">Incident Response Cycle</h4>
 <blockquote>
-<p><em>Preperation</em> &gt; <em>Identification</em> &gt; <em>Containment</em> &gt; <em>Eradication</em> &gt; <em>Recovery</em> &gt; <em>Lessons Learned</em> :&laquo;</p>
+<p><em>Preperation</em> &gt; <em>Identification</em> &gt; <em>Containment</em> &gt; <em>Eradication</em> &gt; <em>Recovery</em> &gt; <em>Lessons Learned</em> &laquo;</p>
 </blockquote>
 <p>The incident response cycle model describes the major steps involved in responding to an intrusion.</p>
 <h5 id="preperation">Preperation</h5>
@@ -593,7 +603,7 @@ over enough understanding over the intentions of the adversary, we get notion of
             <pubDate>Sat, 01 Feb 2020 01:00:00 +0000</pubDate>
             
             <guid>/posts/2020/02/goals-for-february-2020/</guid>
-            <description>Reviewing January 2019 Action Items  read Malware Data Science - Joshua Saxe with Hillary Sanders  was on pace to finish, but got sidetracked with a project inspired by it   finish A Guide to Japanese Grammar - Tae Kim  did not work on this at all =(   continue Remembering The Kanji 1 - James W. Heisig to reach 2000 kanji  did not keep up with SRS while on vacation and had to relearn a bunch ended up at 1600   read Count Zero - William Gibson  good book   50x situps per day + gym PPL program 6 days per week  did this; started at end of December my apartment&amp;rsquo;s gym sucks, but it&amp;rsquo;s usable not fun going to the gym in January; people don&amp;rsquo;t know how to clean up after themselves   try hiking in the frigid Winter once and probably never go outside again  went once on a nice day   figure out what dark matter is  i&amp;rsquo;m more confused now    February 2020 Action Items  find a place to move to or take another vacation at end of the month job hunt finish Malware Data Science - Joshua Saxe with Hillary Sanders finish A Guide to Japanese Grammar - Tae Kim continue Remembering The Kanji 1 - James W.</description>
+            <description>Reviewing January 2019 Action Items  read Malware Data Science - Joshua Saxe with Hillary Sanders  was on pace to finish, but got sidetracked with a project inspired by it   finish A Guide to Japanese Grammar - Tae Kim  did not work on this at all =(   continue Remembering The Kanji 1 - James W. Heisig to reach 2000 kanji  did not keep up with SRS while on vacation and had to relearn a bunch ended up at 1600   read Count Zero - William Gibson  good book   50x situps per day + gym PPL program 6 days per week  did this; started at end of December my apartment&amp;rsquo;s gym sucks, but it&amp;rsquo;s usable not fun going to the gym in January; people don&amp;rsquo;t know how to clean up after themselves   try hiking in the frigid Winter once and probably never go outside again  went once on a nice day   figure out what dark matter is  i&amp;rsquo;m more confused now    February 2020 Action Items  find a place to move to or take another vacation at end of the month job hunt finish Malware Data Science - Joshua Saxe with Hillary Sanders finish A Guide to Japanese Grammar - Tae Kim catch up on kanji reviews 60x situps per day + gym PPL program 6 days per week hiking once per week figure out how quantum computers work  </description>
             <content type="html"><![CDATA[<h2 id="reviewing-january-2019-action-items">Reviewing January 2019 Action Items</h2>
 <ul>
 <li>read <a href="https://nostarch.com/malwaredatascience">Malware Data Science - Joshua Saxe with Hillary Sanders</a>
@@ -641,7 +651,7 @@ over enough understanding over the intentions of the adversary, we get notion of
 <li>job hunt</li>
 <li>finish <a href="https://nostarch.com/malwaredatascience">Malware Data Science - Joshua Saxe with Hillary Sanders</a></li>
 <li>finish <a href="http://www.guidetojapanese.org/learn/grammar">A Guide to Japanese Grammar - Tae Kim</a></li>
-<li>continue <a href="https://www.amazon.com/Remembering-Kanji-Complete-Japanese-Characters/dp/0824835921">Remembering The Kanji 1 - James W. Heisig</a> to reach 2000 kanji</li>
+<li>catch up on kanji reviews</li>
 <li>60x situps per day + gym PPL program 6 days per week</li>
 <li>hiking once per week</li>
 <li>figure out how quantum computers work</li>

@@ -18,8 +18,8 @@
       
       <guid>/posts/2020/02/threat-intelligence/</guid>
       <description>NOTE: this post is a work in progress
- These are my notes on threat intelligence and incident response. These notes are very general/broad and are meant as a reference for terminology, models, processes, and ideas. I&amp;rsquo;m not particularly happy with the organization of the sections in this post and am thinking of splitting it up.
-Understanding Intelligence Intelligence is high fidelity information that has been analyzed and contextualized, and can be used to influence decision making.</description>
+ These are my notes on threat intelligence and incident response. These notes are very general/broad and are meant as a reference for terminology, models, processes, and ideas. I&amp;rsquo;m not particularly happy with the organization of the sections in this post and am thinking of splitting it up into multiple posts.
+Understanding Intelligence Intelligence has many meanings. In the context of this post, it can be defined as high fidelity information that has been analyzed/contextualized, and can be used to influence decision making.</description>
     </item>
     
   </channel>
