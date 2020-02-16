@@ -17,13 +17,9 @@
       <pubDate>Sun, 02 Feb 2020 20:22:02 +0000</pubDate>
       
       <guid>/posts/2020/02/threat-intelligence/</guid>
-      <description>These are my notes on threat intelligence.
-Intelligence Intelligence is high fidelity information that has been analyzed and can be used to influence decision making.
-Cyber Threat Intelligence  (Cyber (Threat (Intelligence)))
- Threat Intelligence is Intelligence pertaining to adversaries.
-Cyber Threat Intelligence is Threat Intelligence pertaining to the cyber domain.
-CTI involves understanding cyber adversary capabilities, motivations, and goals.
-CTI finds usefulness in its application to intrusion detection and incident response.</description>
+      <description>NOTE: this post is a work in progress
+ These are my notes on threat intelligence and incident response. These notes are very general/broad and are meant as a reference for terminology, models, processes, and ideas. I&amp;rsquo;m not particularly happy with the organization of the sections in this post and am thinking of splitting it up.
+Understanding Intelligence Intelligence is high fidelity information that has been analyzed and contextualized, and can be used to influence decision making.</description>
     </item>
     
   </channel>

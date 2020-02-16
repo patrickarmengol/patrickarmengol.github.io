@@ -7,13 +7,9 @@
 <meta name="author"
     content="Patrick Armengol ">
 <meta name="description"
-    content="These are my notes on threat intelligence.
-Intelligence Intelligence is high fidelity information that has been analyzed and can be used to influence decision making.
-Cyber Threat Intelligence  (Cyber (Threat (Intelligence)))
- Threat Intelligence is Intelligence pertaining to adversaries.
-Cyber Threat Intelligence is Threat Intelligence pertaining to the cyber domain.
-CTI involves understanding cyber adversary capabilities, motivations, and goals.
-CTI finds usefulness in its application to intrusion detection and incident response." />
+    content="NOTE: this post is a work in progress
+ These are my notes on threat intelligence and incident response. These notes are very general/broad and are meant as a reference for terminology, models, processes, and ideas. I&amp;rsquo;m not particularly happy with the organization of the sections in this post and am thinking of splitting it up.
+Understanding Intelligence Intelligence is high fidelity information that has been analyzed and contextualized, and can be used to influence decision making." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="/posts/2020/02/threat-intelligence/" />
@@ -46,16 +42,12 @@ CTI finds usefulness in its application to intrusion detection and incident resp
 <meta name="msapplication-TileColor" content="#252627">
 <meta name="theme-color" content="#252627">
 <meta itemprop="name" content="Threat Intelligence">
-<meta itemprop="description" content="These are my notes on threat intelligence.
-Intelligence Intelligence is high fidelity information that has been analyzed and can be used to influence decision making.
-Cyber Threat Intelligence  (Cyber (Threat (Intelligence)))
- Threat Intelligence is Intelligence pertaining to adversaries.
-Cyber Threat Intelligence is Threat Intelligence pertaining to the cyber domain.
-CTI involves understanding cyber adversary capabilities, motivations, and goals.
-CTI finds usefulness in its application to intrusion detection and incident response.">
+<meta itemprop="description" content="NOTE: this post is a work in progress
+ These are my notes on threat intelligence and incident response. These notes are very general/broad and are meant as a reference for terminology, models, processes, and ideas. I&rsquo;m not particularly happy with the organization of the sections in this post and am thinking of splitting it up.
+Understanding Intelligence Intelligence is high fidelity information that has been analyzed and contextualized, and can be used to influence decision making.">
 <meta itemprop="datePublished" content="2020-02-02T20:22:02&#43;00:00" />
 <meta itemprop="dateModified" content="2020-02-02T20:22:02&#43;00:00" />
-<meta itemprop="wordCount" content="895">
+<meta itemprop="wordCount" content="2352">
 <meta itemprop="image" content="/"/>
 
 
@@ -64,13 +56,9 @@ CTI finds usefulness in its application to intrusion detection and incident resp
 <meta name="twitter:image" content="/"/>
 
 <meta name="twitter:title" content="Threat Intelligence"/>
-<meta name="twitter:description" content="These are my notes on threat intelligence.
-Intelligence Intelligence is high fidelity information that has been analyzed and can be used to influence decision making.
-Cyber Threat Intelligence  (Cyber (Threat (Intelligence)))
- Threat Intelligence is Intelligence pertaining to adversaries.
-Cyber Threat Intelligence is Threat Intelligence pertaining to the cyber domain.
-CTI involves understanding cyber adversary capabilities, motivations, and goals.
-CTI finds usefulness in its application to intrusion detection and incident response."/>
+<meta name="twitter:description" content="NOTE: this post is a work in progress
+ These are my notes on threat intelligence and incident response. These notes are very general/broad and are meant as a reference for terminology, models, processes, and ideas. I&rsquo;m not particularly happy with the organization of the sections in this post and am thinking of splitting it up.
+Understanding Intelligence Intelligence is high fidelity information that has been analyzed and contextualized, and can be used to influence decision making."/>
 
 
 
@@ -131,7 +119,7 @@ CTI finds usefulness in its application to intrusion detection and incident resp
     <main class="post">
 
         <div class="post-info">
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>5 minutes
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>12 minutes
 
             
 
@@ -140,25 +128,78 @@ CTI finds usefulness in its application to intrusion detection and incident resp
 
         <article>
             <h1 class="post-title"><a href="/posts/2020/02/threat-intelligence/">Threat Intelligence</a></h1>
+                <hr />
+                <aside id="toc">
+                <div class="toc-title">Table of Contents</div>
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#understanding-intelligence">Understanding Intelligence</a>
+      <ul>
+        <li><a href="#data-vs-information-vs-intelligence">Data vs Information vs Intelligence</a></li>
+        <li><a href="#cyber-threat-intelligence">Cyber Threat Intelligence</a></li>
+        <li><a href="#indicators-of-compromise">Indicators of Compromise</a></li>
+        <li><a href="#sources-of-intelligence">Sources of Intelligence</a></li>
+        <li><a href="#levels-of-intelligence">Levels of Intelligence</a></li>
+        <li><a href="#confidence">Confidence</a></li>
+        <li><a href="#evaluating-intelligence">Evaluating Intelligence</a></li>
+        <li><a href="#threat-attribution">Threat Attribution</a></li>
+        <li><a href="#deliverables">Deliverables</a></li>
+      </ul>
+    </li>
+    <li><a href="#models">Models</a>
+      <ul>
+        <li><a href="#intelligence-models">Intelligence Models</a></li>
+        <li><a href="#threat-models">Threat Models</a></li>
+        <li><a href="#defense-models">Defense Models</a></li>
+      </ul>
+    </li>
+    <li><a href="#resources">Resources</a>
+      <ul>
+        <li><a href="#formats--frameworks">Formats / Frameworks</a></li>
+        <li><a href="#platforms">Platforms</a></li>
+        <li><a href="#sources">Sources</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#reading">Reading</a></li>
+        <li><a href="#training">Training</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </aside>
+                <hr />
 
             
 
             <div class="post-content">
-                <p>These are my notes on threat intelligence.</p>
-<h2 id="intelligence">Intelligence</h2>
-<p>Intelligence is high fidelity information that has been analyzed and can be used to influence decision making.</p>
-<h2 id="cyber-threat-intelligence">Cyber Threat Intelligence</h2>
-<blockquote>
-<p>(Cyber (Threat (Intelligence)))</p>
+                <blockquote>
+<p>NOTE: this post is a work in progress</p>
 </blockquote>
+<p>These are my notes on threat intelligence and incident response.  These notes are very general/broad and are meant as a reference for terminology, models, processes, and ideas. I&rsquo;m not particularly happy with the organization of the sections in this post and am thinking of splitting it up.</p>
+<h2 id="understanding-intelligence">Understanding Intelligence</h2>
+<p><em>Intelligence</em> is high fidelity information that has been analyzed and contextualized, and can be used to influence decision making.</p>
+<h3 id="data-vs-information-vs-intelligence">Data vs Information vs Intelligence</h3>
+<p>todo</p>
+<h3 id="cyber-threat-intelligence">Cyber Threat Intelligence</h3>
 <p><em>Threat Intelligence</em> is <em>Intelligence</em> pertaining to adversaries.</p>
 <p><em>Cyber Threat Intelligence</em> is <em>Threat Intelligence</em> pertaining to the cyber domain.</p>
-<p>CTI involves understanding cyber adversary <strong>capabilities</strong>, <strong>motivations</strong>, and <strong>goals</strong>.</p>
-<p>CTI finds usefulness in its application to intrusion detection and incident response.</p>
 <blockquote>
-<p>I feel like the word <em>cyber</em> is superfluous in the context of the infosec sphere so I&rsquo;m just going to refer to CTI as TI always and forever</p>
+<p>I feel like the word <em>cyber</em> is superfluous in the context of the infosec sphere so I&rsquo;m just going to refer to <em>CTI</em> as <em>TI</em>.</p>
 </blockquote>
-<h2 id="sources-of-intelligence">Sources of Intelligence</h2>
+<p>A threat or adversary is an entity that has a combination of <strong>hostile intent</strong>, <strong>capability</strong>, and <strong>opportunity</strong> for attacking. TI largely involves understanding adversary <strong>tactics</strong>, <strong>techniques</strong>, <strong>procedures</strong>, <strong>motivations</strong>, and <strong>goals</strong>.</p>
+<p>TI mostly finds usefulness in its application to intrusion detection/prevention and incident response.</p>
+<h3 id="indicators-of-compromise">Indicators of Compromise</h3>
+<p>When people think of TI, they usually refer to IOCs. IOCs are just a form of threat information. They are not intelligence unless they have been put into context.</p>
+<p>There are many types of IOCs, some of which are:</p>
+<ul>
+<li>IP addresses</li>
+<li>domains</li>
+<li>file names</li>
+<li>file hashes</li>
+<li>registry entries</li>
+<li>patterns in network traffic</li>
+</ul>
+<p>IOCs can be utilized to write countermeasures, build detectors, or scope intrusions.</p>
+<h3 id="sources-of-intelligence">Sources of Intelligence</h3>
 <ul>
 <li><strong>HUMINT</strong> - human intelligence</li>
 <li><strong>SIGINT</strong> - signals intelligence</li>
@@ -176,54 +217,19 @@ CTI finds usefulness in its application to intrusion detection and incident resp
 <blockquote>
 <p>I&rsquo;m not even going to attempt to expand on this jargon. Many of these overlap with each other. They do not matter.</p>
 </blockquote>
-<p>TI comes usually comes as a product of the data collected in incident response investigations, malware reverse engineering, honeypot interactions, and hacker forums/channels.</p>
-<h2 id="indicators-of-compromise">Indicators of Compromise</h2>
-<p>IOCs are a form of TI output. Types of IOCs include:</p>
-<ul>
-<li>IP addresses</li>
-<li>domains</li>
-<li>file names</li>
-<li>file hashes</li>
-<li>registry entries</li>
-<li>patterns in network traffic</li>
-</ul>
-<h2 id="intelligence-process-models">Intelligence Process Models</h2>
-<p>Models are dumb, but apparently they can be useful for understanding some concepts.</p>
-<h3 id="ooda">OODA</h3>
-<p><em>OODA</em> is a model that was developed by a military strategist, John Boyd, to describe the decision-making process, particularly in reference to combat operations.</p>
-<p>The OODA loop:</p>
+<p>TI usually comes as a product of the data collected in incident response investigations, threat hunting, malware reverse engineering, honeypot interactions, and hacker forums/channels.</p>
+<h3 id="levels-of-intelligence">Levels of Intelligence</h3>
+<p>There exist levels of intelligence based on a gradient of abstraction.</p>
+<p><strong>Tactical Intelligence</strong> refers to low-level, volatile intelligence like contextualized IOCs.</p>
+<p><strong>Operational Intelligence</strong> refers to mid-level, semi-permanent intelligence like recent exploit/tool releases and APT campaigns.</p>
+<p><strong>Strategic Intelligence</strong> refers to high-level, long lasting intelligence like attacker TTPs and adversary motivations.</p>
+<h3 id="confidence">Confidence</h3>
+<p>Confidence levels refer to the level of trust that can be given to intelligence. This can vary based on source and content.</p>
 <blockquote>
-<p><em>[O]bserve</em> &gt; <em>[O]rient</em> &gt; <em>[D]ecide</em> &gt; <em>[A]ct</em> &laquo;</p>
+<p>I don&rsquo;t particularly like the scales used historically for describing confidence levels as they seem to overcomplicate things.</p>
 </blockquote>
-<p>An entity would have a competitive advantage if it is able to go through this cycle more quickly than its adversary.</p>
-<p>This model can be used to describe the incident response process in how information is gathered and used to take response actions.</p>
-<h4 id="observe">Observe</h4>
-<p>The <em>Observe</em> phase refers to the collection of information.</p>
-<h4 id="orient">Orient</h4>
-<p>The <em>Orient</em> phase refers to the contextualization of collected information with respect to predispositions, experience, knowledge, and expectations.</p>
-<h4 id="decide">Decide</h4>
-<p>The <em>Decide</em> phase refers to the selection of actions that are appropriate in response to the information.</p>
-<h4 id="act">Act</h4>
-<p>The <em>Act</em> phase refers to the execution of decided upon actions.</p>
-<h3 id="intelligence-cycle">Intelligence Cycle</h3>
-<p>The <em>Intelligence Cycle</em> is a model that describes the process of processing intelligence. (duh)</p>
-<p>The Intelligence Cycle:</p>
-<blockquote>
-<p><em>Direction</em> &gt; <em>Collection</em> &gt; <em>Processing</em> &gt; <em>Analysis</em> &gt; <em>Dissemination</em> &gt; <em>Feedback</em> &laquo;</p>
-</blockquote>
-<h4 id="direction">Direction</h4>
-<p>The <em>Direction</em> phase refers to the determinization of the goal of the intelligence that will be developed.</p>
-<h4 id="collection">Collection</h4>
-<p>The <em>Collection</em> phase refers to the gathering of the necessary information. The information should be sufficiently numerous and it should come from a variety of sources.</p>
-<h4 id="processing">Processing</h4>
-<p>The <em>Processing</em> phase refers to the normalization, organization, translation, enrichment, filtering, prioritization, and presentation of the available information.</p>
-<h4 id="analysis">Analysis</h4>
-<p>The <em>Analysis</em> phase refers to the investigation performed on the information by a human. Intelligence is the outcome.</p>
-<h4 id="dissemination">Dissemination</h4>
-<p>The <em>Dissemination</em> phase refers to the sharing of the produced intelligence.</p>
-<h4 id="feedback">Feedback</h4>
-<p>The <em>Feedback</em> phase refers to the evaluation of the produced intelligence with respect to the goal.</p>
-<h2 id="evaluating-intelligence">Evaluating Intelligence</h2>
+<p>A simple descriptive <strong>Low-Medium-High</strong> scale works in most cases. If there needs to be more granularity, a numeric <strong>0-100</strong> scale seems appropriate.</p>
+<h3 id="evaluating-intelligence">Evaluating Intelligence</h3>
 <p>Some factors that can determine the quality of intelligence include:</p>
 <ul>
 <li>availability of information</li>
@@ -231,26 +237,316 @@ CTI finds usefulness in its application to intrusion detection and incident resp
 <li>collection method</li>
 <li>collection date</li>
 <li>bias</li>
+<li>analyst experience</li>
 </ul>
-<h2 id="levels-of-intelligence">Levels of Intelligence</h2>
-<p>There exist levels of intelligence based on a gradient of abstraction.</p>
-<p><strong>Tactical Intelligence</strong> refers to low-level, volatile intelligence like IOCs.</p>
-<p><strong>Operational Intelligence</strong> refers to mid-level, semi-permanent intelligence like recent exploit/tool releases and APT campaigns.</p>
-<p><strong>Strategic Intelligence</strong> refers to high-level, long lasting intelligence like attacker TTPs and adversary motivations.</p>
-<h2 id="pyramid-of-pain">Pyramid of Pain</h2>
-<p>The <em>Pyramid of Pain</em> model closely resembles the divisions layed out by intelligence levels. It additionally describes how difficult or &lsquo;painful&rsquo; it is for the attackers to succeed when you are able to utilize the indicators effectively.</p>
+<h3 id="threat-attribution">Threat Attribution</h3>
+<p>todo
+find paper by robert m lee
+maybe put this under deliverables</p>
+<h4 id="adversary-admission">Adversary Admission</h4>
+<p>taking credit for operations run
+israeli generals have done this</p>
+<h4 id="leaks">Leaks</h4>
+<p>snowden leaks
+shadowbrokers</p>
+<h4 id="direct-access">Direct Access</h4>
+<p>intelligence programs by intelligence agencies</p>
+<h4 id="intrusion-analysis">Intrusion Analysis</h4>
+<p>defensive counterintelligence
+analyze it and extract knowledge
+over time campaign analysis and activity groups
+over enough understanding over the intentions of the adversary, we get notion of who this might be</p>
+<h3 id="deliverables">Deliverables</h3>
+<p>todo</p>
+<h2 id="models">Models</h2>
+<p>Models are dumb, but they provide any easy method for thinking about systems. For most of these models, certain items can be added, omitted, combined, or placed in a different order so that they may fit different situations.</p>
+<h3 id="intelligence-models">Intelligence Models</h3>
+<h4 id="intelligence-cycle">Intelligence Cycle</h4>
+<p>The <em>intelligence cycle</em> is a model that describes the process of intelligence development.</p>
+<p>The Intelligence Cycle:</p>
+<blockquote>
+<p><em>Direction</em> &gt; <em>Collection</em> &gt; <em>Processing</em> &gt; <em>Analysis</em> &gt; <em>Dissemination</em> &gt; <em>Feedback</em> :&laquo;</p>
+</blockquote>
+<h5 id="direction">Direction</h5>
+<p>The <em>direction</em> phase refers to the determinization of the desired goals/objectives/requirements of the intelligence. This usually includes planning to determine the requirements and appropriate actions for the subsequent steps.</p>
+<h5 id="collection">Collection</h5>
+<p>The <em>collection</em> phase refers to the gathering of the necessary information. The information should be sufficiently numerous and it should come from a variety of sources.</p>
+<h5 id="processing">Processing</h5>
+<p>The <em>processing</em> phase refers to the normalization, organization, translation, enrichment, filtering, prioritization, and presentation of the available information.</p>
+<h5 id="analysis">Analysis</h5>
+<p>The <em>analysis</em> phase refers to the investigation performed on the information by a human. Intelligence is the outcome.</p>
+<h5 id="dissemination">Dissemination</h5>
+<p>The <em>dissemination</em> phase refers to the sharing of the produced intelligence.</p>
+<h5 id="feedback">Feedback</h5>
+<p>The <em>feedback</em> phase refers to the evaluation of the produced intelligence with respect to the goal.</p>
+<h4 id="ooda">OODA</h4>
+<p><em>OODA</em> is a model that was developed by a military strategist, John Boyd, to describe the decision-making process, particularly in reference to combat operations.</p>
+<p>The OODA loop:</p>
+<blockquote>
+<p><em>[O]bserve</em> &gt; <em>[O]rient</em> &gt; <em>[D]ecide</em> &gt; <em>[A]ct</em> :&laquo;</p>
+</blockquote>
+<p>An entity would have a competitive advantage if it is able to go through this cycle more quickly than its adversary.</p>
+<p>This model can be used to describe the incident response process in how information is gathered and used to take response actions.</p>
+<h5 id="observe">Observe</h5>
+<p>The <em>observe</em> phase refers to the collection of information.</p>
+<h5 id="orient">Orient</h5>
+<p>The <em>orient</em> phase refers to the contextualization of collected information with respect to predispositions, experience, knowledge, and expectations.</p>
+<h5 id="decide">Decide</h5>
+<p>The <em>decide</em> phase refers to the selection of actions that are appropriate in response to the information.</p>
+<h5 id="act">Act</h5>
+<p>The <em>act</em> phase refers to the execution of decided upon actions.</p>
+<h3 id="threat-models">Threat Models</h3>
+<h4 id="kill-chain">Kill Chain</h4>
+<blockquote>
+<p><em>Targeting</em> &gt; <em>Reconnaissance</em> &gt; <em>Weaponization</em> &gt; <em>Delivery</em> &gt; <em>Exploitation</em> &gt; <em>Installation</em> &gt; <em>Command and Control</em> &gt; <em>Actions on Objective</em></p>
+</blockquote>
+<p>The kill chain model details the steps taken by an adversary in an intrusion. Lockheed Martin researchers are credited with formalizing the concept. The kill chain model has become ubiquitous in the infosec space. It can go by other names like &ldquo;Unified Kill Chain&rdquo;, &ldquo;Cyber Kill Chain&rdquo;, and &ldquo;Intrusion Kill Chain&rdquo;.</p>
+<h5 id="targeting">Targeting</h5>
+<p>The <em>targeting</em> phase is not included in the original kill chain model. It refers to the adversary&rsquo;s decision on who they will attack and what their objectives/goals are. This largely involves some type of motivation that can come from external sponsors, government agencies, personal vendettas, or greed.</p>
+<h5 id="reconnaissance">Reconnaissance</h5>
+<p>In the <em>reconnaissance</em> phase, the adversary tries to collect information about their target in order to get a better understanding of the environment. This may involve:</p>
+<ul>
+<li>browsing company websites</li>
+<li>finding employee organizational charts</li>
+<li>looking at employee social media profiles</li>
+<li>portscanning</li>
+<li>fingerprinting</li>
+<li>looking up domain info</li>
+<li>subdomain enumeration</li>
+</ul>
+<h5 id="weaponization">Weaponization</h5>
+<p>In the <em>weaponization</em> phase, the adversary crafts the attack. This may involve:</p>
+<ul>
+<li>discovering a new vulnerability or using one that has been disclosed but may not have yet been patched</li>
+<li>finding a vulnerable system in the target environment</li>
+<li>developing an exploit for that vulnerability</li>
+<li>attaching a payload to the exploit</li>
+<li>testing the attack</li>
+<li>taking measures to avoid detectibility</li>
+</ul>
+<h5 id="delivery">Delivery</h5>
+<p>In the <em>delivery</em> phase, the adversary attempts to deliver the payload to the victim. This may involve:</p>
+<ul>
+<li>phishing</li>
+<li>public application/service exploits</li>
+<li>brute forcing</li>
+<li>social engineering</li>
+<li>physical intrusion</li>
+<li>removable media dropping</li>
+<li>watering hole attack</li>
+</ul>
+<h5 id="exploitation">Exploitation</h5>
+<p>In the <em>exploitation</em> phase, the adversary compromises the targetted system by gaining the capability to execute. This may involve:</p>
+<ul>
+<li>commandline</li>
+<li>powershell</li>
+<li>WMI</li>
+<li>process launching</li>
+<li>web service commands</li>
+<li>database commands</li>
+<li>other scripting capabilities</li>
+</ul>
+<h5 id="installation">Installation</h5>
+<p>In the <em>installation</em> phase, the adversary sets up persistence. These actions may continue for the duration of the intrusion as setting up multiple forms of persistence on multiple systems is desireable. This may involve:</p>
+<ul>
+<li>creating startup entries</li>
+<li>service creation</li>
+<li>scheduled task creation</li>
+<li>DLL hijacking</li>
+<li>setting up a rootkit/bootkit</li>
+<li>RAT installation</li>
+<li>spreading to other hosts</li>
+<li>credential compromise</li>
+</ul>
+<h5 id="command-and-control">Command and Control</h5>
+<p>In the <em>command and control</em> phase (aka C&amp;C or C2), the adversary communicates with the compromised systems in order to send commands and receive information. This may involve:</p>
+<ul>
+<li>RATs</li>
+<li>proxies/TOR</li>
+<li>domains using DGA</li>
+<li>encoding/obfuscation</li>
+</ul>
+<h5 id="actions-on-objectives">Actions on Objectives</h5>
+<p>Finally, in <em>actions on objective</em> phase, the adversary attempts to achieve their initial goal. This may involve:</p>
+<ul>
+<li>defacement</li>
+<li>denial of service</li>
+<li>system destruction</li>
+<li>data wiping/encryption</li>
+<li>resource hijacking</li>
+<li>data exfiltration</li>
+<li>data manipulation</li>
+<li>surveillance</li>
+</ul>
+<h4 id="attck">ATT&amp;CK</h4>
+<p>MITRE&rsquo;s ATT&amp;CK is a knowledge base of adversary tactics and techniques. Like the kill chain model, the ATT&amp;CK framework is useful for threat modeling. An advantage it is able to provide is a more granular view into how each of the adversary&rsquo;s actions may be performed. Recently, many security products/vendors have been moving towards this model for classification/labeling.</p>
+<p>The ATT&amp;CK framework is represented in a matrix of tactics and techniques. Some techniques have more than one potential use and fit under multiple tactics.</p>
+<p>In its current state, ATT&amp;CK lists the following as adversary tactics:</p>
+<ul>
+<li>Initial Access</li>
+<li>Execution</li>
+<li>Persistence</li>
+<li>Privelege Escalation</li>
+<li>Defense Evasion</li>
+<li>Credential Access</li>
+<li>Discovery</li>
+<li>Lateral Movement</li>
+<li>Collection</li>
+<li>Command and Control</li>
+<li>Exfiltration</li>
+<li>Impact</li>
+</ul>
+<p><a href="https://attack.mitre.org/">MITRE ATT&amp;CK Matrix for Enterprise</a></p>
+<h4 id="diamond-model">Diamond Model</h4>
+<p><img src="/img/threat-intelligence/diamond_model.png" alt="diamond_model"></p>
+<p>The diamond model describes the interactions between adversary and victim. The original paper described it as &ldquo;An <em>adversary</em> deploys a <em>capability</em> over some <em>infrastructure</em> againsta a victim.&rdquo; Occurrences of this are called <em>events</em>. Linearly flowing events are grouped into <em>activity threads</em>, which can further be grouped into <em>activity groups</em>.</p>
+<h3 id="defense-models">Defense Models</h3>
+<h4 id="active-defense">Active Defense</h4>
+<p>todo</p>
+<h4 id="pyramid-of-pain">Pyramid of Pain</h4>
+<p>The <em>Pyramid of Pain</em> model describes how difficult or &lsquo;painful&rsquo; it is for the adversary to succeed when you are able to utilize intelligence-produced indicators effectively.</p>
 <p><img src="/img/threat-intelligence/pyramid_of_pain.png" alt="pyramid_of_pain">
 <em>source: <a href="http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html">http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html</a></em></p>
-<h2 id="confidence">Confidence</h2>
-<p>Confidence levels refer to the level of trust that can be given to intelligence. This can vary based on source and content.</p>
-<p>I don&rsquo;t particularly like the scales used historically for describing confidence levels as they seem to overcomplicate things.</p>
-<p>A simple descriptive &lsquo;Low-&gt;Medium-&gt;High&rsquo; scale works in most cases. If there needs to be more granularity, a numeric &lsquo;0-100&rsquo; scale seems appropriate.</p>
-<h2 id="deliverables">Deliverables</h2>
+<h4 id="incident-response-cycle">Incident Response Cycle</h4>
+<blockquote>
+<p><em>Preperation</em> &gt; <em>Identification</em> &gt; <em>Containment</em> &gt; <em>Eradication</em> &gt; <em>Recovery</em> &gt; <em>Lessons Learned</em> :&laquo;</p>
+</blockquote>
+<p>The incident response cycle model describes the major steps involved in responding to an intrusion.</p>
+<h5 id="preperation">Preperation</h5>
+<p>The <em>preperation</em> phase occurs prior to the attack. It refers to the state of the environment with respect to it&rsquo;s ability to detect, prevent, and respond to incidents. The responsibility here is on system administration, network engineering, and security engineering.</p>
+<p>This may involve:</p>
+<ul>
+<li>POCs
+<ul>
+<li>team members</li>
+<li>stakeholders</li>
+<li>contact information</li>
+<li>escalation methods</li>
+</ul>
+</li>
+<li>environment baselining
+<ul>
+<li>network diagrams</li>
+<li>critical hosts</li>
+<li>priveleged users</li>
+<li>firmware/software version info</li>
+</ul>
+</li>
+<li>tracking and documentation
+<ul>
+<li>communication platform</li>
+<li>war room</li>
+<li>task delegation</li>
+<li>secure forensics collection</li>
+<li>spreadsheet of doom</li>
+</ul>
+</li>
+<li>telemetry
+<ul>
+<li>fw logs</li>
+<li>ids/ips logs</li>
+<li>proxy logs</li>
+<li>AV</li>
+<li>windows events</li>
+<li>SIEM platforms</li>
+<li>EDR platforms</li>
+<li>forensics agents</li>
+</ul>
+</li>
+<li>hardening
+<ul>
+<li>network intrusion prevention</li>
+<li>host intrusion prevention</li>
+<li>VPNs</li>
+<li>strong authentication</li>
+<li>patching infrastructure</li>
+<li>best practices</li>
+<li>external security assessments</li>
+</ul>
+</li>
+</ul>
+<h5 id="identification">Identification</h5>
+<p>The <em>identification</em> phase refers to the detection, scoping, and analysis of attacker activity that impacts the environment.</p>
+<p>This may involve:</p>
+<ul>
+<li>discovery
+<ul>
+<li>alert from security device/software</li>
+<li>notification from government entity</li>
+<li>threat hunting</li>
+<li>loss of service</li>
+<li>public disclosure</li>
+</ul>
+</li>
+<li>analysis
+<ul>
+<li>alert review</li>
+<li>IOC verification</li>
+<li>correlation</li>
+<li>research</li>
+<li>scoping</li>
+<li>tracking lateral movement</li>
+<li>IIV discovery</li>
+<li>malware reversing</li>
+</ul>
+</li>
+</ul>
+<h5 id="containment">Containment</h5>
+<p>The <em>containment</em> phase is apparently a very contentious topic.</p>
+<p>Some say the that the phase involves taking action to stopping the attacker in the short term while an eradication and remediation plan is being prepared. Others say that the phase should be limited to observing attacker activities via techniques like hyperlogging.</p>
+<p>While the former approach limits potential damage from commodity threats, the latter approach opens up the capability to track sophisticated adversaries that may easily be tipped off. The latter approach also allows for the development of intelligence.</p>
+<p>Some even opt to skip this step entirely and head straight to eradication. This is the whack-a-mole approach that is spurred by management&rsquo;s fear of data loss. This kind of reaction may also skimp on proper scoping, leading to remediation actions that tip off the attacker, and resulting in exfiltration of whatever the attacker does have before they are locked out.</p>
+<p>This may involve:</p>
+<ul>
+<li>isolating a host</li>
+<li>isolating a network</li>
+<li>blocking malicious IPs/domains/URLs</li>
+<li>disabling or limiting priviledges for a compromised account</li>
+<li>disabling exploited services</li>
+</ul>
+<h5 id="eradication">Eradication</h5>
+<p>The <em>eradication</em> phase involves executing a strategy to keep an attacker out for good. It is also known as the remediation phase. This strategy should be planned out during the containment phase and should address everything that was impacted.</p>
+<p>This may involve:</p>
+<ul>
+<li>removing malware files</li>
+<li>removing additional utilities used by attacker</li>
+<li>mitigate vulnerabilities</li>
+<li>resetting passwords on affected accounts</li>
+<li>reissuing tokens</li>
+<li>recreating certificates</li>
+<li>reimaging or restoring from backup</li>
+</ul>
+<h5 id="recovery">Recovery</h5>
+<p>The <em>recovery</em> phase involves bringing the environment back to a working state. This phase largely involves cooperation cooperation system owners and engineers.</p>
+<p>This may involve:</p>
+<ul>
+<li>reverting modifications made by attacker</li>
+<li>returning operation to affected systems</li>
+<li>confirmation of normalcy</li>
+</ul>
+<h5 id="lessons-learned">Lessons Learned</h5>
+<p>The <em>lessons learned</em> phase involves looking back at and evaluating how the incident was handled.</p>
+<p>This may involve asking:</p>
+<ul>
+<li>what happened?</li>
+<li>could it have been avoided?</li>
+<li>what went well?</li>
+<li>what did not go well?</li>
+<li>what could be done to improve handling of future incidents?</li>
+<li>what telemetry sources could be added to help in investigations?</li>
+<li>what countermeasures can be put in place?</li>
+<li>are there any potential improvements to the containment measures?</li>
+<li>are there any potential improvements to the eradication phase?</li>
+<li>was communication effective for recovery?</li>
+<li>how could downtime be minimized?</li>
+<li>are there any intelligence outputs?</li>
+</ul>
+<h4 id="f3ead">F3EAD</h4>
 <p>todo</p>
 <h2 id="resources">Resources</h2>
 <p><a href="https://github.com/hslatman/awesome-threat-intelligence">awesome-threat-intelligence</a> - a more comprehensive list of resources</p>
-<p>The TI ecosystem seems a bit of a mess. There are a bunch of competing standards. TI sources are often behind some kind of paywall. There&rsquo;s a whole private industry behind this. Below are some of the resources I have used previously, am using, or have looked into and would like to explore further.</p>
-<h3 id="formats">Formats</h3>
+<p>The TI ecosystem seems a bit of a mess. There are a bunch of competing standards. TI sources are often behind some kind of paywall. There&rsquo;s a whole private industry behind this. Below are some of the resources that I have used previously, am currently using, or have looked into and would like to explore further.</p>
+<h3 id="formats--frameworks">Formats / Frameworks</h3>
 <table>
 <thead>
 <tr>
@@ -287,16 +583,11 @@ CTI finds usefulness in its application to intrusion detection and incident resp
 <td><a href="https://www.misp-project.org/datamodels/#misp-core-format">MISP Core Format</a></td>
 <td>MISP standard json format for TI</td>
 </tr>
-</tbody>
-</table>
-<h3 id="sources">Sources</h3>
-<table>
-<thead>
 <tr>
-<th></th>
-<th></th>
+<td><a href="https://attack.mitre.org/">MITRE ATT&amp;CK</a></td>
+<td>knowledge base and framework for mapping attacker TTPs</td>
 </tr>
-</thead>
+</tbody>
 </table>
 <h3 id="platforms">Platforms</h3>
 <table>
@@ -316,6 +607,15 @@ CTI finds usefulness in its application to intrusion detection and incident resp
 <td>open source TI organization platform</td>
 </tr>
 </tbody>
+</table>
+<h3 id="sources">Sources</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
 </table>
 <h3 id="tools">Tools</h3>
 <table>
@@ -337,7 +637,7 @@ CTI finds usefulness in its application to intrusion detection and incident resp
 <tbody>
 <tr>
 <td><a href="https://www.amazon.com/_/dp/1491934948">Intelligence-Driven Incident Response</a></td>
-<td>details the role of TI in IR</td>
+<td>details the role of TI in IR and elaborates on many models</td>
 </tr>
 <tr>
 <td><a href="https://en.m.wikipedia.org/wiki/The_Cuckoo%27s_Egg">The Cuckoo&rsquo;s Egg - Clifford Stoll</a></td>
@@ -350,6 +650,33 @@ CTI finds usefulness in its application to intrusion detection and incident resp
 <tr>
 <td><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/311572/20110830_jdp2_00_ed3_with_change1.pdf">Joing Doctorine Publication 2-00 - UK Gov</a></td>
 <td>military document detailing intelligence</td>
+</tr>
+<tr>
+<td><a href="https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf">Intelligence-Driven Computer Network Defence Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains</a></td>
+<td>paper by Lockheed Martin detailing the killchain model</td>
+</tr>
+<tr>
+<td><a href="https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final">NIST SP 800-61 Rev. 2 - Computer Incident Handling Guide</a></td>
+<td>IR guidelines published by NIST</td>
+</tr>
+</tbody>
+</table>
+<h3 id="training">Training</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.sans.org/course/cyber-threat-intelligence">SANS FOR578</a></td>
+<td>training course for the GCTI certification</td>
+</tr>
+<tr>
+<td><a href="https://www.sans.org/course/advanced-incident-response-threat-hunting-training">SANS FOR508</a></td>
+<td>training course for the GCFA certification</td>
 </tr>
 </tbody>
 </table>
@@ -364,7 +691,7 @@ CTI finds usefulness in its application to intrusion detection and incident resp
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/notes">notes</a></span><span class="tag"><a href="/tags/security">security</a></span>
                 </p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>895 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>2352 Words</p>
 
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-02-02 20:22 &#43;0000</p>
         </div>
