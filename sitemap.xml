@@ -3,81 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-02-04T19:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
-    <lastmod>2020-02-04T19:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/security/</loc>
-    <lastmod>2020-02-04T19:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/2020/02/security-blogs/</loc>
-    <lastmod>2020-02-04T19:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-02-04T19:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/notes/</loc>
-    <lastmod>2020-02-02T20:22:02+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/2020/02/threat-intelligence/</loc>
-    <lastmod>2020-02-02T20:22:02+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/goals/</loc>
-    <lastmod>2020-02-01T01:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/2020/02/goals-for-february-2020/</loc>
-    <lastmod>2020-02-01T01:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/project/</loc>
-    <lastmod>2020-01-31T23:40:44+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/2020/01/stripping-malware-sample-entry-points/</loc>
-    <lastmod>2020-01-31T23:40:44+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/2020/01/goals-for-january-2020/</loc>
-    <lastmod>2020-01-01T01:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/2019/12/goals-for-december-2019/</loc>
-    <lastmod>2019-12-01T01:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/2019/11/goals-for-november-2019/</loc>
-    <lastmod>2019-11-01T01:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/2019/11/goals-methodology/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/about/</loc>
   </url>
   
@@ -102,7 +27,7 @@
   </url>
   
   <url>
-    <loc>/project-ideas/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
@@ -114,7 +39,7 @@
   </url>
   
   <url>
-    <loc>/starcraft/</loc>
+    <loc>/tags/</loc>
   </url>
   
   <url>

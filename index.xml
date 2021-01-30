@@ -5,97 +5,16 @@
     <link>/</link>
     <description>Recent content on Patrick Armengol</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 04 Feb 2020 19:10:00 +0000</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Security Blogs</title>
-      <link>/posts/2020/02/security-blogs/</link>
-      <pubDate>Tue, 04 Feb 2020 19:10:00 +0000</pubDate>
-      
-      <guid>/posts/2020/02/security-blogs/</guid>
-      <description>I have compiled a list of security blogs below. For a period of about 3 weeks, I had tried to keep up with these blogs through an RSS feed reader. It was a futile effort and not something I would recommend to the average security person. I ended up spending a majority of my free time reading about criminals doing crime when I would have much rather been learning something new or making something cool.</description>
-    </item>
-    
-    <item>
-      <title>Threat Intelligence</title>
-      <link>/posts/2020/02/threat-intelligence/</link>
-      <pubDate>Sun, 02 Feb 2020 20:22:02 +0000</pubDate>
-      
-      <guid>/posts/2020/02/threat-intelligence/</guid>
-      <description>NOTE: this post is a work in progress
- These are my notes on threat intelligence and incident response. These notes are very general/broad and are meant as a reference for terminology, models, processes, and ideas. I&amp;rsquo;m not particularly happy with the organization of the sections in this post and am thinking of splitting it up into multiple posts.
-Understanding Intelligence Intelligence has many meanings. In the context of this post, it can be defined as high fidelity information that has been analyzed/contextualized, and can be used to influence decision making.</description>
-    </item>
-    
-    <item>
-      <title>Goals for February 2020</title>
-      <link>/posts/2020/02/goals-for-february-2020/</link>
-      <pubDate>Sat, 01 Feb 2020 01:00:00 +0000</pubDate>
-      
-      <guid>/posts/2020/02/goals-for-february-2020/</guid>
-      <description>Reviewing January 2019 Action Items  read Malware Data Science - Joshua Saxe with Hillary Sanders  was on pace to finish, but got sidetracked with a project inspired by it   finish A Guide to Japanese Grammar - Tae Kim  did not work on this at all =(   continue Remembering The Kanji 1 - James W. Heisig to reach 2000 kanji  did not keep up with SRS while on vacation and had to relearn a bunch ended up at 1600   read Count Zero - William Gibson  good book   50x situps per day + gym PPL program 6 days per week  did this; started at end of December my apartment&amp;rsquo;s gym sucks, but it&amp;rsquo;s usable not fun going to the gym in January; people don&amp;rsquo;t know how to clean up after themselves   try hiking in the frigid Winter once and probably never go outside again  went once on a nice day   figure out what dark matter is  i&amp;rsquo;m more confused now    February 2020 Action Items  find a place to move to or take another vacation at end of the month job hunt finish Malware Data Science - Joshua Saxe with Hillary Sanders finish A Guide to Japanese Grammar - Tae Kim catch up on kanji reviews 60x situps per day + gym PPL program 6 days per week hiking once per week figure out how quantum computers work  </description>
-    </item>
-    
-    <item>
-      <title>Stripping Malware Sample Entry Points</title>
-      <link>/posts/2020/01/stripping-malware-sample-entry-points/</link>
-      <pubDate>Fri, 31 Jan 2020 23:40:44 +0000</pubDate>
-      
-      <guid>/posts/2020/01/stripping-malware-sample-entry-points/</guid>
-      <description>Backstory While going through Malware Data Science, I noticed that the malware samples included in the book&amp;rsquo;s &amp;lsquo;code and data&amp;rsquo; download had their entry points redacted.
-I&amp;rsquo;m assuming this was done so that live samples wouldn&amp;rsquo;t be hosted directly from the site, or so that people working through the book would be unable to accidently infect themselves.
-I thought it would be a nice exercise to create a tool to do this for a given directory of samples.</description>
-    </item>
-    
-    <item>
-      <title>Goals for January 2020</title>
-      <link>/posts/2020/01/goals-for-january-2020/</link>
-      <pubDate>Wed, 01 Jan 2020 01:00:00 +0000</pubDate>
-      
-      <guid>/posts/2020/01/goals-for-january-2020/</guid>
-      <description>Reviewing December 2019 Action Items  nothing! I&amp;rsquo;m on vacation, WOOO!  hot wine and Mozart    January 2020 Action Items  read Malware Data Science - Joshua Saxe with Hillary Sanders finish A Guide to Japanese Grammar - Tae Kim finish Remembering The Kanji 1 - James W. Heisig to reach 2200 kanji read Count Zero - William Gibson 50x situps per day + gym PPL program 6 days per week try hiking in the frigid Winter once and probably never go outside again figure out what dark matter is  </description>
-    </item>
-    
-    <item>
-      <title>Goals for December 2019</title>
-      <link>/posts/2019/12/goals-for-december-2019/</link>
-      <pubDate>Sun, 01 Dec 2019 01:00:00 +0000</pubDate>
-      
-      <guid>/posts/2019/12/goals-for-december-2019/</guid>
-      <description>Reviewing November 2019 Action Items  finish Practical Malware Analysis - Michael Sikorski and Andrew Honig  I finished the book, but did skip over some sections that I thought were obsolete I did not finish all of the exercises; some of this is bc the samples were written for XP and my FLARE VM is on 7   continue A Guide to Japanese Grammar - Tae Kim  got to around halfway through the book studying Japanese is fun   continue Remembering The Kanji 1 - James W.</description>
-    </item>
-    
-    <item>
-      <title>Goals for November 2019</title>
-      <link>/posts/2019/11/goals-for-november-2019/</link>
-      <pubDate>Fri, 01 Nov 2019 01:00:00 +0000</pubDate>
-      
-      <guid>/posts/2019/11/goals-for-november-2019/</guid>
-      <description>This is my first goal tracking post. Initially, I was tracking these in a text file. When I made this site, I moved it over to the resources section, but found that it wouldn&amp;rsquo;t scale well and that posts would be a better organization method. It would also force me to acknowledge my failures rather than editing the month&amp;rsquo;s items.
-Reviewing October 2019 Action Items As November is when I started tracking these, there is nothing to review.</description>
-    </item>
-    
-    <item>
-      <title>Goals Methodology</title>
-      <link>/posts/2019/11/goals-methodology/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/2019/11/goals-methodology/</guid>
-      <description>Not to seem like I&amp;rsquo;m having a midlife crisis at 26 or anything, but I feel like I&amp;rsquo;ve wasted a lot of time doing much of nothing important. There is so much that I would like to learn that I sometimes feel overwhelmed. The following details how I plan to work on climbing that mountain.
-Method I recently started using a system for personal improvement that I found worked for me:</description>
-    </item>
-    
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC&lt;/a&gt;</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>This Site Hello there! Welcome to my brain&amp;rsquo;s dumping ground. The inspiration to create a personal website came from reading through the monthly discussions on Hacker News about the advantages of doing so. Also, I like reading security blogs and would like to post my own research findings here while practicing my technical writing. That said, I want to use this site, not as a professional portfolio, but more as a means to organize and share my knowledge, ideas, thoughts, and resources.</description>
+      <description>This Site Welcome. Initially I built this site as a kind of professional profile, but that was boring and I hated trying to show off. I&amp;rsquo;ll just put cool stuff here from now on.
+Who Am I? These are the things that keep me occupied (or at least keep me from watching anime and browsing reddit). I&amp;rsquo;ll try to post about my ventures as I progress through them.
+ AI / ML Agriculture Drawing Go (board game) Hardware Hiking Language Learning Piano Reading Reverse Engineering Security Space Starcraft Tea Travel  Contact email LinkedIn Twitter.</description>
     </item>
     
     <item>
@@ -106,6 +25,69 @@ Method I recently started using a system for personal improvement that I found w
       <guid>/blue/</guid>
       <description>The following is a list of blue team resources that I have collected. It is mostly comprised of reverse engineering and malware analysis stuff as that is what this list started out as and they are the subjects I&amp;rsquo;m most interested in. For most of these resources, I have either used them personally, or have looked into them, validated their quality/functionality, and made sure they were reasonably current.
 Books  Reverse Engineering for Beginners - Dennis Yurichev Practical Reverse Engineering - Bruce Dang, Alexandre Gazet, and Elias Bachaalany Practical Malware Analysis - Michael Sikorski and Andrew Honig The IDA Pro Book - Chris Eagle Malware Data Science - Joshua Saxe with Hillary Sanders Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Malware Analyst&amp;rsquo;s Cookbook - Michael Ligh, Steven Adair, Blake Hartstein, Matthew Richard The Art of Memory Forensics - Michael Hale Ligh, Andrew Case, Jamie Levy, and Aaron Walters Windows Internals - Pavel Yosifovich, Alex Ionescu, Mark Russinovich, and David Solomon Mastering Malware Analysis - Alexey Kleymenov and Amr Thabet Learning Malware Analysis - Monnappa K A  Courses  hasherezade&amp;rsquo;s guide - guide on how to start with malware analysis Malware Unicorn&amp;rsquo;s workshops - Malware Unicorn&amp;rsquo;s courses and CTF writeups Open Security Training - mostly RE courses Lena&amp;rsquo;s Reversing For Newbies - RE course Dr.</description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/books/</guid>
+      <description>This is my reading list. As you will probably be able to tell, I&amp;rsquo;m a shill for no starch press. It&amp;rsquo;s probably the cute art on the covers that got me hooked.
+ Current/Upcoming Reads  Count Zero - William Gibson Mona Lisa Overdrive - William Gibson   Backlog Security  The Hardware Hacker - Andrew “bunnie” Huang Game Hacking - Nick Cano PoC||GTFO - Manul Laphroaig  Novels  Snow Crash - Neal Stephenson Mona Lisa Overdrive - William Gibson Pattern Recognition - William Gibson   Recommendations  Do Androids Dream of Electric Sheep?</description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>/data-science/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/data-science/</guid>
+      <description>Courses  A Clear Roadmap for ML/DL - guide on reddit Andrew Ng&amp;rsquo;s ML Course - the best?, but need to google for python versions of code deeplearning.ai&amp;rsquo;s DL Courses - tensorflow eww  Books   Python Data Science Handbook - Jake VanderPlas
+  Hands-On Machine Learning With Scikit-Learn &amp;amp; TensorFlow - Aurélien Géron
+  Book of R - Tilman M. Davies
+  Data Visualization with JavaScript - Stephen A.</description>
+    </item>
+    
+    <item>
+      <title>Japanese</title>
+      <link>/japanese/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/japanese/</guid>
+      <description>Communities  r/learnjapanese  Books  A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig  Grammar  Tae Kim&amp;rsquo;s Grammar Guide - learn you some grammar  Kanji  koohii - SRS flashcards and shared stories for RTK  Reading  NHK Easy News - news in easy to understand language; has JLPT labels  Listening  NHK Radio News  Vocabulary  Anki Anki Guide  Dictionary  Jisho  Youtube  Japanese Ammo with Misa 三本塾 日本語の森 Game Grammar Dogen  Tools  Rikaichamp  Lists  awesome-japanese  </description>
+    </item>
+    
+    <item>
+      <title>Red</title>
+      <link>/red/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/red/</guid>
+      <description>Books  Penetration Testing -　Georgia Weidman Hacking: The Art of Exploitation - Jon Erickson Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Black Hat Go - Tom Steele, Chris Patten, and Dan Kottmann Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Metasploit - David Kennedy, Jim O’Gorman, Devon Kearns, and Mati Aharoni Red Team Field Manual (RTFM) - Ben Clark The Hardware Hacking Handbook - Colin O&amp;rsquo;Flynn and Jasper van Woudenberg  Courses  TJnull&amp;rsquo;s prep guide for OSCP - written 2019; mostly current and follows OSCP syllabus Tulpa&amp;rsquo;s prep guide for OSCP - written 2016; follows Penetration Testing - Georgia Weidman Offensive Security courses - pentesting certs; well respected training by makers of Kali eLearnSecurity courses - pentesting certs; poor quality training material IMO PortSwigger Web Security Academy - free web security training from creators of Burp  Videos  GynvaelEN - CTF/hacking live streams Nahamsec - bug hunting and Q&amp;amp;A live streams LiveOverflow - gold PwnFunction - informative bug hunting, pentesting, CTFs IppSec - HackTheBox walkthroughs DemmSec - informative pentesting Murmus CTF - CTF/hacking livestreams Guided Hacking - game hacking and RE Stephen Chapman - game hacking and RE Hak5 - security news and cool devices DeviantOllam - lockpicking and other physical pentesting computerphile - general computing N-O-D-E - cool hardware stuff  Challenges  CTFtime - CTF event and score tracker captf list - list of permanent ctfs/wargames OverTheWire - misc wargames Hack The Box - pentesting labs PentesterLab - pentesting labs Hacker101 CTF - CTF by hackerone CTF101 - CTF by OSIRIS Lab CTFlearn - user submitted CTFs  Bug Bounties  HackerOne bugcrowd intigriti Synack YesWeHack OpenBugBounty GitHub Security Lab bounty-targets-data  Communities  r/netsec r/hacking  Lists  Hacker101 resources awesome-bug-bounty bug bounty reference awesome-pentest awesome-web-security awesome-vulnerable-apps awesome-pentest-cheat-sheets awesome-asset-discovery awesome-ctf awesome-hacking awesome-embedded-and-iot-security awesome-static-analysis  Distros  Kali Linux - pentesting distro by Offensive Security; the standard BlackArch - arch linux based pentesting distro; can be used on base arch as a repo  Vulnerable VMs  VulnHub - collection of vulnerable VMs  Tools Recon OSINT  google dorks - google dorks cheatsheet google hacking - google dorks db shodan - search the internet censys - search the internet intelx.</description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/</guid>
+      <description>Blue
+Red
+Data Science
+Japanese
+Tea
+Books</description>
+    </item>
+    
+    <item>
+      <title>Tea</title>
+      <link>/tea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tea/</guid>
+      <description>Communities  r/tea  Info  TeaDB Puer TeaDB Taiwanese Oolong  Vendors  r/tea&amp;rsquo;s user choice vendor list  Puer  white2tea Yunnan Sourcing &amp;amp; Yunnan Sourcing USA  Japanese Green  hibiki-an yunomi o-cha yuuki-cha thes-du-japon  Chinese Green  Teavivre  Oolong  Beautiful Taiwan Tea Company eco-cha Floating Leaves Tea Mountain Stream Teas  </description>
     </item>
     
   </channel>
