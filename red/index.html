@@ -1,82 +1,145 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <title>
-      
-          Red - Patrick Armengol
-      
-  </title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Patrick Armengol" />
-  <link rel="shortcut icon" type="image/x-icon" href="https://patrickarmengol.com/img/favicon.ico">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Patrick Armengol ">
+<meta name="description" content="Books  Penetration Testing -　Georgia Weidman Hacking: The Art of Exploitation - Jon Erickson Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Black Hat Go - Tom Steele, Chris Patten, and Dan Kottmann Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Metasploit - David Kennedy, Jim O’Gorman, Devon Kearns, and Mati Aharoni Red Team Field Manual (RTFM) - Ben Clark The Hardware Hacking Handbook - Colin O&amp;rsquo;Flynn and Jasper van Woudenberg  Courses  TJnull&amp;rsquo;s prep guide for OSCP - written 2019; mostly current and follows OSCP syllabus Tulpa&amp;rsquo;s prep guide for OSCP - written 2016; follows Penetration Testing - Georgia Weidman Offensive Security courses - pentesting certs; well respected training by makers of Kali eLearnSecurity courses - pentesting certs; poor quality training material IMO PortSwigger Web Security Academy - free web security training from creators of Burp  Videos  GynvaelEN - CTF/hacking live streams Nahamsec - bug hunting and Q&amp;amp;A live streams LiveOverflow - gold PwnFunction - informative bug hunting, pentesting, CTFs IppSec - HackTheBox walkthroughs DemmSec - informative pentesting Murmus CTF - CTF/hacking livestreams Guided Hacking - game hacking and RE Stephen Chapman - game hacking and RE Hak5 - security news and cool devices DeviantOllam - lockpicking and other physical pentesting computerphile - general computing N-O-D-E - cool hardware stuff  Challenges  CTFtime - CTF event and score tracker captf list - list of permanent ctfs/wargames OverTheWire - misc wargames Hack The Box - pentesting labs PentesterLab - pentesting labs Hacker101 CTF - CTF by hackerone CTF101 - CTF by OSIRIS Lab CTFlearn - user submitted CTFs  Bug Bounties  HackerOne bugcrowd intigriti Synack YesWeHack OpenBugBounty GitHub Security Lab bounty-targets-data  Communities  r/netsec r/hacking  Lists  Hacker101 resources awesome-bug-bounty bug bounty reference awesome-pentest awesome-web-security awesome-vulnerable-apps awesome-pentest-cheat-sheets awesome-asset-discovery awesome-ctf awesome-hacking awesome-embedded-and-iot-security awesome-static-analysis  Distros  Kali Linux - pentesting distro by Offensive Security; the standard BlackArch - arch linux based pentesting distro; can be used on base arch as a repo  Vulnerable VMs  VulnHub - collection of vulnerable VMs  Tools Recon OSINT  google dorks - google dorks cheatsheet google hacking - google dorks db shodan - search the internet censys - search the internet intelx." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://patrickarmengol.com/red/" />
 
-  
-  
-  
-  
-  
-  <link rel="stylesheet" href="https://patrickarmengol.com/style.min.6f642c5866835106e8a19b94463576436c99be9e41a8714ab3df3daa95f6bf90.css" integrity="sha256-b2QsWGaDUQbooZuURjV2Q2yZvp5BqHFKs989qpX2v5A=">
-  
-  
-  
-  <link rel="stylesheet" href="https://patrickarmengol.com/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-  
-  
+    <title>
+        
+            Red :: Patrick Armengol 
+        
+    </title>
 
-  <meta property="og:title" content="Red" />
-<meta property="og:description" content="Books  Penetration Testing -　Georgia Weidman Hacking: The Art of Exploitation - Jon Erickson Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Black Hat Go - Tom Steele, Chris Patten, and Dan Kottmann Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Metasploit - David Kennedy, Jim O’Gorman, Devon Kearns, and Mati Aharoni Red Team Field Manual (RTFM) - Ben Clark The Hardware Hacking Handbook - Colin O&rsquo;Flynn and Jasper van Woudenberg  Courses  TJnull&rsquo;s prep guide for OSCP - written 2019; mostly current and follows OSCP syllabus Tulpa&rsquo;s prep guide for OSCP - written 2016; follows Penetration Testing - Georgia Weidman Offensive Security courses - pentesting certs; well respected training by makers of Kali eLearnSecurity courses - pentesting certs; poor quality training material IMO PortSwigger Web Security Academy - free web security training from creators of Burp  Videos  GynvaelEN - CTF/hacking live streams Nahamsec - bug hunting and Q&amp;A live streams LiveOverflow - gold PwnFunction - informative bug hunting, pentesting, CTFs IppSec - HackTheBox walkthroughs DemmSec - informative pentesting Murmus CTF - CTF/hacking livestreams Guided Hacking - game hacking and RE Stephen Chapman - game hacking and RE Hak5 - security news and cool devices DeviantOllam - lockpicking and other physical pentesting computerphile - general computing N-O-D-E - cool hardware stuff  Challenges  CTFtime - CTF event and score tracker captf list - list of permanent ctfs/wargames OverTheWire - misc wargames Hack The Box - pentesting labs PentesterLab - pentesting labs Hacker101 CTF - CTF by hackerone CTF101 - CTF by OSIRIS Lab CTFlearn - user submitted CTFs  Bug Bounties  HackerOne bugcrowd intigriti Synack YesWeHack OpenBugBounty GitHub Security Lab bounty-targets-data  Communities  r/netsec r/hacking  Lists  Hacker101 resources awesome-bug-bounty bug bounty reference awesome-pentest awesome-web-security awesome-vulnerable-apps awesome-pentest-cheat-sheets awesome-asset-discovery awesome-ctf awesome-hacking awesome-embedded-and-iot-security awesome-static-analysis  Distros  Kali Linux - pentesting distro by Offensive Security; the standard BlackArch - arch linux based pentesting distro; can be used on base arch as a repo  Vulnerable VMs  VulnHub - collection of vulnerable VMs  Tools Recon OSINT  google dorks - google dorks cheatsheet google hacking - google dorks db shodan - search the internet censys - search the internet intelx." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://patrickarmengol.com/red/" />
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://patrickarmengol.com/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://patrickarmengol.com/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://patrickarmengol.com/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://patrickarmengol.com/favicon-16x16.png">
+    <link rel="manifest" href="https://patrickarmengol.com/site.webmanifest">
+    <link rel="mask-icon" href="https://patrickarmengol.com/safari-pinned-tab.svg" color="#1b1c1d">
+    <link rel="shortcut icon" href="https://patrickarmengol.com/favicon.ico">
+    <meta name="msapplication-TileColor" content="#1b1c1d">
+    <meta name="theme-color" content="#1b1c1d">
+
+
 
 <meta itemprop="name" content="Red">
 <meta itemprop="description" content="Books  Penetration Testing -　Georgia Weidman Hacking: The Art of Exploitation - Jon Erickson Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Black Hat Go - Tom Steele, Chris Patten, and Dan Kottmann Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Metasploit - David Kennedy, Jim O’Gorman, Devon Kearns, and Mati Aharoni Red Team Field Manual (RTFM) - Ben Clark The Hardware Hacking Handbook - Colin O&rsquo;Flynn and Jasper van Woudenberg  Courses  TJnull&rsquo;s prep guide for OSCP - written 2019; mostly current and follows OSCP syllabus Tulpa&rsquo;s prep guide for OSCP - written 2016; follows Penetration Testing - Georgia Weidman Offensive Security courses - pentesting certs; well respected training by makers of Kali eLearnSecurity courses - pentesting certs; poor quality training material IMO PortSwigger Web Security Academy - free web security training from creators of Burp  Videos  GynvaelEN - CTF/hacking live streams Nahamsec - bug hunting and Q&amp;A live streams LiveOverflow - gold PwnFunction - informative bug hunting, pentesting, CTFs IppSec - HackTheBox walkthroughs DemmSec - informative pentesting Murmus CTF - CTF/hacking livestreams Guided Hacking - game hacking and RE Stephen Chapman - game hacking and RE Hak5 - security news and cool devices DeviantOllam - lockpicking and other physical pentesting computerphile - general computing N-O-D-E - cool hardware stuff  Challenges  CTFtime - CTF event and score tracker captf list - list of permanent ctfs/wargames OverTheWire - misc wargames Hack The Box - pentesting labs PentesterLab - pentesting labs Hacker101 CTF - CTF by hackerone CTF101 - CTF by OSIRIS Lab CTFlearn - user submitted CTFs  Bug Bounties  HackerOne bugcrowd intigriti Synack YesWeHack OpenBugBounty GitHub Security Lab bounty-targets-data  Communities  r/netsec r/hacking  Lists  Hacker101 resources awesome-bug-bounty bug bounty reference awesome-pentest awesome-web-security awesome-vulnerable-apps awesome-pentest-cheat-sheets awesome-asset-discovery awesome-ctf awesome-hacking awesome-embedded-and-iot-security awesome-static-analysis  Distros  Kali Linux - pentesting distro by Offensive Security; the standard BlackArch - arch linux based pentesting distro; can be used on base arch as a repo  Vulnerable VMs  VulnHub - collection of vulnerable VMs  Tools Recon OSINT  google dorks - google dorks cheatsheet google hacking - google dorks db shodan - search the internet censys - search the internet intelx.">
 
 <meta itemprop="wordCount" content="638">
+<meta itemprop="image" content="https://patrickarmengol.com"/>
 
 
 
 <meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:image" content="https://patrickarmengol.com/img/avatar.jpg"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://patrickarmengol.com"/>
+
 <meta name="twitter:title" content="Red"/>
 <meta name="twitter:description" content="Books  Penetration Testing -　Georgia Weidman Hacking: The Art of Exploitation - Jon Erickson Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Black Hat Go - Tom Steele, Chris Patten, and Dan Kottmann Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Metasploit - David Kennedy, Jim O’Gorman, Devon Kearns, and Mati Aharoni Red Team Field Manual (RTFM) - Ben Clark The Hardware Hacking Handbook - Colin O&rsquo;Flynn and Jasper van Woudenberg  Courses  TJnull&rsquo;s prep guide for OSCP - written 2019; mostly current and follows OSCP syllabus Tulpa&rsquo;s prep guide for OSCP - written 2016; follows Penetration Testing - Georgia Weidman Offensive Security courses - pentesting certs; well respected training by makers of Kali eLearnSecurity courses - pentesting certs; poor quality training material IMO PortSwigger Web Security Academy - free web security training from creators of Burp  Videos  GynvaelEN - CTF/hacking live streams Nahamsec - bug hunting and Q&amp;A live streams LiveOverflow - gold PwnFunction - informative bug hunting, pentesting, CTFs IppSec - HackTheBox walkthroughs DemmSec - informative pentesting Murmus CTF - CTF/hacking livestreams Guided Hacking - game hacking and RE Stephen Chapman - game hacking and RE Hak5 - security news and cool devices DeviantOllam - lockpicking and other physical pentesting computerphile - general computing N-O-D-E - cool hardware stuff  Challenges  CTFtime - CTF event and score tracker captf list - list of permanent ctfs/wargames OverTheWire - misc wargames Hack The Box - pentesting labs PentesterLab - pentesting labs Hacker101 CTF - CTF by hackerone CTF101 - CTF by OSIRIS Lab CTFlearn - user submitted CTFs  Bug Bounties  HackerOne bugcrowd intigriti Synack YesWeHack OpenBugBounty GitHub Security Lab bounty-targets-data  Communities  r/netsec r/hacking  Lists  Hacker101 resources awesome-bug-bounty bug bounty reference awesome-pentest awesome-web-security awesome-vulnerable-apps awesome-pentest-cheat-sheets awesome-asset-discovery awesome-ctf awesome-hacking awesome-embedded-and-iot-security awesome-static-analysis  Distros  Kali Linux - pentesting distro by Offensive Security; the standard BlackArch - arch linux based pentesting distro; can be used on base arch as a repo  Vulnerable VMs  VulnHub - collection of vulnerable VMs  Tools Recon OSINT  google dorks - google dorks cheatsheet google hacking - google dorks db shodan - search the internet censys - search the internet intelx."/>
 
-  <!--[if lte IE 9]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-  <![endif]-->
 
-  <!--[if lt IE 9]>
-  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-  <![endif]-->
 
-  
-  
-</head>
 
-  <body>
+    <meta property="og:title" content="Red" />
+<meta property="og:description" content="Books  Penetration Testing -　Georgia Weidman Hacking: The Art of Exploitation - Jon Erickson Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Black Hat Go - Tom Steele, Chris Patten, and Dan Kottmann Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Metasploit - David Kennedy, Jim O’Gorman, Devon Kearns, and Mati Aharoni Red Team Field Manual (RTFM) - Ben Clark The Hardware Hacking Handbook - Colin O&rsquo;Flynn and Jasper van Woudenberg  Courses  TJnull&rsquo;s prep guide for OSCP - written 2019; mostly current and follows OSCP syllabus Tulpa&rsquo;s prep guide for OSCP - written 2016; follows Penetration Testing - Georgia Weidman Offensive Security courses - pentesting certs; well respected training by makers of Kali eLearnSecurity courses - pentesting certs; poor quality training material IMO PortSwigger Web Security Academy - free web security training from creators of Burp  Videos  GynvaelEN - CTF/hacking live streams Nahamsec - bug hunting and Q&amp;A live streams LiveOverflow - gold PwnFunction - informative bug hunting, pentesting, CTFs IppSec - HackTheBox walkthroughs DemmSec - informative pentesting Murmus CTF - CTF/hacking livestreams Guided Hacking - game hacking and RE Stephen Chapman - game hacking and RE Hak5 - security news and cool devices DeviantOllam - lockpicking and other physical pentesting computerphile - general computing N-O-D-E - cool hardware stuff  Challenges  CTFtime - CTF event and score tracker captf list - list of permanent ctfs/wargames OverTheWire - misc wargames Hack The Box - pentesting labs PentesterLab - pentesting labs Hacker101 CTF - CTF by hackerone CTF101 - CTF by OSIRIS Lab CTFlearn - user submitted CTFs  Bug Bounties  HackerOne bugcrowd intigriti Synack YesWeHack OpenBugBounty GitHub Security Lab bounty-targets-data  Communities  r/netsec r/hacking  Lists  Hacker101 resources awesome-bug-bounty bug bounty reference awesome-pentest awesome-web-security awesome-vulnerable-apps awesome-pentest-cheat-sheets awesome-asset-discovery awesome-ctf awesome-hacking awesome-embedded-and-iot-security awesome-static-analysis  Distros  Kali Linux - pentesting distro by Offensive Security; the standard BlackArch - arch linux based pentesting distro; can be used on base arch as a repo  Vulnerable VMs  VulnHub - collection of vulnerable VMs  Tools Recon OSINT  google dorks - google dorks cheatsheet google hacking - google dorks db shodan - search the internet censys - search the internet intelx." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://patrickarmengol.com/red/" />
+<meta property="og:image" content="https://patrickarmengol.com"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
     
-  <h1>Red</h1>
-  <header>
-  
-  <div class="avatar">
-    <img class="avatarMask" src="https://patrickarmengol.com/img/avatar.jpg" alt="">
-    <a href="https://patrickarmengol.com"><img class="avatar-border" src="https://patrickarmengol.com/img/avatar-border.svg" alt=""></a>
-  </div>
-  
-  <h2><a class="author" href="https://patrickarmengol.com">Patrick Armengol</a></h2>
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://patrickarmengol.com/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark"> </span>
+            <span class="logo__text">Home</span>
+            <span class="logo__cursor" style=
+                  "visibility:hidden;
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://patrickarmengol.com/about/">About</a></li><li><a href="https://patrickarmengol.com/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
 </header>
 
-  
-  
-  
-  
-  <div id="contentBody">
-    <h2 id="books">Books</h2>
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://patrickarmengol.com/red/">Red</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <h2 id="books">Books</h2>
 <ul>
 <li><a href="https://nostarch.com/pentesting">Penetration Testing -　Georgia Weidman</a></li>
 <li><a href="https://nostarch.com/hacking2.htm">Hacking: The Art of Exploitation - Jon Erickson</a></li>
@@ -261,15 +324,46 @@
 <li><a href="https://github.com/dxa4481/truffleHog">https://github.com/dxa4481/truffleHog</a></li>
 </ul>
 
-  </div>
-  <footer>
-  <p>
-  &copy; 2021 Patrick Armengol.
-  Powered by <a href="https://gohugo.io/">Hugo</a>
-  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
-  </p>
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            <span><a href="https://patrickarmengol.com">Patrick Armengol</a></span>
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC</a></span><span><a href="https://patrickarmengol.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span><a href="http://gohugo.io">Hugo</a></span>
+            <span><a href="https://github.com/rhazdon/hugo-theme-hello-friend-ng">hello-friend-ng</a></span>
+          </div>
+    </div>
 </footer>
 
+            
+        </div>
 
-  </body>
+        
+
+
+
+<script type="text/javascript" src="https://patrickarmengol.com/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
 </html>

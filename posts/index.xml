@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Patrick Armengol</title>
+        <link>https://patrickarmengol.com/posts/</link>
+        <description>Recent content in Posts on Patrick Armengol</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC&lt;/a&gt;</copyright>
+        <lastBuildDate>Sat, 30 Jan 2021 19:03:25 -0500</lastBuildDate>
+        <atom:link href="https://patrickarmengol.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Test</title>
+            <link>https://patrickarmengol.com/posts/2021/01/test/</link>
+            <pubDate>Sat, 30 Jan 2021 19:03:25 -0500</pubDate>
+            
+            <guid>https://patrickarmengol.com/posts/2021/01/test/</guid>
+            <description>test post please ignore</description>
+            <content type="html"><![CDATA[<p>test post please ignore</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

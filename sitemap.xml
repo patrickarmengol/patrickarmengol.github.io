@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://patrickarmengol.com/blog/</loc>
-    <lastmod>2021-01-30T19:03:25-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://patrickarmengol.com/</loc>
     <lastmod>2021-01-30T19:03:25-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://patrickarmengol.com/blog/test/</loc>
+    <loc>https://patrickarmengol.com/posts/</loc>
+    <lastmod>2021-01-30T19:03:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://patrickarmengol.com/posts/2021/01/test/</loc>
     <lastmod>2021-01-30T19:03:25-05:00</lastmod>
   </url>
   
@@ -43,6 +43,10 @@
   
   <url>
     <loc>https://patrickarmengol.com/red/</loc>
+  </url>
+  
+  <url>
+    <loc>https://patrickarmengol.com/series/</loc>
   </url>
   
   <url>
