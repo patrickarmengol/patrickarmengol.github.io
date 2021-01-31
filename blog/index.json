@@ -1,0 +1,10 @@
+[
+    {
+        "ref": "/blog/test/",
+        "title": "Test",
+        "section": "blog",
+        "tags": null,
+        "date" : "2021.01.30",
+        "body": "test post please ignore\n"
+    }
+]

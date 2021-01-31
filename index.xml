@@ -5,16 +5,25 @@
     <link>/</link>
     <description>Recent content on Patrick Armengol</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC&lt;/a&gt;</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Jan 2021 19:03:25 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>/blog/test/</link>
+      <pubDate>Sat, 30 Jan 2021 19:03:25 -0500</pubDate>
+      
+      <guid>/blog/test/</guid>
+      <description>test post please ignore</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>This Site Welcome. Initially I built this site as a kind of professional profile, but that was boring and I hated trying to show off. I&amp;rsquo;ll just put cool stuff here from now on.
-Who Am I? These are the things that keep me occupied (or at least keep me from watching anime and browsing reddit). I&amp;rsquo;ll try to post about my ventures as I progress through them.
- AI / ML Agriculture Drawing Go (board game) Gamedev Hardware Hiking Language Learning Piano Reading Reverse Engineering Security Space Starcraft Tea Travel  Contact email</description>
+      <description>Welcome. Initially, I had built this site as a professional profile, but that got boring and I hated trying to show off. Now it&amp;rsquo;s more of a personal blog, intended mostly for myself.
+Interests These are the things that keep me occupied (or at least keep me from watching anime and browsing reddit). I&amp;rsquo;ll try to post about my ventures as I progress through them.
+ AI / ML Agriculture Drawing Go (board game) Hardware Hiking Language Learning Piano Reading Reverse Engineering Security Space Starcraft Tea Travel  Resources Blue</description>
     </item>
     
     <item>
@@ -55,7 +64,7 @@ Books  Reverse Engineering for Beginners - Dennis Yurichev Practical Reverse Eng
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/japanese/</guid>
-      <description>Communities  r/learnjapanese  Books  A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig  Grammar  Tae Kim&amp;rsquo;s Grammar Guide - learn you some grammar  Kanji  koohii - SRS flashcards and shared stories for RTK  Reading  NHK Easy News - news in easy to understand language; has JLPT labels  Listening  NHK Radio News  Vocabulary  Anki Anki Guide  Dictionary  Jisho  Youtube  Japanese Ammo with Misa 三本塾 日本語の森 Game Grammar Dogen  Tools  Rikaichamp  Lists  awesome-japanese  </description>
+      <description>Communities r/learnjapanese Books A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig Grammar Tae Kim&amp;rsquo;s Grammar Guide - learn you some grammar Kanji koohii - SRS flashcards and shared stories for RTK Reading NHK Easy News - news in easy to understand language; has JLPT labels Listening NHK Radio News Vocabulary Anki Anki Guide Dictionary</description>
     </item>
     
     <item>
@@ -65,20 +74,6 @@ Books  Reverse Engineering for Beginners - Dennis Yurichev Practical Reverse Eng
       
       <guid>/red/</guid>
       <description>Books  Penetration Testing -　Georgia Weidman Hacking: The Art of Exploitation - Jon Erickson Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Black Hat Go - Tom Steele, Chris Patten, and Dan Kottmann Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Metasploit - David Kennedy, Jim O’Gorman, Devon Kearns, and Mati Aharoni Red Team Field Manual (RTFM) - Ben Clark The Hardware Hacking Handbook - Colin O&amp;rsquo;Flynn and Jasper van Woudenberg  Courses  TJnull&amp;rsquo;s prep guide for OSCP - written 2019; mostly current and follows OSCP syllabus Tulpa&amp;rsquo;s prep guide for OSCP - written 2016; follows Penetration Testing - Georgia Weidman Offensive Security courses - pentesting certs; well respected training by makers of Kali eLearnSecurity courses - pentesting certs; poor quality training material IMO PortSwigger Web Security Academy - free web security training from creators of Burp  Videos  GynvaelEN - CTF/hacking live streams Nahamsec - bug hunting and Q&amp;amp;A live streams LiveOverflow - gold PwnFunction - informative bug hunting, pentesting, CTFs IppSec - HackTheBox walkthroughs DemmSec - informative pentesting Murmus CTF - CTF/hacking livestreams Guided Hacking - game hacking and RE Stephen Chapman - game hacking and RE Hak5 - security news and cool devices DeviantOllam - lockpicking and other physical pentesting computerphile - general computing N-O-D-E - cool hardware stuff  Challenges  CTFtime - CTF event and score tracker captf list - list of permanent ctfs/wargames OverTheWire - misc wargames Hack The Box - pentesting labs PentesterLab - pentesting labs Hacker101 CTF - CTF by hackerone CTF101 - CTF by OSIRIS Lab CTFlearn - user submitted CTFs  Bug Bounties  HackerOne bugcrowd intigriti Synack YesWeHack OpenBugBounty GitHub Security Lab bounty-targets-data  Communities  r/netsec r/hacking  Lists  Hacker101 resources awesome-bug-bounty bug bounty reference awesome-pentest awesome-web-security awesome-vulnerable-apps awesome-pentest-cheat-sheets awesome-asset-discovery awesome-ctf awesome-hacking awesome-embedded-and-iot-security awesome-static-analysis  Distros  Kali Linux - pentesting distro by Offensive Security; the standard BlackArch - arch linux based pentesting distro; can be used on base arch as a repo  Vulnerable VMs  VulnHub - collection of vulnerable VMs  Tools Recon OSINT  google dorks - google dorks cheatsheet google hacking - google dorks db shodan - search the internet censys - search the internet intelx.</description>
-    </item>
-    
-    <item>
-      <title>Resources</title>
-      <link>/resources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/resources/</guid>
-      <description>Blue
-Red
-Data Science
-Japanese
-Tea
-Books</description>
     </item>
     
     <item>

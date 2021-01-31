@@ -4,7 +4,6 @@
     <title>Categories on Patrick Armengol</title>
     <link>/categories/</link>
     <description>Recent content in Categories on Patrick Armengol</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC&lt;/a&gt;</copyright><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
