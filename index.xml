@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Patrick Armengol</title>
-    <link>/</link>
+    <link>https://patrickarmengol.com/</link>
     <description>Recent content on Patrick Armengol</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 30 Jan 2021 19:03:25 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Jan 2021 19:03:25 -0500</lastBuildDate><atom:link href="https://patrickarmengol.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>/blog/test/</link>
+      <link>https://patrickarmengol.com/blog/test/</link>
       <pubDate>Sat, 30 Jan 2021 19:03:25 -0500</pubDate>
       
-      <guid>/blog/test/</guid>
+      <guid>https://patrickarmengol.com/blog/test/</guid>
       <description>test post please ignore</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://patrickarmengol.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://patrickarmengol.com/about/</guid>
       <description>Welcome. Initially, I had built this site as a professional profile, but that got boring and I hated trying to show off. Now it&amp;rsquo;s more of a personal blog, intended mostly for myself.
 Interests These are the things that keep me occupied (or at least keep me from watching anime and browsing reddit). I&amp;rsquo;ll try to post about my ventures as I progress through them.
  AI / ML Agriculture Drawing Go (board game) Hardware Hiking Language Learning Piano Reading Reverse Engineering Security Space Starcraft Tea Travel  Resources Blue</description>
@@ -28,30 +28,30 @@ Interests These are the things that keep me occupied (or at least keep me from w
     
     <item>
       <title>Blue</title>
-      <link>/blue/</link>
+      <link>https://patrickarmengol.com/blue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/blue/</guid>
+      <guid>https://patrickarmengol.com/blue/</guid>
       <description>The following is a list of blue team resources that I have collected. It is mostly comprised of reverse engineering and malware analysis stuff as that is what this list started out as and they are the subjects I&amp;rsquo;m most interested in. For most of these resources, I have either used them personally, or have looked into them, validated their quality/functionality, and made sure they were reasonably current.
 Books  Reverse Engineering for Beginners - Dennis Yurichev Practical Reverse Engineering - Bruce Dang, Alexandre Gazet, and Elias Bachaalany Practical Malware Analysis - Michael Sikorski and Andrew Honig The IDA Pro Book - Chris Eagle Malware Data Science - Joshua Saxe with Hillary Sanders Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, and Sergey Bratus Practical Binary Analysis - Dennis Andriesse Malware Analyst&amp;rsquo;s Cookbook - Michael Ligh, Steven Adair, Blake Hartstein, Matthew Richard The Art of Memory Forensics - Michael Hale Ligh, Andrew Case, Jamie Levy, and Aaron Walters Windows Internals - Pavel Yosifovich, Alex Ionescu, Mark Russinovich, and David Solomon Mastering Malware Analysis - Alexey Kleymenov and Amr Thabet Learning Malware Analysis - Monnappa K A  Courses  hasherezade&amp;rsquo;s guide - guide on how to start with malware analysis Malware Unicorn&amp;rsquo;s workshops - Malware Unicorn&amp;rsquo;s courses and CTF writeups Open Security Training - mostly RE courses Lena&amp;rsquo;s Reversing For Newbies - RE course Dr.</description>
     </item>
     
     <item>
       <title>Books</title>
-      <link>/books/</link>
+      <link>https://patrickarmengol.com/books/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/books/</guid>
+      <guid>https://patrickarmengol.com/books/</guid>
       <description>This is my reading list. As you will probably be able to tell, I&amp;rsquo;m a shill for no starch press. It&amp;rsquo;s probably the cute art on the covers that got me hooked.
  Current/Upcoming Reads  Count Zero - William Gibson Mona Lisa Overdrive - William Gibson   Backlog Security  The Hardware Hacker - Andrew “bunnie” Huang Game Hacking - Nick Cano PoC||GTFO - Manul Laphroaig  Novels  Snow Crash - Neal Stephenson Mona Lisa Overdrive - William Gibson Pattern Recognition - William Gibson   Recommendations  Do Androids Dream of Electric Sheep?</description>
     </item>
     
     <item>
       <title>Data Science</title>
-      <link>/data-science/</link>
+      <link>https://patrickarmengol.com/data-science/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/data-science/</guid>
+      <guid>https://patrickarmengol.com/data-science/</guid>
       <description>Courses  A Clear Roadmap for ML/DL - guide on reddit Andrew Ng&amp;rsquo;s ML Course - the best?, but need to google for python versions of code deeplearning.ai&amp;rsquo;s DL Courses - tensorflow eww  Books   Python Data Science Handbook - Jake VanderPlas
   Hands-On Machine Learning With Scikit-Learn &amp;amp; TensorFlow - Aurélien Géron
   Book of R - Tilman M. Davies
@@ -60,28 +60,28 @@ Books  Reverse Engineering for Beginners - Dennis Yurichev Practical Reverse Eng
     
     <item>
       <title>Japanese</title>
-      <link>/japanese/</link>
+      <link>https://patrickarmengol.com/japanese/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/japanese/</guid>
+      <guid>https://patrickarmengol.com/japanese/</guid>
       <description>Communities r/learnjapanese Books A Guide to Japanese Grammar - Tae Kim Remembering The Kanji 1 - James W. Heisig Remembering The Kanji 3 - James W. Heisig Grammar Tae Kim&amp;rsquo;s Grammar Guide - learn you some grammar Kanji koohii - SRS flashcards and shared stories for RTK Reading NHK Easy News - news in easy to understand language; has JLPT labels Listening NHK Radio News Vocabulary Anki Anki Guide Dictionary</description>
     </item>
     
     <item>
       <title>Red</title>
-      <link>/red/</link>
+      <link>https://patrickarmengol.com/red/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/red/</guid>
+      <guid>https://patrickarmengol.com/red/</guid>
       <description>Books  Penetration Testing -　Georgia Weidman Hacking: The Art of Exploitation - Jon Erickson Real-World Bug Hunting - Peter Yaworski Black Hat Python - Justin Seitz Black Hat Go - Tom Steele, Chris Patten, and Dan Kottmann Attacking Network Protocols - James Forshaw The Hacker Playbook - Peter Kim Metasploit - David Kennedy, Jim O’Gorman, Devon Kearns, and Mati Aharoni Red Team Field Manual (RTFM) - Ben Clark The Hardware Hacking Handbook - Colin O&amp;rsquo;Flynn and Jasper van Woudenberg  Courses  TJnull&amp;rsquo;s prep guide for OSCP - written 2019; mostly current and follows OSCP syllabus Tulpa&amp;rsquo;s prep guide for OSCP - written 2016; follows Penetration Testing - Georgia Weidman Offensive Security courses - pentesting certs; well respected training by makers of Kali eLearnSecurity courses - pentesting certs; poor quality training material IMO PortSwigger Web Security Academy - free web security training from creators of Burp  Videos  GynvaelEN - CTF/hacking live streams Nahamsec - bug hunting and Q&amp;amp;A live streams LiveOverflow - gold PwnFunction - informative bug hunting, pentesting, CTFs IppSec - HackTheBox walkthroughs DemmSec - informative pentesting Murmus CTF - CTF/hacking livestreams Guided Hacking - game hacking and RE Stephen Chapman - game hacking and RE Hak5 - security news and cool devices DeviantOllam - lockpicking and other physical pentesting computerphile - general computing N-O-D-E - cool hardware stuff  Challenges  CTFtime - CTF event and score tracker captf list - list of permanent ctfs/wargames OverTheWire - misc wargames Hack The Box - pentesting labs PentesterLab - pentesting labs Hacker101 CTF - CTF by hackerone CTF101 - CTF by OSIRIS Lab CTFlearn - user submitted CTFs  Bug Bounties  HackerOne bugcrowd intigriti Synack YesWeHack OpenBugBounty GitHub Security Lab bounty-targets-data  Communities  r/netsec r/hacking  Lists  Hacker101 resources awesome-bug-bounty bug bounty reference awesome-pentest awesome-web-security awesome-vulnerable-apps awesome-pentest-cheat-sheets awesome-asset-discovery awesome-ctf awesome-hacking awesome-embedded-and-iot-security awesome-static-analysis  Distros  Kali Linux - pentesting distro by Offensive Security; the standard BlackArch - arch linux based pentesting distro; can be used on base arch as a repo  Vulnerable VMs  VulnHub - collection of vulnerable VMs  Tools Recon OSINT  google dorks - google dorks cheatsheet google hacking - google dorks db shodan - search the internet censys - search the internet intelx.</description>
     </item>
     
     <item>
       <title>Tea</title>
-      <link>/tea/</link>
+      <link>https://patrickarmengol.com/tea/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tea/</guid>
+      <guid>https://patrickarmengol.com/tea/</guid>
       <description>Communities  r/tea  Info  TeaDB Puer TeaDB Taiwanese Oolong  Vendors  r/tea&amp;rsquo;s user choice vendor list  Puer  white2tea Yunnan Sourcing &amp;amp; Yunnan Sourcing USA  Japanese Green  hibiki-an yunomi o-cha yuuki-cha thes-du-japon  Chinese Green  Teavivre  Oolong  Beautiful Taiwan Tea Company eco-cha Floating Leaves Tea Mountain Stream Teas  </description>
     </item>
     
