@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://patrickarmengol.gitlab.io/mysite/"
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
