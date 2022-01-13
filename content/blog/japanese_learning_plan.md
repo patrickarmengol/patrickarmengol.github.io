@@ -7,7 +7,7 @@ date = "2022-01-12T21:26:20-05:00"
 #
 # description = "An optional description for SEO. If not provided, an automatically created summary will be used."
 
-tags = ["learning","python",]
+tags = ["learning","japanese",]
 +++
 
 I like Japan. I like Japanese [food](https://www.justonecookbook.com/ochazuke/), [comedy](https://www.reddit.com/r/GakiNoTsukai/wiki/nlbg), [anime](https://myanimelist.net/anime/486/Kino_no_Tabi__The_Beautiful_World), [music](https://www.youtube.com/watch?v=5W9S9la-C6s), [architecture](https://images.adsttc.com/media/images/51e2/ef0a/e8e4/4e7c/8800/00c5/large_jpg/CIMG5246.jpg?1373826813), [games](https://www.pokemon.com/us/pokemon-video-games/pokemon-yellow-special-pikachu-edition/), and [tea](https://www.hibiki-an.com/index.php). Am I wierd for liking Japan? I don't think so; it's just _one_ of the places/cultures on this planet that interest me. 
