@@ -11,9 +11,45 @@ tags = ["python","learning"]
 +++
 
 
-I want to lay out a plan for brushing up on my python. This will mostly consist of going through *no starch press* books that I bought on humblebundle over the years. I might look at *realpython.com* for supplement. Code challenge websites will help me gamify my learning. 
+## Why
+
+Why am I learning python? Well... technically I'm re-learning it. You don't get a degree in computer engineering without knowing how to program, and I'd say I'm fairly ~~proficient~~ _competent_ at python. Heck, I used it every day in my previous job, which involved: creating threat hunting playbooks in Jupyter notebooks, writing quick automation scripts, building internal tools, wrangling telemetry, interacting with APIs, and disecting malware programatically. 
+
+So why exactly am I brushing up on python? Because there's a mountain of python that I don't know. I've just kind of been skirting by with what I have, but never really making an effort to improve or fill in gaps. It has been a while now since I've graduated, so a lot of the CS concepts have escaped my braincage. Reviewing those at the same time would be great. 
+
+But I haven't really answered the question. What's the point? What am I getting from it? I'm looking for a career change. I've worked in cybersecurity for ~4 years now. The _cool factor_ has worn off and now I'm just kind of tired and bitter. Although the concepts in cybersecurity are interesting, my mindset does not really fit into the field. I have a lot more to say about it, but basically the cybersecurity industry should not exist; it only does because some people are assholes. I'd much rather be creative and make something new, than try to fix something that's perpetually broken. Python opens up a lot of possibilities in that regard. I could do app dev, web dev (eww), data science, artificial intelligence, machine learning, or even transition to game dev. 
+
+
+## Goals
+
+Get gud. 
+
+I want to contribute to an open source project. 
+
+I want to build an app that will make something more convinient for me. 
+
+I want to build a web app. 
+
+I want to land a job. 
+
+
+## How
+
+Books! I like textbooks for learning technical stuff. I've accumulated quite a few _no starch press_ python books over the years, mostly from _humblebundle_ deals. They should be able to take me to a decent level. 
+
+I might look at resources like _realpython.com_ for supplement. 
+
+Code challenge websites will help me gamify my learning. 
+
+I'll compile ideas for projects somewhere and start on one once I feel comfortable. 
+
+In the future, I will make another blog post detailing my machine learning / data science learning plan. 
+
+---
 
 ## Books
+
+**bold** titles are required, non-bold are optional
 
 ### Beginner
 
