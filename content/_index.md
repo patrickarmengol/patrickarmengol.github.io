@@ -22,4 +22,4 @@ Here are some of the things I'm interested in:
 - Travel
 
 
-You can reach me through [email](mailto:patrickarmengol@pm.me) and find my projects on [gitlab](https://gitlab.com/patrickarmengol). 
+You can reach me through [email](mailto:patrickarmengol@pm.me) and find my projects on [github](https://github.com/patrickarmengol)/[gitlab](https://gitlab.com/patrickarmengol). 
