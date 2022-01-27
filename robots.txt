@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: https://patrickarmengol.github.io/sitemap.xml
+Sitemap: https://patrickarmengol.com/sitemap.xml
