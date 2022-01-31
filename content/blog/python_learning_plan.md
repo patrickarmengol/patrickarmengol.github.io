@@ -53,35 +53,39 @@ In the future, I will make another blog post detailing my machine learning / dat
 
 ### Beginner
 
-- [ ] **Automate the Boring Stuff with Python**
+- [x] **Automate the Boring Stuff with Python**
 - [ ] **Dive Into Algorithms**
 - [ ] Python Crash Course (projects section)
 - [ ] Learn Python Visually
+- [ ] Cracking Codes with Python
 
 ### Intermediate
 
 - [ ] **Beyond the Basic Stuff with Python**
 - [ ] **Impractical Python Projects**
+- [ ] **Python Playground**
 - [ ] Python One-liners
 - [ ] Math Adventures with Python
 - [ ] Doing Math with Python
-- [ ] Cracking Codes with Python
+
 
 ### Advanced
 
 - [ ] **Serious Python**
 - [ ] Real World Python
+- [ ] Fluent Python
+- [ ] Effective Python
+- [ ] Python Cookbook
 
 ---
 
 ## Challenge Sites
 
-- https://projecteuler.net/
-- https://www.topcoder.com/community/learn
-- https://www.hackerrank.com/
-- https://exercism.org/tracks/python
-- https://www.reddit.com/r/dailyprogrammer/
-- https://www.codewars.com/
+- https://projecteuler.net/ - nice but oww my brain
+- https://www.hackerrank.com/ - nice and easily digestible
+- https://exercism.org/tracks/python - is there a way to skip the beginner lessons?
+- https://www.codewars.com/ - there are typos on the homepage
+- https://www.topcoder.com/community/learn - bleh
 
 ---
 
