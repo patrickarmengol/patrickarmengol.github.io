@@ -5,8 +5,6 @@ menu = "main"
 
 # Resource List
 
-- [Blue]()
-- [Red]()
-- [Data Science]()
-- [Japanese]()
-- [Tea]()
+- [Data Science](/data_science)
+- [Japanese](/japanese)
+- [Tea](/tea)
