@@ -1,8 +1,15 @@
----
-title: "Automate the Boring Stuff with Python - Review"
-date: 2022-01-31T14:27:02-05:00
-draft: true
----
++++
+title = "Automate the Boring Stuff with Python - Review"
+date = "2022-01-31T14:27:02-05:00"
+
+#
+# description is optional
+#
+# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
+
+tags = ["python","learning"]
++++
+
 
 This is my short review of "Automate the Boring Stuff with Python" by Al Sweigart. 
 
@@ -22,7 +29,6 @@ This book is aimed at absolute beginners of python and/or programming. I read it
 
 - camelCase
 - a lot of the modules introduced were written by the author; likely stuff I will never use in the future
-- exclusion of lesson on object-oriented python
 - very focused on automating tasks
 - author uses Windows (though consideration is given to non-Windows readers)
 
