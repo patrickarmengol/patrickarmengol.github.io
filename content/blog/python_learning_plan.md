@@ -61,9 +61,10 @@ In the future, I will make another blog post detailing my machine learning / dat
 
 ### Intermediate
 
-- [ ] **Beyond the Basic Stuff with Python**
+- [x] **Beyond the Basic Stuff with Python**
 - [ ] **Impractical Python Projects**
 - [ ] **Python Playground**
+- [ ] Effective Python
 - [ ] Python One-liners
 - [ ] Math Adventures with Python
 - [ ] Doing Math with Python
@@ -74,8 +75,8 @@ In the future, I will make another blog post detailing my machine learning / dat
 - [ ] **Serious Python**
 - [ ] Real World Python
 - [ ] Fluent Python
-- [ ] Effective Python
 - [ ] Python Cookbook
+- [ ] Architecture Patterns with Python
 
 ---
 
