@@ -14,7 +14,7 @@ This is my short review of "Beyond the Basic Stuff with Python" by Al Sweigart.
 
 ## About
 
-This book is a followup to "Automating the Basic Stuff with Python" and is meant to bridge the gap from beginner to intermediate. I started reading it just after the first book as I thought it was appropriate and would help give me a better understanding of the language, its features, and best practices. My idea was that I should round out my technical knowledge before jumping in to the more project based books. 
+This book is a followup to "Automate the Basic Stuff with Python" and is meant to bridge the gap from beginner to intermediate. I started reading it just after the first book as I thought it was appropriate and would help give me a better understanding of the language, its features, and best practices. My idea was that I should round out my technical knowledge before jumping in to the more project based books. 
 
 ## Things I liked
 
