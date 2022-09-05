@@ -22,15 +22,11 @@ But I haven't really answered the question. What's the point? What am I getting 
 
 ## Goals
 
-Get gud. 
-
-I want to contribute to an open source project. 
-
-I want to build an app that will make something more convinient for me. 
-
-I want to build a web app. 
-
-I want to land a job. 
+- get gud. 
+- contribute to an open source project
+- build something that makes some task I do more convenient
+- build something creative
+- land a job
 
 
 ## How
@@ -54,7 +50,6 @@ In the future, I will make another blog post detailing my machine learning / dat
 ### Beginner
 
 - [x] **Automate the Boring Stuff with Python**
-- [ ] **Dive Into Algorithms**
 - [ ] Python Crash Course (projects section)
 - [ ] Learn Python Visually
 - [ ] Cracking Codes with Python
@@ -62,8 +57,10 @@ In the future, I will make another blog post detailing my machine learning / dat
 ### Intermediate
 
 - [x] **Beyond the Basic Stuff with Python**
+- [ ] **Dive Into Algorithms**
 - [ ] **Impractical Python Projects**
 - [ ] **Python Playground**
+- [ ] Python for Data Science
 - [ ] Effective Python
 - [ ] Python One-liners
 - [ ] Math Adventures with Python
@@ -77,12 +74,15 @@ In the future, I will make another blog post detailing my machine learning / dat
 - [ ] Fluent Python
 - [ ] Python Cookbook
 - [ ] Architecture Patterns with Python
+- [ ] The Art of Clean Code
 
 ---
 
 ## Challenge Sites
 
-- https://projecteuler.net/ - nice but oww my brain
+- https://leetcode.com/problemset/all/ - the goto for challenge drilling and interview prep
+- https://neetcode.io/practice - curated set of leetcode problems and sample solutions
+- https://projecteuler.net/ - nice but oww my math
 - https://www.hackerrank.com/ - nice and easily digestible
 - https://exercism.org/tracks/python - is there a way to skip the beginner lessons?
 - https://www.codewars.com/ - there are typos on the homepage
