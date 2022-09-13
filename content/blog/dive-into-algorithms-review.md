@@ -1,5 +1,5 @@
 ---
-title: "Dive Into Algorithms Review"
+title: "Dive Into Algorithms - Review"
 date: 2022-09-13T20:04:51+09:00
 draft: false
 tags: ["python", "learning"]
