@@ -90,6 +90,27 @@ In the future, I will make another blog post detailing my machine learning / dat
 
 ---
 
-## Projects
+## Project Ideas
 
-TBD
+- [ ] useless QR code
+- [ ] cellular automata simulator
+- [ ] falling sand simulation
+- [ ] fractal generator
+- [ ] stuff from coding train challenges
+- [ ] ant colony simulation
+- [ ] endangered species tracker site
+- [ ] manim animations for algorithms
+- [ ] minimal markdown recipe site
+- [ ] generate color theme/palette from image
+- [ ] sunrise alarm mobile app
+- [ ] kanban that doesn't suck
+- [ ] web scraping to create a dataset
+- [ ] earthquake api notification app
+- [ ] url shortener
+- [ ] kakaotalk bot
+- [ ] haiku syllable checker
+- [ ] ant colony simulation
+- [ ] korean typing game
+- [ ] ai for games
+- [ ] games for ai
+- [ ] korea live train map
