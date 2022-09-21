@@ -57,7 +57,7 @@ In the future, I will make another blog post detailing my machine learning / dat
 ### Intermediate
 
 - [x] **Beyond the Basic Stuff with Python**
-- [ ] **Dive Into Algorithms**
+- [ ] **Problem Solving with Algorithms and Data Structures using Python** (currently reading)
 - [ ] **Impractical Python Projects**
 - [ ] **Python Playground**
 - [ ] Python for Data Science
@@ -65,6 +65,7 @@ In the future, I will make another blog post detailing my machine learning / dat
 - [ ] Python One-liners
 - [ ] Math Adventures with Python
 - [ ] Doing Math with Python
+- [x] Dive Into Algorithms
 
 
 ### Advanced
@@ -92,8 +93,8 @@ In the future, I will make another blog post detailing my machine learning / dat
 
 ## Project Ideas
 
-- [ ] useless QR code
-- [ ] cellular automata simulator
+- [x] useless QR code clock
+- [ ] cellular automata simulation
 - [ ] falling sand simulation
 - [ ] fractal generator
 - [ ] stuff from coding train challenges
