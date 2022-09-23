@@ -115,3 +115,12 @@ In the future, I will make another blog post detailing my machine learning / dat
 - [ ] ai for games
 - [ ] games for ai
 - [ ] korea live train map
+- [ ] srs flashcards like kanji.koohii
+- [ ] osrs server status dash
+- [ ] molecule vis
+- [x] brute force hello world
+- [ ] term matrix falling text
+- [ ] 1337 code translator
+- [ ] kanji of the day
+- [ ] video game release date timeline
+- [ ] space-related dashboard
