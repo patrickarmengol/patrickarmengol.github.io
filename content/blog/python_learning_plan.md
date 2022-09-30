@@ -57,15 +57,18 @@ In the future, I will make another blog post detailing my machine learning / dat
 ### Intermediate
 
 - [x] **Beyond the Basic Stuff with Python**
-- [ ] **Problem Solving with Algorithms and Data Structures using Python** (currently reading)
-- [ ] **Impractical Python Projects**
+- [x] **Dive Into Algorithms**
+- [x] **Problem Solving with Algorithms and Data Structures using Python**
+- [ ] **Impractical Python Projects** (currently reading)
 - [ ] **Python Playground**
+- [ ] **Python Data Science Handbook**
+- [ ] **Python for Data Analysis**
 - [ ] Python for Data Science
 - [ ] Effective Python
 - [ ] Python One-liners
 - [ ] Math Adventures with Python
 - [ ] Doing Math with Python
-- [x] Dive Into Algorithms
+
 
 
 ### Advanced
@@ -124,3 +127,6 @@ In the future, I will make another blog post detailing my machine learning / dat
 - [ ] kanji of the day
 - [ ] video game release date timeline
 - [ ] space-related dashboard
+- [x] rgb color space cube plotter
+- [ ] TM COTD data analysis
+- [ ] hydrogen fuel data analysis
