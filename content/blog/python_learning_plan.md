@@ -60,25 +60,29 @@ In the future, I will make another blog post detailing my machine learning / dat
 - [x] **Dive Into Algorithms**
 - [x] **Problem Solving with Algorithms and Data Structures using Python**
 - [ ] **Impractical Python Projects** (currently reading)
-- [ ] **Python Playground**
-- [ ] **Python Data Science Handbook**
 - [ ] **Python for Data Analysis**
-- [ ] Python for Data Science
+- [ ] **Python Data Science Handbook**
+- [ ] Python Playground
 - [ ] Effective Python
 - [ ] Python One-liners
 - [ ] Math Adventures with Python
 - [ ] Doing Math with Python
 
-
-
 ### Advanced
 
 - [ ] **Serious Python**
+- [ ] **Practical Statistics for Data Scientists**
+- [ ] **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow**
 - [ ] Real World Python
 - [ ] Fluent Python
 - [ ] Python Cookbook
 - [ ] Architecture Patterns with Python
+
+### Non-Python
 - [ ] The Art of Clean Code
+- [ ] Naked Statistics
+- [ ] Fundamentals of Data Visualization
+- [ ] The Hundred Page Machine Learning Book
 
 ---
 
@@ -96,37 +100,51 @@ In the future, I will make another blog post detailing my machine learning / dat
 
 ## Project Ideas
 
-- [x] useless QR code clock
+
+### general python
+- [ ] tui kanban
+- [ ] earthquake notification bot
+- [ ] haiku syllable checker
+- [ ] haiku detector bot
+- [ ] air quality info getter
+
+### silly
+- [x] [useless QR code clock](https://github.com/patrickarmengol/qrclock)
+- [x] [brute force hello world](https://github.com/patrickarmengol/infinitemonkey)
+- [x] [rgb color space cube plotter](https://github.com/patrickarmengol/imgcolorplot)
+- [ ] 1337 translator
+
+### data science
+- [ ] web scraping to create a dataset
+- [ ] air quality data analysis
+- [ ] nobel prize winner data analysis
+- [ ] arxiv submission meta-data analysis
+- [ ] TM COTD data analysis
+- [ ] hydrogen fuel data analysis
+- [ ] data vis dashboard with panel
+
+### creative coding / games - maybe not python
+- [ ] term matrix falling text
 - [ ] cellular automata simulation
 - [ ] falling sand simulation
+- [ ] ant colony simulation
 - [ ] fractal generator
+- [ ] atomic model vis
 - [ ] stuff from coding train challenges
-- [ ] ant colony simulation
-- [ ] endangered species tracker site
 - [ ] manim animations for algorithms
-- [ ] minimal markdown recipe site
 - [ ] generate color theme/palette from image
-- [ ] sunrise alarm mobile app
-- [ ] kanban that doesn't suck
-- [ ] web scraping to create a dataset
-- [ ] earthquake api notification app
-- [ ] url shortener
-- [ ] kakaotalk bot
-- [ ] haiku syllable checker
-- [ ] ant colony simulation
 - [ ] korean typing game
 - [ ] ai for games
 - [ ] games for ai
-- [ ] korea live train map
+
+### web / mobile
+- [ ] url shortener
+- [ ] endangered species tracker site
+- [ ] minimal markdown recipe site
+- [ ] sunrise alarm mobile app
 - [ ] srs flashcards like kanji.koohii
 - [ ] osrs server status dash
-- [ ] molecule vis
-- [x] brute force hello world
-- [ ] term matrix falling text
-- [ ] 1337 code translator
 - [ ] kanji of the day
 - [ ] video game release date timeline
 - [ ] space-related dashboard
-- [x] rgb color space cube plotter
-- [ ] TM COTD data analysis
-- [ ] hydrogen fuel data analysis
+
