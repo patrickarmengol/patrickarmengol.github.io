@@ -53,11 +53,11 @@ The plan I have settled on for the moment is to focus on data science, while sid
 
 ### Data Science
 
-see [Data Science Learning Plan](./data_science_learning_plan.md)
+see [Data Science Learning Plan](/data_science_learning_plan)
 
 ### Front-end
 
-see [Javascript Learning Plan](./javascript_learning_plan.md)
+see [Javascript Learning Plan](/javascript_learning_plan)
 
 ### Show Off
 
