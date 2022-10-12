@@ -40,7 +40,7 @@ Some other careers that pique my interest and may be goals for the future includ
 
 - Game Developer - I do this for fun anyway
 - Machine Learning Engineer - super cool, but maybe market is saturated?
-- Back-end Engineer - I don't know how to Golang, but it seems alright
+- Back-end Engineer - already know Python, and Golang seems alright
 - Firmware Engineer - low-level is nice
 - Robotics Engineer - maybe if the industry moves from C++ to Rust
 - IoT Engineer - hardware is nice
@@ -49,7 +49,7 @@ Some other careers that pique my interest and may be goals for the future includ
 
 ## Plan
 
-The plan I have settled on for the moment is to focus on data science, while side-loading JS skills and using them create projects that I can show off. This may prove to be a bad idea. 
+The plan I have settled on for the moment is to focus on data science, while side-loading web-dev skills and using them create projects that I can show off. This may prove to be a bad idea. 
 
 ### Data Science
 
@@ -57,7 +57,11 @@ see [Data Science Learning Plan](/data_science_learning_plan)
 
 ### Front-end
 
-see [Javascript Learning Plan](/javascript_learning_plan)
+see [Frontend Learning Plan](/frontend_learning_plan)
+
+### Back-end
+
+see [Backend Learning Plan](/backend_learning_plan)
 
 ### Show Off
 
