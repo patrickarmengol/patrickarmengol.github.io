@@ -2,7 +2,7 @@
 title: "Frontend Learning Plan"
 date: 2022-10-10T21:48:48+09:00
 draft: false
-tags: ["javascript", "learning"]
+tags: ["frontend", "javascript", "learning"]
 ---
 
 ## Skills
@@ -28,8 +28,9 @@ tags: ["javascript", "learning"]
 - [ ] media queries
 - [ ] responsive design
 - [ ] animations and transitions
-- [ ] Bootstrap 5
+- [ ] Bootstrap
 - [ ] Tailwind CSS
+- [ ] daisyUI
 
 ### Tools
 
