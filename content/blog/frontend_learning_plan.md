@@ -1,5 +1,5 @@
 ---
-title: "Javascript Learning Plan"
+title: "Frontend Learning Plan"
 date: 2022-10-10T21:48:48+09:00
 draft: false
 tags: ["javascript", "learning"]
@@ -9,19 +9,50 @@ tags: ["javascript", "learning"]
 
 ### Javascript
 
-- [ ] vanilla
+- [ ] basics
+- [ ] dom
+- [ ] async
+- [ ] fetch + http
+- [ ] array methods
+- [ ] TypeScript
 
 ### HTML
 
-- [ ] ???
+- [ ] HTML5 basic and semantic tags
+- [ ] page layout
 
 ### CSS
 
-- [ ] ???
+- [ ] fundamentals (colors, fonts, borders, margins)
+- [ ] alignment (flexbox, css grid)
+- [ ] media queries
+- [ ] responsive design
+- [ ] animations and transitions
+- [ ] Bootstrap 5
+- [ ] Tailwind CSS
 
-### Front-end Frameworks
+### Tools
+
+- [ ] package management
+- [ ] Emmet extension
+- [ ] Live Server extension
+- [ ] Prettier extension
+- [ ] ESLint extension
+
+### Platforms
+
+- [ ] Netlify
+
+### Frontend Frameworks
 
 - [ ] Vue.js
+- [ ] Vue CLI
+- [ ] Vue Router
+- [ ] Composition API
+- [ ] Vuex
+
+### Server Side Rendering
+
 - [ ] Nuxt.js
 
 ### Creative Coding
