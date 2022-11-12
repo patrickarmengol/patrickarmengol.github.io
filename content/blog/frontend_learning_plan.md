@@ -87,9 +87,6 @@ tags: ["frontend", "javascript", "learning"]
 - [ ] korean typing game
 - [ ] The Coding Train challenges
 - [ ] a pretty 3D portfolio site
-- [ ] endangered species tracker site
-- [ ] srs flashcards like kanji.koohii
 - [ ] osrs server status dash
-- [ ] kanji of the day
 - [ ] video game release date timeline
-- [ ] space-related dashboard
+- [ ] who ya gonna call? db of gov/help lines for each country

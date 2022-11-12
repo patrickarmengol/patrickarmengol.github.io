@@ -101,8 +101,6 @@ In the future, I will make another blog post detailing my machine learning / dat
 - [x] [brute force hello world](https://github.com/patrickarmengol/infinitemonkey)
 - [x] [rgb color space cube plotter](https://github.com/patrickarmengol/imgcolorplot)
 - [ ] 1337 translator
-- [ ] url shortener
-- [ ] minimal markdown recipe site
 - [ ] sunrise alarm mobile app
 - [ ] matrix falling text
 
