@@ -26,24 +26,24 @@ I need to make myself as employable as possible. The first job I get may not be 
 - Data Scientist - science with data
 - Data Engineer - scraping, parsing, cleaning, organizing, managing data
 - Front-end Engineer - hmmm... Javascript.....
-- UI Engineer - I'm reminded of my days writing Lua to make World of Warcraft add-ons
+- Back-end Engineer - already know Python, and Golang seems alright
 
 Well, that isn't very narrow...
 
-I think my best bet for finding a job, fast, would be to learn a popular JS framework like React / Anglular / Vue and look for a junior front-end position. As much as I want to avoid JS, I think that it should be relatively easy to get hired considering the number of available positions and all the simple / fun projects I can show off. Additionaly, having experience with front-end web dev would make me more well-rounded. If I supplement my learning with a bit of a Python framework like Django or with a new language like Golang, I could potentialy expand my search to full-stack. 
+I think my best bet for finding a job, fast, would be to learn a popular JS framework like React / Anglular / Vue and look for a junior front-end position. As much as I want to avoid JS, I think that it should be relatively easy to get hired considering the number of available positions and all the simple / fun projects I can show off. Additionaly, having experience with front-end web dev would make me more well-rounded and let me create my own sites for future projects. If I supplement my learning with a bit of a Python framework like Django or with a new language like Golang, I could potentialy expand my search to back-end and full-stack. 
 
 If possible, I'd rather try for a data science / analyst position, especially with my experience as a threat hunter and my proficiency in Python. The problem, from what I can gather, is that there is a mountain of jobs in web-dev to the few grains of sand in data science. Also, many of the data science job postings list machine-learning competency as a desired skill, which is a bit out of my reach at the moment. 
 
-Honestly, I'm a bit confused with what I want. If I was employed right now (or if I didn't have time and money pressure), I don't think I would touch Javascript. I would either put all my focus into developing my Data Science skills, or I would start looking into Rust. I think the options Rust opens up are far more interesting and desirable. 
+Honestly, I'm a bit confused with what I want. If I was employed right now (or if I didn't have time and money pressure), I don't think I would touch Javascript. I would either put all my focus into developing my data science skills, or I would start looking into something more interesting and niche like Rust. 
 
 Some other careers that pique my interest and may be goals for the future include:
 
 - Game Developer - I do this for fun anyway
 - Machine Learning Engineer - super cool, but maybe market is saturated?
-- Back-end Engineer - already know Python, and Golang seems alright
 - Firmware Engineer - low-level is nice
 - Robotics Engineer - maybe if the industry moves from C++ to Rust
 - IoT Engineer - hardware is nice
+- UI Engineer - reminiscing the many nights writing Lua to make World of Warcraft UI add-ons
 
 ---
 
