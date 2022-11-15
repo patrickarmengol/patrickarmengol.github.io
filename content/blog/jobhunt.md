@@ -78,3 +78,30 @@ I would prefer to work remotely, but I am not too fussed considering my junior s
 ### Interviewing
 
 I haven't interviewed for a job in over 5 years now. Although I believe my social skills have improved greatly in recent years, I should still practice interviewing skills. I need to prep answers to common questions. I need to prep questions to ask to interviewers. The technical interviews don't really intimidate me as much as the others. 
+
+
+### Checklist
+
+- [ ] write review for Impractical Python Projects
+- [ ] program markov chain haiku generator using markovify
+- [ ] read Python for Data Analysis
+- [ ] read Python Data Science Handbook
+- [ ] do a bunch of exploratory data analysis
+- [ ] build a dashboard with panel
+- [ ] read Fundamentals of Data Visualization
+- [ ] make some infographics
+- [ ] do some creative datavis with js
+- [ ] scrape up a dataset
+- [ ] prep resumes
+- [ ] start sending out resumes
+- [ ] clean up projects
+
+- [ ] relearn databases
+- [ ] learn python backend frameworks
+- [ ] build a simple api
+- [ ] build a simple website
+
+- [ ] learn p5.js
+- [ ] spam my blog with p5.js stuff
+- [ ] learn vue.js
+- [ ] build a kanban app

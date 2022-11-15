@@ -34,10 +34,9 @@ see [Python Learning Plan](./python_learning_plan.md)
 
 ### Database
 
-- [ ] SQL
 - [ ] MySQL
 - [ ] SQLite
-- [ ] NoSQL
+- [ ] PostgreSQL
 - [ ] MongoDB
 
 ### Statistics

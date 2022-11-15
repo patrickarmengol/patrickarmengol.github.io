@@ -59,7 +59,7 @@ In the future, I will make another blog post detailing my machine learning / dat
 - [x] **Beyond the Basic Stuff with Python**
 - [x] **Dive Into Algorithms**
 - [x] **Problem Solving with Algorithms and Data Structures using Python**
-- [ ] **Impractical Python Projects** (currently reading)
+- [x] **Impractical Python Projects**
 - [ ] Python Playground
 - [ ] Effective Python
 - [ ] Python One-liners
@@ -94,13 +94,12 @@ In the future, I will make another blog post detailing my machine learning / dat
 
 - [ ] tui kanban
 - [ ] earthquake notification bot
-- [ ] haiku syllable checker
-- [ ] haiku detector bot
+- [x] [haiku detector](https://github.com/patrickarmengol/haikuobs)
 - [ ] air quality info getter
 - [x] [useless QR code clock](https://github.com/patrickarmengol/qrclock)
 - [x] [brute force hello world](https://github.com/patrickarmengol/infinitemonkey)
 - [x] [rgb color space cube plotter](https://github.com/patrickarmengol/imgcolorplot)
+- [x] [generate solid color background image](https://github.com/patrickarmengol/solidbackground)
 - [ ] 1337 translator
-- [ ] sunrise alarm mobile app
 - [ ] matrix falling text
 
