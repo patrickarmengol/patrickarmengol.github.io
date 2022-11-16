@@ -8,7 +8,7 @@ tags: ["datascience", "python", "learning"]
 
 ### Python
 
-see [Python Learning Plan](./python-learning-plan)
+see [Python Learning Plan](../python-learning-plan)
 
 ### Data Analysis
 

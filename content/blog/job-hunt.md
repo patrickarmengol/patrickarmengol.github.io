@@ -52,15 +52,15 @@ The plan I have settled on for the moment is to focus on data science, while sid
 
 ### Data Science
 
-see [Data Science Learning Plan](./data-science-learning-plan)
+see [Data Science Learning Plan](../data-science-learning-plan)
 
 ### Front-end
 
-see [Frontend Learning Plan](./frontend-learning-plan)
+see [Frontend Learning Plan](../frontend-learning-plan)
 
 ### Back-end
 
-see [Backend Learning Plan](./backend-learning-plan)
+see [Backend Learning Plan](../backend-learning-plan)
 
 ### Show Off
 
