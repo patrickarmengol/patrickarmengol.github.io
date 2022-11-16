@@ -1,6 +1,7 @@
-+++
-title = "Japanese Resources"
-+++
+---
+title: "Japanese Resources"
+# menu: "main" # add link at top of home page
+---
 
 ---
 

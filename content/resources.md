@@ -1,10 +1,10 @@
-+++
-title = "Resources"
-menu = "main"
-+++
+---
+title: "Resources"
+menu: "main" # add link at top of home page
+---
+
 
 # Resource List
 
-- [Data Science](/data_science)
-- [Japanese](/japanese)
-- [Tea](/tea)
+- [Japanese](/japanese-resources)
+- [Tea](/tea-resources)

@@ -1,6 +1,8 @@
-+++
-title = "Tea Resources"
-+++
+---
+title: "Tea Resources"
+# menu: "main" # add link at top of home page
+---
+
 
 ---
 
