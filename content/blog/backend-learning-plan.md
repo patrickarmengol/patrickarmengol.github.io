@@ -1,7 +1,6 @@
 ---
 title: "Backend Learning Plan"
 date: 2022-10-12T13:34:31+09:00
-draft: false
 tags: ["backend", "python", "golang", "learning"]
 ---
 

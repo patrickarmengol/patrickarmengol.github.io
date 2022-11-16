@@ -1,14 +1,9 @@
-+++
-title = "GitHub and GitLab"
-date = "2022-01-24T09:28:09-05:00"
+---
+title: "GitHub and GitLab"
+date: 2022-01-24T09:28:09-05:00
+tags: ["open-source"]
+---
 
-#
-# description is optional
-#
-# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
-
-tags = ["open_source"]
-+++
 
 Since I've started re-entering the world of programming, I've been exploring options for how to organize and manage my projects. 
 

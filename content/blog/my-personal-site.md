@@ -1,14 +1,9 @@
-+++
-title = "My Personal Site"
-date = "2022-01-22T17:19:54-05:00"
+---
+title: "My Personal Site"
+date: 2022-01-22T17:19:54-05:00
+tags: ["meta"]
+---
 
-#
-# description is optional
-#
-# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
-
-tags = ["meta"]
-+++
 
 I want to write a bit about this site and why it exists. 
 

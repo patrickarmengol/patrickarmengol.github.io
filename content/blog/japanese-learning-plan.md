@@ -1,14 +1,8 @@
-+++
-title = "Japanese Learning Plan"
-date = "2022-01-12T21:26:20-05:00"
-
-#
-# description is optional
-#
-# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
-
-tags = ["learning","japanese",]
-+++
+---
+title: "Japanese Learning Plan"
+date: 2022-01-12T21:26:20-05:00
+tags: ["japanese", "learning"]
+---
 
 
 ## Why

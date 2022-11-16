@@ -1,7 +1,6 @@
 ---
 title: "Frontend Learning Plan"
 date: 2022-10-10T21:48:48+09:00
-draft: false
 tags: ["frontend", "javascript", "learning"]
 ---
 

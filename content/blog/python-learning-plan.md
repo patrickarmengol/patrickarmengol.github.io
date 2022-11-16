@@ -1,15 +1,8 @@
-+++
-title = "Python Learning Plan"
-date = "2022-01-11T15:57:03-05:00"
-
-#
-# description is optional
-#
-# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
-
-tags = ["python","learning"]
-+++
-
+---
+title: "Python Learning Plan"
+date: 2022-01-11T15:57:03-05:00
+tags: ["python", "learning"]
+---
 
 ## Why
 

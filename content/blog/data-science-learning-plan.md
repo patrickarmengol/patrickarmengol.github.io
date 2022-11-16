@@ -1,7 +1,6 @@
 ---
 title: "Data Science Learning Plan"
 date: 2022-10-10T21:10:39+09:00
-draft: false
 tags: ["datascience", "python", "learning"]
 ---
 

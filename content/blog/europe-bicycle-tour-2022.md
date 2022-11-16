@@ -1,7 +1,6 @@
 ---
 title: "Europe Bicycle Tour 2022"
 date: 2022-08-25T23:23:46+09:00
-draft: false
 tags: ["travel"]
 ---
 

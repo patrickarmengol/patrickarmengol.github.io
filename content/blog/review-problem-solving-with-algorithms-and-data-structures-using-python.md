@@ -1,8 +1,7 @@
 ---
-title: "Problem Solving with Algorithms and Data Structures using Python - Review"
+title: "Review: Problem Solving with Algorithms and Data Structures using Python"
 date: 2022-09-30T14:41:35+09:00
-draft: false
-tags: ["python", "learning"]
+tags: ["python", "learning", "review"]
 ---
 
 This is my short review of "Problem Solving with Algorithms and Data Structures using Python" by Brad Miller and David Ranum.

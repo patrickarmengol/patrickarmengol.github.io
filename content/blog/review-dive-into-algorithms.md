@@ -1,8 +1,7 @@
 ---
-title: "Dive Into Algorithms - Review"
+title: "Review: Dive Into Algorithms"
 date: 2022-09-13T20:04:51+09:00
-draft: false
-tags: ["python", "learning"]
+tags: ["python", "learning", "review"]
 ---
 
 This is my short review of "Dive Into Algorithms" by Bradford Tuckfield. 

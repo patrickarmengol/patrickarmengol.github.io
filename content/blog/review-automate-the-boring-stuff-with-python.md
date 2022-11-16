@@ -1,14 +1,8 @@
-+++
-title = "Automate the Boring Stuff with Python - Review"
-date = "2022-01-31T14:27:02-05:00"
-
-#
-# description is optional
-#
-# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
-
-tags = ["python","learning"]
-+++
+---
+title: "Review: Automate the Boring Stuff with Python"
+date: 2022-01-31T14:27:02-05:00
+tags: ["python", "learning", "review"]
+---
 
 
 This is my short review of "Automate the Boring Stuff with Python" by Al Sweigart. 

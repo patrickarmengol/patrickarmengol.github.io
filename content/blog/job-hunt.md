@@ -1,8 +1,7 @@
 ---
 title: "Job Hunt"
 date: 2022-10-09T22:52:09+09:00
-draft: false
-tags: ["javascript", "learning"]
+tags: ["learning", "meta"]
 ---
 
 

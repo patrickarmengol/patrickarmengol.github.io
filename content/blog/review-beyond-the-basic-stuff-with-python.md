@@ -1,14 +1,9 @@
-+++
-title = "Beyond the Basic Stuff with Python - Review"
-date = "2022-02-16T13:43:33-05:00"
+---
+title: "Review: Beyond the Basic Stuff with Python"
+date: 2022-02-16T13:43:33-05:00
+tags: ["python", "learning", "review"]
+---
 
-#
-# description is optional
-#
-# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
-
-tags = ["python","learning"]
-+++
 
 This is my short review of "Beyond the Basic Stuff with Python" by Al Sweigart. 
 

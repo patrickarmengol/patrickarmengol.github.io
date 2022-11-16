@@ -1,6 +1,5 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-main: false # add to top of home page
+tags: []
 ---
-
