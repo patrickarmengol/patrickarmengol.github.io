@@ -4,22 +4,23 @@ This is my personal site. I'm using it to collect resources/notes and will try t
 
 Here are some of the things I'm interested in:
 
-- AI/ML
-- Agriculture
 - Cycling
+- Data Science + AI/ML
+- Data Visualization
 - Drawing
-- Gamedev
+- Game Development
 - Go (board game)
 - Hardware
 - Hiking
 - Language Learning
-- Piano
 - Reading
 - Reverse Engineering
+- RTS Games
+- Running
 - Security
 - Space
 - Tea
 - Travel
 
 
-You can reach me through [email](mailto:patrickarmengol@pm.me) and find my projects on [github](https://github.com/patrickarmengol)/[gitlab](https://gitlab.com/patrickarmengol). 
+You can reach me through [email](mailto:patrickarmengol@pm.me) and find my projects on [github](https://github.com/patrickarmengol). 
