@@ -65,10 +65,4 @@ see [Python Learning Plan](../python-learning-plan)
 
 ## Project Ideas
 
-- [ ] web scraping to create a dataset
-- [ ] air quality data analysis
-- [ ] nobel prize winner data analysis
-- [ ] arxiv submission data analysis
-- [ ] TM COTD data analysis
-- [ ] hydrogen fuel data analysis
-- [ ] data vis dashboard with panel
+see [project ideas](/projects)

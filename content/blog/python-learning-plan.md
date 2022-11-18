@@ -85,14 +85,4 @@ In the future, I will make another blog post detailing my machine learning / dat
 ## Project Ideas
 
 
-- [ ] tui kanban
-- [ ] earthquake notification bot
-- [x] [haiku detector](https://github.com/patrickarmengol/haikuobs)
-- [ ] air quality info getter
-- [x] [useless QR code clock](https://github.com/patrickarmengol/qrclock)
-- [x] [brute force hello world](https://github.com/patrickarmengol/infinitemonkey)
-- [x] [rgb color space cube plotter](https://github.com/patrickarmengol/imgcolorplot)
-- [x] [generate solid color background image](https://github.com/patrickarmengol/solidbackground)
-- [ ] 1337 translator
-- [ ] matrix falling text
-
+see [project ideas](/projects)

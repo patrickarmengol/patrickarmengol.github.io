@@ -76,16 +76,4 @@ tags: ["frontend", "javascript", "learning"]
 
 ## Project Ideas
 
-- [ ] cellular automata simulation
-- [ ] falling sand simulation
-- [ ] ant colony simulation
-- [ ] fractal generator
-- [ ] atomic model simulation
-- [ ] animations for algorithms
-- [ ] generate color theme/palette from image
-- [ ] korean typing game
-- [ ] The Coding Train challenges
-- [ ] a pretty 3D portfolio site
-- [ ] osrs server status dash
-- [ ] video game release date timeline
-- [ ] who ya gonna call? db of gov/help lines for each country
+see [project ideas](/projects)

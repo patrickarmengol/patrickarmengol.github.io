@@ -66,17 +66,4 @@ tags: ["backend", "python", "golang", "learning"]
 
 ## Project Ideas
 
-- [ ] space news dashboard
-- [ ] kanji of the day
-- [ ] srs flashcards like kanji.koohii
-- [ ] endangered species tracker site
-- [ ] url shortener
-- [ ] minimal markdown recipe site
-- [ ] cli downloader with progress bars
-
----
-
-## Blog Post Ideas
-
-- [ ] exploring concurrency in python
-- [ ] API framework comparison
+see [project ideas](/projects)
