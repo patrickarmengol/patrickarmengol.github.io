@@ -19,6 +19,7 @@ This page consolidates my projects and project ideas into one place for quick re
 - **imgcolorplot** - rgb color space cube plotter - [github](https://github.com/patrickarmengol/imgcolorplot)
 - **solidbackground** - generate solid color background image - [github](https://github.com/patrickarmengol/solidbackground)
 - **haikuobs** - detects haikus in text; search tweets for valid haikus - [github](https://github.com/patrickarmengol/haikuobs)
+- **haikugen** - generate haikus with markov chains trained on books available from Project Gutenberg - [github](https://github.com/patrickarmengol/haikugen)
 
 ---
 

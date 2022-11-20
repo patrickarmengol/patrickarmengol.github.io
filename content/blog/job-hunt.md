@@ -81,8 +81,8 @@ I haven't interviewed for a job in over 5 years now. Although I believe my socia
 
 ### Checklist
 
-- [ ] write review for Impractical Python Projects
-- [ ] program markov chain haiku generator using markovify
+- [x] write review for Impractical Python Projects
+- [x] program markov chain haiku generator using markovify
 - [ ] read Python for Data Analysis
 - [ ] read Python Data Science Handbook
 - [ ] do a bunch of exploratory data analysis
