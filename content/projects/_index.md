@@ -27,10 +27,12 @@ This page consolidates my projects and project ideas into one place for quick re
 
 ### CLI
 
-- download some thing with progress bars
-- tui kanban
+- hatch alternative
+- async download something with progress bars
 - matrix falling text
 - something like cbonsai
+- bt client
+- uwuicode
 
 ### Web
 
