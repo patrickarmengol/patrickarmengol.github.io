@@ -9,3 +9,4 @@ layout: "single"
 
 - [Japanese](./japanese-resources)
 - [Tea](./tea-resources)
+- [Python Toolbelt](./python-toolbelt)
