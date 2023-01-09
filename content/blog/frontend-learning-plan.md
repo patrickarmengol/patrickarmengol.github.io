@@ -6,50 +6,30 @@ tags: ["frontend", "javascript", "learning"]
 
 ## Skills
 
-### Javascript
-
-- [ ] basics
-- [ ] dom
-- [ ] async
-- [ ] fetch + http
-- [ ] array methods
-- [ ] TypeScript
-
 ### HTML
 
-- [ ] HTML5 basic and semantic tags
-- [ ] page layout
+- [x] [MDN web docs - learn HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 
 ### CSS
 
-- [ ] fundamentals (colors, fonts, borders, margins)
-- [ ] alignment (flexbox, css grid)
-- [ ] media queries
-- [ ] responsive design
-- [ ] animations and transitions
-- [ ] Bootstrap
-- [ ] Tailwind CSS
-- [ ] daisyUI
+- [ ] [MDN web docs - learn CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+
+### JavaScript
+
+- [ ] [MDN web docs - learn JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
+
 
 ### Tools
 
-- [ ] package management
-- [ ] Emmet extension
-- [ ] Live Server extension
-- [ ] Prettier extension
-- [ ] ESLint extension
+- [ ] npm / yarn
 
 ### Platforms
 
-- [ ] Netlify
+- [x] railway
 
 ### Frontend Frameworks
 
 - [ ] Vue.js
-- [ ] Vue CLI
-- [ ] Vue Router
-- [ ] Composition API
-- [ ] Vuex
 
 ### Server Side Rendering
 

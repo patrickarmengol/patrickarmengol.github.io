@@ -2,6 +2,7 @@
 title: "Job Hunt"
 date: 2022-10-09T22:52:09+09:00
 tags: ["learning", "meta"]
+draft: True
 ---
 
 
@@ -66,9 +67,17 @@ see [Backend Learning Plan](../backend-learning-plan)
 
 I need to show off my skillset somehow. My GitHub profile is pretty bleak, with just a few projects and no open source contributions. I should focus on creating projects that can be shown to potential interviewers / recruiters. The projects should be easily accessible (in the browser) and interactive (creative coding, game, simulation, dava vis dashboard, ability to tweak settings). For each project (including past projects), I should write a blog post that describes the functionality, design decisions, implementation, troubles, and lessons learned. 
 
+- [x] utility cli - pptoml
+- [x] another cli - pegreet
+- [x] api - ethereal url
+- [x] api - scrape recipe, convert to markdown
+- [ ] api - tea db
+- [ ] api - sc build orders
+- [ ] api - md recipe sharing
+
 ### CV
 
-I need to prep two resumes. One will focus on data science and the other on web-dev. 
+I need to prep two resumes. One will focus on data analysis and the other on web-dev. 
 
 ### Finding Positions
 
@@ -78,29 +87,24 @@ I would prefer to work remotely, but I am not too fussed considering my junior s
 
 I haven't interviewed for a job in over 5 years now. Although I believe my social skills have improved greatly in recent years, I should still practice interviewing skills. I need to prep answers to common questions. I need to prep questions to ask to interviewers. The technical interviews don't really intimidate me as much as the others. 
 
-
 ### Checklist
 
 - [x] write review for Impractical Python Projects
-- [x] program markov chain haiku generator using markovify
-- [ ] read Python for Data Analysis
-- [ ] read Python Data Science Handbook
-- [ ] do a bunch of exploratory data analysis
-- [ ] build a dashboard with panel
-- [ ] read Fundamentals of Data Visualization
-- [ ] make some infographics
-- [ ] do some creative datavis with js
-- [ ] scrape up a dataset
-- [ ] prep resumes
-- [ ] start sending out resumes
-- [ ] clean up projects
+- [x] build markov chain haiku generator using markovify
+
+- [x] prep resumes
+- [x] start sending out resumes
+- [x] clean up projects
 
 - [ ] relearn databases
-- [ ] learn python backend frameworks
-- [ ] build a simple api
-- [ ] build a simple website
+- [x] learn FastAPI
+- [x] build a url shortener api
+- [x] build a recipe to markdown converter api
+- [x] learn docker
+- [ ] deploy APIs
 
-- [ ] learn p5.js
-- [ ] spam my blog with p5.js stuff
+- [x] learn html
+- [ ] learn css
+- [ ] learn js
 - [ ] learn vue.js
-- [ ] build a kanban app
+- [ ] add frontends to existing apis
