@@ -12,7 +12,9 @@ This page consolidates my projects and project ideas into one place for quick re
 
 ## Ongoing/Completed
 
-- **PEgreet** - static analysis and feature extraction of Portable Executable files - [github](https://github.com/patrickarmengol/PEgreet)
+(sorted by start date)
+
+- **pegreet** - static analysis and feature extraction of Portable Executable files - [github](https://github.com/patrickarmengol/pegreet)
 - **EPstripper** - defang malware samples by changing their Entry Point - [github](https://github.com/patrickarmengol/EPstripper)
 - **qrclock** - useless qr code clock - [github](https://github.com/patrickarmengol/qrclock)
 - **infinitemonkey** - brute force hello world - [github](https://github.com/patrickarmengol/infinitemonkey)
@@ -20,6 +22,9 @@ This page consolidates my projects and project ideas into one place for quick re
 - **solidbackground** - generate solid color background image - [github](https://github.com/patrickarmengol/solidbackground)
 - **haikuobs** - detects haikus in text; search tweets for valid haikus - [github](https://github.com/patrickarmengol/haikuobs)
 - **haikugen** - generate haikus with markov chains trained on books available from Project Gutenberg - [github](https://github.com/patrickarmengol/haikugen)
+- **pptoml** - library and CLI tool for parsing, validating, modifying, and updating pyproject.toml files - [github](https://github.com/patrickarmengol/pptoml)
+- **etherealink** - URL shortener API for self-destructible and expirable links - [github](https://github.com/patrickarmengol/etherealink)
+- **reciplease** - API to scrape recipes from your favorite site and output to simple, clean markdown - [github](https://github.com/patrickarmengol/reciplease)
 
 ---
 
@@ -27,26 +32,31 @@ This page consolidates my projects and project ideas into one place for quick re
 
 ### CLI
 
-- hatch alternative
+- o2fetch clone just for python projects
 - async download something with progress bars
 - matrix falling text
 - something like cbonsai
 - bt client
+- earthquake notification bot
 - uwuicode
+- scrape tea prices
 
 ### Web
 
 - kanji of the day
 - srs flashcards site like kanji.koohii
-- endangered species
-- space news getter cli
+- endangered species info/tracker
+- space news aggregator
 - url shortener
 - minimal markdown recipe site
-- osrs server status dash
-- video game release timeline
 - who ya gonna call? db of gov/help lines for each country
 - minimal kanban
-- earthquake notification bot
+- youtube sub shuffle
+- animaps
+- hiking meetup app
+- sc build order
+- first-contribution gh issue list
+- japan or taiwan tea map
 
 ### Creative Coding
 
@@ -60,10 +70,13 @@ This page consolidates my projects and project ideas into one place for quick re
 - korean typing game
 - pretty 3d portfolio
 - coding train challenges
+- multiple neighborhood cellular automata
 
 ### Data Analysis/Science
 
 - scrape something to create a dataset
+- pyproject.toml data analysis
+- no starch press data analysis
 - air quality data analysis
 - nobel prize winner data analysis
 - arxiv submission data analysis
