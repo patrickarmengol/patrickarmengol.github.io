@@ -1,11 +1,10 @@
 
->--
+---
 title: "Interview Question Prep"
 date: 2023-01-07T05:34:35Z
 tags: ["learning", "meta"]
 draft: True
-
->--
+---
 
 ## General
 
@@ -75,11 +74,20 @@ runtime duck typing with hasattr() vs runtime goose typing with isinstance() vs 
 
 > what is a class?
 
+the definition of an object and its methods and attributes
+
 > what is an object?
+
+an instatiation of a class
+can be assigned as variable, passed as argument, can call object methods and access/assign obj attributes
 
 > what is a constructor?
 
+the method in the class definition that defines how an object is instantiated
+
 > what is an attribute?
+
+an object or class variable
 
 > what is a class method?
 
@@ -89,7 +97,12 @@ runtime duck typing with hasattr() vs runtime goose typing with isinstance() vs 
 
 > what is self?
 
+a way to reference the object from within itself
+
 > what problems can arise from multi-inheritence?
+
+diamond problem
+
 
 ## Python
 
@@ -753,3 +766,8 @@ use encryption for network communication
 > loadshifting
 
 > circuit breaker
+
+
+
+borhansci@gmail.com
++1 313 505 7452
