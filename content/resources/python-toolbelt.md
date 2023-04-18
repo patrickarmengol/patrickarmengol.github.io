@@ -1,6 +1,6 @@
 ---
-title | "Python Toolbelt"
-# menu | "main" # add link at top of home page
+title: "Python Toolbelt"
+# menu: "main" # add link at top of home page
 ---
 
 ## editing
