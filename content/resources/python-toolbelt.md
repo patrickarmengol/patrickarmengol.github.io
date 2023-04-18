@@ -1,57 +1,67 @@
 ---
-title: "Python Toolbelt"
-# menu: "main" # add link at top of home page
+title | "Python Toolbelt"
+# menu | "main" # add link at top of home page
 ---
-
 
 ## editing
 
-- editor: astronvim, vscodium
-- jupyter notebooks: vscodium
+| use case          | tools     |
+| ----------------- | --------- |
+| editor            | astronvim |
+| jupyter notebooks | vscodium  |
 
 ## language checks
 
-- language server: pyright
-- type checking: pyright
-- formatting: autopep8, isort (check blue once flake8 conflict is resolved)
-- linting: ruff
+| use case        | tools                                              |
+| --------------- | -------------------------------------------------- |
+| language server | pyright + ruff-lsp                                 |
+| type checking   | pyright                                            |
+| linting         | ruff                                               |
+| formatting      | black (i don't quite like it, but it seems futile) |
 
 ## project setup
 
-- templating: copier
-- virtual environments: venv
-- package management: pip
-- package backend: hatchling
-- package frontend: build
-- package publishing: twine
+| use case             | tools                |
+| -------------------- | -------------------- |
+| templating           | huak                 |
+| virtual environments | venv                 |
+| package management   | pip                  |
+| package backend      | hatchling (via huak) |
+| package frontend     | build (via huak)     |
+| package publishing   | twine (via huak)     |
 
 ## libraries / frameworks
 
-- cli: typer, rich
-- data analysis: numpy, pandas (check out pola.rs)
-- plotting: seaborn
-- scraping: scrapy, beautifulsoup
-- time: arrow
-- async: trio
-- api: fastapi
-- files: pathlib
-- http: requests
-- images: pillow
-- nlp: spacy, nltk
-- logging: structlog?
-- gui: __TODO__
-- space: astropy
-- pyobject storage: shelve
-- templating: jinja
+| use case         | tools                   |
+| ---------------- | ----------------------- |
+| api              | fastapi -> litestar     |
+| async            | trio                    |
+| cli              | typer, rich             |
+| data analysis    | numpy, pandas -> polars |
+| files            | pathlib                 |
+| gui              | gooey                   |
+| http             | httpx                   |
+| images           | pillow                  |
+| logging          | structlog               |
+| nlp              | spacy, nltk             |
+| plotting         | seaborn                 |
+| pyobject storage | shelve                  |
+| scraping         | scrapy, beautifulsoup   |
+| space            | astropy                 |
+| templating       | jinja                   |
+| time             | arrow                   |
 
 ## testing
 
-- test framework: pytest
-- test automation: nox?
-- coverage: coverage.py
+| use case        | tools       |
+| --------------- | ----------- |
+| test framework  | pytest      |
+| test automation | nox?        |
+| coverage        | coverage.py |
 
 ## documentation
 
-- docs framework: __TODO__
-- release notes: release-drafter
-
+| use case       | tools           |
+| -------------- | --------------- |
+| docs framework | **TODO**        |
+| release notes  | release-drafter |
