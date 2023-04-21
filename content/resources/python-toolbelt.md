@@ -23,12 +23,11 @@ title: "Python Toolbelt"
 
 | use case             | tools                |
 | -------------------- | -------------------- |
-| templating           | huak                 |
+| project management   | huak                 |
 | virtual environments | venv                 |
 | package management   | pip                  |
 | package backend      | hatchling (via huak) |
 | package frontend     | build (via huak)     |
-| package publishing   | twine (via huak)     |
 
 ## libraries / frameworks
 
