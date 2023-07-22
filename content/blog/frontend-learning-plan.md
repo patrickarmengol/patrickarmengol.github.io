@@ -12,16 +12,16 @@ tags: ["frontend", "javascript", "learning"]
 
 ### CSS
 
-- [ ] [MDN web docs - learn CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+- [x] [MDN web docs - learn CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
 
 ### JavaScript
 
-- [ ] [MDN web docs - learn JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
-
+- [x] [MDN web docs - learn JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
+- [ ] [javascript.info](https://javascript.info/)
 
 ### Tools
 
-- [ ] npm / yarn
+- [x] npm / yarn
 
 ### Platforms
 
@@ -51,6 +51,13 @@ tags: ["frontend", "javascript", "learning"]
 - [ ] Eloquent Javascript
 - [ ] The Nature of Code
 - [ ] Interactive Data Visualization for the Web
+
+---
+
+## Courses
+
+- [ ] [freecodecamp - responsive web design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+- [ ] [freecodecamp - data visualization](https://www.freecodecamp.org/learn/data-visualization/)
 
 ---
 
