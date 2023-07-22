@@ -4,7 +4,6 @@ date: 2022-10-12T13:34:31+09:00
 tags: ["backend", "python", "learning"]
 ---
 
-
 ## Skills
 
 ### Internet Basics
@@ -12,24 +11,6 @@ tags: ["backend", "python", "learning"]
 - [ ] HTTP
 - [ ] DNS
 - [ ] how do browsers work?
-
-### Frontend Basics
-
-- [ ] HTML
-- [ ] CSS
-- [ ] Javascript
-
-### General
-
-- [x] terminal usage
-- [x] operating systems
-- [x] process management
-- [x] threads and concurrency
-- [ ] memory management
-- [ ] interprocess communication
-- [ ] i/o management
-- [x] POSIX basics
-- [x] networking concepts
 
 ### Python
 
@@ -39,12 +20,17 @@ see [Python Learning Plan](../python-learning-plan)
 
 - [ ] Django
 - [ ] Flask
-- [ ] FastAPI
+- [x] FastAPI
+- [x] Litestar
+
+### Golang
+
+see [Golang Learning Plan](../golang-learning-plan)
 
 ### Databases
 
-- [ ] PostgreSQL
-- [ ] SQLite
+- [x] PostgreSQL
+- [x] SQLite
 - [ ] MongoDB
 - [ ] ORMs
 - [ ] ACID
@@ -57,7 +43,7 @@ see [Python Learning Plan](../python-learning-plan)
 
 ### APIs
 
-- [ ] REST
+- [x] REST
 - [ ] JSON
 - [ ] gRPC
 - [ ] OpenAPI spec
