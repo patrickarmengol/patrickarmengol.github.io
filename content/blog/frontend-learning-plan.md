@@ -17,7 +17,6 @@ tags: ["frontend", "javascript", "learning"]
 ### JavaScript
 
 - [x] [MDN web docs - learn JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
-- [ ] [javascript.info](https://javascript.info/)
 
 ### Tools
 
@@ -44,6 +43,10 @@ tags: ["frontend", "javascript", "learning"]
 
 - [ ] D3.js
 
+### Hypermedia
+
+- [ ] htmx
+
 ---
 
 ## Books
@@ -51,6 +54,7 @@ tags: ["frontend", "javascript", "learning"]
 - [ ] Eloquent Javascript
 - [ ] The Nature of Code
 - [ ] Interactive Data Visualization for the Web
+- [ ] Hypermedia Systems
 
 ---
 
@@ -58,6 +62,7 @@ tags: ["frontend", "javascript", "learning"]
 
 - [ ] [freecodecamp - responsive web design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
 - [ ] [freecodecamp - data visualization](https://www.freecodecamp.org/learn/data-visualization/)
+- [ ] [javascript.info](https://javascript.info/)
 
 ---
 
