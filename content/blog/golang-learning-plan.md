@@ -10,7 +10,7 @@ tags: ["backend", "golang", "learning"]
 
 Up until now I have been using python for basically anything and everything and I'm quite comfortable with it, but it often doesn't really feel like the best tool for any job other than maybe data science/analysis. If I want to get serious about backend web dev, golang seems like a no-brainer. My foray into exploring python's options for backend has left me with little satisfaction. The most popular frameworks, _django_ and _flask_, are old and seem to have stalled in development. The most "promising" modern framework the community has chosen is _fastapi_, which is really just a layer on top of _starlette_, with a bus factor of one, and a big problem with community submitted contributions/issues. The framework that should be on top, in my opinion, is _litestar_. Its fairly new, has a great community and group of devs behind it. I tried building a more sophisticated app with it, but I ran into a multitude of python-related problems outside of the framework that just annoyed me, so I abandoned the project.
 
-Golang, on the other hand, seems to be more purpose-built for what I want to do, and the options don't seem so limiting. The general consensus for web dev projects is to heavily utilize the standard library, and build out most of the functionality yourself so that you know exactly how everything in your project works. I also don't quite know too much about certain concepts associated with backend web dev, like database interactions and caching, and have been relying on magic abstractions provided by the python frameworks and ORMs.
+Golang, on the other hand, seems to be more suitable for the kinds of things I want to do. The general consensus/recommendation for golang projects, particularly web dev projects, is to heavily utilize the standard library, and build out most of the functionality yourself so that you know exactly how everything in your project works. This is greate because I don't quite know too much about certain concepts associated with backend web dev, like database interactions, session management, caching, quirks of browsers, and have been relying on magic abstractions provided by the python frameworks and ORMs.
 
 ## Goals
 
@@ -29,13 +29,14 @@ Books. Always books.
 ## Books
 
 - [x] [Learning Go](https://www.oreilly.com/library/view/learning-go/9781492077206/)
-- [ ] [Let's Go](https://lets-go.alexedwards.net/)
-- [ ] [Let's Go Further](https://lets-go-further.alexedwards.net/)
+- [x] [Let's Go](https://lets-go.alexedwards.net/)
+- [x] [Let's Go Further](https://lets-go-further.alexedwards.net/)
 
 ## Exercises
 
 - [ ] [gophercises](https://gophercises.com/)
 - [ ] [fly.io distributed systems challenge - Gossip Glomers](https://fly.io/dist-sys/)
+- [ ] [codecrafters](https://app.codecrafters.io/catalog)
 
 ## Online Resources
 
