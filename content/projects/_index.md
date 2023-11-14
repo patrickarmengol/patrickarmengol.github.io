@@ -14,7 +14,7 @@ This page consolidates my projects and project ideas into one place for quick re
 
 (sorted newest to oldest)
 
-- **coffeetanuki** - discover nearby specialty coffee shops - [github](https://github.com/patrickarmengol/coffeetanuki)
+- **coffeetanuki** - website for rating/reviewing coffee beans - [github](https://github.com/patrickarmengol/coffeetanuki)
 - **golident** - generate dazzling identicons with Conway's Game of Life - [github](https://github.com/patrickarmengol/golident)
 - **reciplease** - API to scrape recipes from your favorite site and output to simple, clean markdown - [github](https://github.com/patrickarmengol/reciplease) --- [demo](https://reciplease-frontend.up.railway.app/)
 - **etherealink** - URL shortener API for self-destructible and expirable links - [github](https://github.com/patrickarmengol/etherealink) --- [demo](https://etherealink-frontend.up.railway.app/)
