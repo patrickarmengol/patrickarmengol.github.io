@@ -1,10 +1,10 @@
 +++
-title = 'Tea Resources'
+title = 'Tea'
 menu = 'resources'
 layout = 'single'
 +++
 
-# Tea Resources
+# Tea
 
 ## Communities
 

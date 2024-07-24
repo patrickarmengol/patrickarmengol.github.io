@@ -1,10 +1,10 @@
 +++
-title = 'Japanese Resources'
+title = 'Japanese'
 menu = 'resources'
 layout = 'single'
 +++
 
-# Japanese Resources
+# Japanese
 
 ## Kanji
 
