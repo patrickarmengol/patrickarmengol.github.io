@@ -10,10 +10,20 @@ layout = 'single'
 
 -   [r/tea](https://old.reddit.com/r/tea/)
 
+## Blogs
+
+-   [Oolong Owl](https://oolongowl.com/)
+
 ## Info
 
 -   [TeaDB Pu'erh](https://teadb.org/puerh/)
 -   [TeaDB Taiwanese Oolong](https://teadb.org/taiwanese-oolongs/)
+-   [Tea Epicure Oolong Compendium](https://teaepicure.com/oolong-tea-guide/)
+-   [Tea Epicure Tea Classification](https://teaepicure.com/tea-classification/)
+
+## Books
+
+I haven't read any books about tea yet...
 
 ## Vendors
 
