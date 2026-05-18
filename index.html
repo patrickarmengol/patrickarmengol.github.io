@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patrick Armengol</title>
+    <meta name="description" content="Patrick Armengol's personal site" />
+    <meta name="author" content="Patrick Armengol" />
+    <meta name="theme-color" content="#1e1e2e" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://patrickarmengol.com/" />
+    <meta property="og:title" content="Patrick Armengol" />
+    <meta property="og:description" content="Patrick Armengol's personal site" />
+    <meta property="og:image" content="https://patrickarmengol.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* catppuccin mocha palette */
+        :root {
+            --base: #1e1e2e;
+            --mantle: #181825;
+            --crust: #11111b;
+            --surface0: #313244;
+            --surface1: #45475a;
+            --surface2: #585b70;
+            --text: #cdd6f4;
+            --subtext1: #bac2de;
+            --subtext0: #a6adc8;
+            --overlay2: #9399b2;
+            --overlay1: #7f849c;
+            --overlay0: #6c7086;
+            --rosewater: #f5e0dc;
+            --flamingo: #f2cdcd;
+            --pink: #f5c2e7;
+            --mauve: #cba6f7;
+            --red: #f38ba8;
+            --maroon: #eba0ac;
+            --peach: #fab387;
+            --yellow: #f9e2af;
+            --green: #a6e3a1;
+            --teal: #94e2d5;
+            --sky: #89dceb;
+            --sapphire: #74c7ec;
+            --blue: #89b4fa;
+            --lavender: #b4befe;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            background-color: var(--base);
+            color: var(--text);
+            font-family: 'Space Mono', ui-monospace, monospace;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            line-height: 1.5;
+        }
+
+        main {
+            width: 100%;
+            max-width: 560px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Let the name extend wider than the link list if it's too long */
+        h1 {
+            width: max-content;
+            max-width: 90vw;
+            white-space: nowrap;
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: clamp(2rem, 8vw, 5rem);
+            line-height: 1.15;
+            letter-spacing: -0.03em;
+            margin-bottom: 1rem;
+            text-align: center;
+            padding-bottom: 0.1em;
+            /* Gradient sweep using catppuccin some mocha colors */
+            background: linear-gradient(90deg,
+                    var(--mauve) 0%,
+                    var(--pink) 15%,
+                    var(--peach) 30%,
+                    var(--yellow) 45%,
+                    var(--green) 60%,
+                    var(--sky) 75%,
+                    var(--lavender) 90%,
+                    var(--mauve) 100%);
+            background-size: 300% 100%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: gradient-sweep 18s linear infinite;
+        }
+
+        @keyframes gradient-sweep {
+            0% {
+                background-position: 0% 0;
+            }
+
+            100% {
+                background-position: -300% 0;
+            }
+        }
+
+        /* Floating descriptors layer */
+        .descriptors {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            overflow: hidden;
+            z-index: 0;
+        }
+
+        .descriptor {
+            position: absolute;
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 500;
+            font-size: 1rem;
+            color: var(--subtext0);
+            white-space: nowrap;
+            opacity: 0;
+            transform: translate(-50%, -50%);
+            animation: drift-fade var(--dur, 7s) ease-in-out forwards;
+        }
+
+        @keyframes drift-fade {
+            0% {
+                opacity: 0;
+                transform: translate(calc(-50% + var(--dx0, 0px)), calc(-50% + var(--dy0, 0px)));
+            }
+
+            25% {
+                opacity: 0.85;
+            }
+
+            75% {
+                opacity: 0.85;
+            }
+
+            100% {
+                opacity: 0;
+                transform: translate(calc(-50% + var(--dx1, 20px)), calc(-50% + var(--dy1, -20px)));
+            }
+        }
+
+        /* Keep main content above the descriptor layer */
+        main {
+            position: relative;
+            z-index: 1;
+        }
+
+        ul.socials {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+            width: 100%;
+            align-self: stretch;
+        }
+
+        ul.socials a {
+            display: flex;
+            align-items: baseline;
+            gap: 0.75rem;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            color: var(--text);
+            text-decoration: none;
+            transition: background-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+        }
+
+        ul.socials a:hover,
+        ul.socials a:focus-visible {
+            background-color: var(--surface0);
+            transform: translateX(4px);
+            outline: none;
+        }
+
+        ul.socials a:focus-visible {
+            box-shadow: 0 0 0 2px var(--lavender);
+        }
+
+        .arrow {
+            color: var(--overlay0);
+            font-family: 'Space Mono', monospace;
+        }
+
+        .label {
+            flex: 1;
+            font-weight: 500;
+        }
+
+        .handle {
+            color: var(--subtext0);
+            font-size: 0.9rem;
+        }
+
+        /* Color-code each social */
+        .github .arrow {
+            color: var(--green);
+        }
+
+        .bluesky .arrow {
+            color: var(--sky);
+        }
+
+        .linkedin .arrow {
+            color: var(--blue);
+        }
+
+        .email .arrow {
+            color: var(--peach);
+        }
+
+        ul.socials a:hover .handle {
+            color: var(--text);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="descriptors" id="descriptors" aria-hidden="true"></div>
+
+    <main>
+        <h1>Patrick Armengol</h1>
+
+        <ul class="socials">
+            <li>
+                <a class="github" href="https://github.com/patrickarmengol" target="_blank" rel="noopener">
+                    <span class="arrow">→</span>
+                    <span class="label">GitHub</span>
+                    <span class="handle">@patrickarmengol</span>
+                </a>
+            </li>
+            <li>
+                <a class="bluesky" href="https://bsky.app/profile/patrickarmengol.bsky.social" target="_blank"
+                    rel="noopener">
+                    <span class="arrow">→</span>
+                    <span class="label">Bluesky</span>
+                    <span class="handle">@patrickarmengol.bsky.social</span>
+                </a>
+            </li>
+            <li>
+                <a class="linkedin" href="https://linkedin.com/in/patrickarmengol" target="_blank" rel="noopener">
+                    <span class="arrow">→</span>
+                    <span class="label">LinkedIn</span>
+                    <span class="handle">/in/patrickarmengol</span>
+                </a>
+            </li>
+            <li>
+                <a class="email" href="mailto:contact@example.com">
+                    <span class="arrow">→</span>
+                    <span class="label">Email</span>
+                    <span class="handle">contact@patrickarmengol.com</span>
+                </a>
+            </li>
+        </ul>
+    </main>
+
+    <script>
+        // Define descriptors
+        const descriptors = [
+            'cybersecurity specialist',
+            'reverse engineer',
+            'script kiddie',
+            'computer freak',
+            'TUI nut',
+            'neovim devotee',
+            'linux expert',
+            'freelance programmer',
+            'animal lover',
+            'weekend hiker',
+            'water drinker',
+            'tea sipper',
+            'coffee gulper',
+            'caffeine addict',
+            'armchair urbanist',
+            'anti-car zealot',
+            'avid reader',
+            'longboard pusher',
+            'bicycle rider',
+            'language learner',
+            'architecture aesthete',
+            'traveling bum',
+            'wannabe history buff',
+            'houseplant keeper',
+            'hoodie wearer',
+            'barefoot runner',
+            'jazz aficionado',
+            'math rock enthusiast',
+            'perpetual student',
+            'video game enjoyer',
+            'hobbyist gamedev',
+            'zerg rusher',
+            'soy boy',
+            'just some guy',
+            'noob',
+            'synner',
+            'replicant?',
+            '^_^',
+        ];
+
+        // catppuccin mocha colors; descriptors pick one at random
+        const colors = [
+            '#f5e0dc', // rosewater
+            '#f2cdcd', // flamingo
+            '#f5c2e7', // pink
+            '#cba6f7', // mauve
+            '#f38ba8', // red
+            '#eba0ac', // maroon
+            '#fab387', // peach
+            '#f9e2af', // yellow
+            '#a6e3a1', // green
+            '#94e2d5', // teal
+            '#89dceb', // sky
+            '#74c7ec', // sapphire
+            '#89b4fa', // blue
+            '#b4befe', // lavender
+        ];
+
+        const layer = document.getElementById('descriptors');
+
+        // Avoid spawning over the main card area (keeps things readable)
+        function pickPosition() {
+            const main = document.querySelector('main').getBoundingClientRect();
+            const pad = 40;
+            for (let i = 0; i < 20; i++) {
+                const x = Math.random() * (window.innerWidth - 2 * pad) + pad;
+                const y = Math.random() * (window.innerHeight - 2 * pad) + pad;
+                const insideMain =
+                    x > main.left - 20 && x < main.right + 20 &&
+                    y > main.top - 20 && y < main.bottom + 20;
+                if (!insideMain) return {x, y};
+            }
+            // Fallback if window is tiny
+            return {
+                x: Math.random() * window.innerWidth,
+                y: Math.random() < 0.5 ? 40 : window.innerHeight - 40,
+            };
+        }
+
+        function spawn() {
+            const el = document.createElement('span');
+            el.className = 'descriptor';
+            el.textContent = descriptors[Math.floor(Math.random() * descriptors.length)];
+            el.style.color = colors[Math.floor(Math.random() * colors.length)];
+
+            const {x, y} = pickPosition();
+            el.style.left = x + 'px';
+            el.style.top = y + 'px';
+
+            // Random drift angle and distance through anchor position
+            const angle = Math.random() * Math.PI * 2;
+            const distance = 30 + Math.random() * 30;
+            const dx = Math.cos(angle) * distance;
+            const dy = Math.sin(angle) * distance;
+            el.style.setProperty('--dx0', (-dx * 0.3) + 'px');
+            el.style.setProperty('--dy0', (-dy * 0.3) + 'px');
+            el.style.setProperty('--dx1', (dx * 0.7) + 'px');
+            el.style.setProperty('--dy1', (dy * 0.7) + 'px');
+
+            // Slight random duration so they don't pulse in sync
+            el.style.setProperty('--dur', (7 + Math.random() * 3) + 's');
+
+            layer.appendChild(el);
+            el.addEventListener('animationend', () => el.remove());
+        }
+
+        // One descriptor on load, then a slow rhythm
+        setTimeout(spawn, 600);
+        setInterval(spawn, 5000);
+    </script>
+</body>
+
+</html>
