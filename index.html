@@ -183,12 +183,14 @@
         ul.socials a {
             display: flex;
             align-items: baseline;
-            gap: 0.75rem;
+            flex-wrap: wrap;
+            gap: 0.25rem 0.75rem;
             padding: 0.75rem 1rem;
             border-radius: 8px;
             color: var(--text);
             text-decoration: none;
             transition: background-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+            min-width: 0;
         }
 
         ul.socials a:hover,
@@ -205,16 +207,68 @@
         .arrow {
             color: var(--overlay0);
             font-family: 'Space Mono', monospace;
+            flex-shrink: 0;
+        }
+
+        /* Trailing arrow only appears on narrow screens (see media query below) */
+        .arrow.trailing {
+            display: none;
         }
 
         .label {
-            flex: 1;
+            flex: 0 0 auto;
             font-weight: 500;
         }
 
         .handle {
             color: var(--subtext0);
-            font-size: 0.9rem;
+            font-size: 0.8rem;
+            flex: 1 1 auto;
+            min-width: 0;
+            text-align: right;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /* Narrow screens: centered, stacked layout.
+     Row 1: → Label ←   (arrows flanking the label)
+     Row 2: handle      (centered below) */
+        @media (max-width: 420px) {
+            ul.socials a {
+                justify-content: center;
+                flex-wrap: wrap;
+                transform: none;
+                /* drop the hover slide; it doesn't suit a centered layout */
+                gap: 0.15rem 0.6rem;
+            }
+
+            ul.socials a:hover,
+            ul.socials a:focus-visible {
+                transform: none;
+            }
+
+            .arrow.trailing {
+                display: inline;
+            }
+
+            .label {
+                order: 2;
+            }
+
+            .arrow.leading {
+                order: 1;
+            }
+
+            .arrow.trailing {
+                order: 3;
+            }
+
+            .handle {
+                order: 4;
+                flex-basis: 100%;
+                text-align: center;
+            }
         }
 
         /* Color-code each social */
@@ -251,6 +305,7 @@
                 <a class="github" href="https://github.com/patrickarmengol" target="_blank" rel="noopener">
                     <span class="arrow">→</span>
                     <span class="label">GitHub</span>
+                    <span class="arrow trailing">←</span>
                     <span class="handle">@patrickarmengol</span>
                 </a>
             </li>
@@ -259,6 +314,7 @@
                     rel="noopener">
                     <span class="arrow">→</span>
                     <span class="label">Bluesky</span>
+                    <span class="arrow trailing">←</span>
                     <span class="handle">@patrickarmengol.bsky.social</span>
                 </a>
             </li>
@@ -266,6 +322,7 @@
                 <a class="linkedin" href="https://linkedin.com/in/patrickarmengol" target="_blank" rel="noopener">
                     <span class="arrow">→</span>
                     <span class="label">LinkedIn</span>
+                    <span class="arrow trailing">←</span>
                     <span class="handle">/in/patrickarmengol</span>
                 </a>
             </li>
@@ -273,6 +330,7 @@
                 <a class="email" href="mailto:contact@example.com">
                     <span class="arrow">→</span>
                     <span class="label">Email</span>
+                    <span class="arrow trailing">←</span>
                     <span class="handle">contact@patrickarmengol.com</span>
                 </a>
             </li>
